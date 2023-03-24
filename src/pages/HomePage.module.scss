@@ -1,0 +1,8 @@
+@import "../styles/variables";
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 30rem 1fr;
+  grid-template-rows: $height-header calc(100vh - $height-header);
+  z-index: 2;
+}

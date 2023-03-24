@@ -1,13 +1,16 @@
-import { LoaderFunction } from "react-router-dom";
+import { LoaderFunction, Outlet } from "react-router-dom";
+import classes from "./HomePage.module.scss";
 import Header from "../components/Header/Header";
-import Main from "../components/Main";
+import Sidebar from "../components/Sidebar/Sidebar";
 import { API_KEY, COUNTRIES_URL, NEWS_URL } from "../config";
+import Main from "../components/Main/Main";
 
 const HomePage: React.FC = () => {
   return (
-    <div>
+    <div className={classes.wrapper}>
       <Header />
-      <Main />
+      <Sidebar />
+      <Outlet />
     </div>
   );
 };

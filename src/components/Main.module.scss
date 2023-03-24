@@ -1,8 +1,0 @@
-@import "../styles/variables";
-
-.main {
-  max-width: $width-main;
-  margin: $height-header auto 0 auto;
-  height: calc(100vh - $height-header);
-  padding: $grid-gap 0;
-}

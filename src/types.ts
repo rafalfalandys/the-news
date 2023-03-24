@@ -9,6 +9,12 @@ export type Article = {
   urlToImage: string;
 };
 
+export type ArtcilesResObj = {
+  articles: Article[];
+  status: string;
+  totalResults: number;
+};
+
 export type Country = {
   name: {
     common: string;
