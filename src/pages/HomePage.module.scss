@@ -1,8 +1,17 @@
 @import "../styles/variables";
 
-.wrapper {
-  display: grid;
-  grid-template-columns: 30rem 1fr;
-  grid-template-rows: $height-header calc(100vh - $height-header);
-  z-index: 2;
+// .wrapper {
+//   display: grid;
+//   grid-template-columns: 30rem 1fr;
+//   grid-template-rows:
+//     $height-header calc(100vh - $height-header - $height-footer)
+//     $height-footer;
+//   z-index: 2;
+// }
+
+.content {
+  max-width: $width-main;
+  display: flex;
+  height: calc(100vh - $height-header - $height-footer);
+  margin: auto;
 }

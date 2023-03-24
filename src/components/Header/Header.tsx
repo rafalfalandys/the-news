@@ -1,8 +1,9 @@
 import classes from "./Header.module.scss";
-import LanguageSwitch from "./LanguageSwitch";
+
 import Logo from "./Logo";
-import PopupBtn from "./PopupBtn";
 import ViewSwitch from "./ViewSwitch";
+import PopupBtn from "./PopupBtn";
+import LanguageSwitch from "./LanguageSwitch";
 
 const Header: React.FC = () => {
   return (
@@ -11,7 +12,7 @@ const Header: React.FC = () => {
         <Logo />
         <div className={classes.buttons}>
           <ViewSwitch />
-          <PopupBtn />
+          <PopupBtn>Popup</PopupBtn>
           <LanguageSwitch />
         </div>
       </header>

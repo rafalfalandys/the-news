@@ -33,6 +33,7 @@ const router = createBrowserRouter([
                 <MainContent />
               </Suspense>
             ),
+            errorElement: <ErrorPage />,
             loader: loadArticles,
           },
         ],

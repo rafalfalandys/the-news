@@ -1,15 +1,23 @@
-import { LoaderFunction, Outlet } from "react-router-dom";
+import { LoaderFunction, Outlet, useLocation } from "react-router-dom";
 import classes from "./HomePage.module.scss";
 import Header from "../components/Header/Header";
 import Sidebar from "../components/Sidebar/Sidebar";
 import { COUNTRIES_URL } from "../config";
+import Footer from "../components/Footer/Footer";
 
 const HomePage: React.FC = () => {
+  // check for location to display welcome content on home url
+  const location = useLocation();
+
   return (
     <div className={classes.wrapper}>
       <Header />
-      <Sidebar />
-      <Outlet />
+      <div className={classes.content}>
+        <Sidebar />
+        {location.pathname === "/" && <div>Search for news</div>}
+        <Outlet />
+      </div>
+      <Footer />
     </div>
   );
 };

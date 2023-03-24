@@ -1,0 +1,21 @@
+@import "../../styles/variables";
+
+.wrapper {
+  grid-column: 1/-1;
+  background-color: $color-white;
+  padding: 1rem 10%;
+  height: $height-footer;
+}
+
+.footer {
+  max-width: $width-main;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.clock {
+  color: $color-white;
+}

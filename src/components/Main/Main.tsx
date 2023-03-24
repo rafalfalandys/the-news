@@ -1,6 +1,6 @@
 import { LoaderFunction, useLoaderData } from "react-router-dom";
 import { API_KEY, NEWS_URL } from "../../config";
-import { ArtcilesResObj } from "../../types";
+import { ArtcilesResObj, testArticlesObj } from "../../types";
 import ArticleCard from "./ArticleCard";
 import classes from "./Main.module.scss";
 
@@ -22,9 +22,10 @@ const Main: React.FC = () => {
 export default Main;
 
 ////////////////////////////////////////////////////////
-/////////////////// LOADER FUNCTION ////////////////////
+////////// LOADER FUNCTION - loading articles //////////
 ////////////////////////////////////////////////////////
 
+// reusable fetch options object
 const fetchOptions = {
   method: "GET",
   headers: {
@@ -34,23 +35,23 @@ const fetchOptions = {
 
 export const loader: LoaderFunction = async ({ params }) => {
   try {
-    console.log("test");
-    const fetchPromise =
-      params.countryCode === "all"
-        ? fetch(NEWS_URL + "everything?q=keyword", fetchOptions)
-        : fetch(
-            NEWS_URL + `top-headlines?country=${params.countryCode}`,
-            fetchOptions
-          );
+    // if param = 'all' = fetch all artciles. If param = country code fetch only articles for this country
+    // const fetchPromise =
+    //   params.countryCode === "all"
+    //     ? fetch(NEWS_URL + "everything?q=keyword", fetchOptions)
+    //     : fetch(
+    //         NEWS_URL + `top-headlines?country=${params.countryCode}`,
+    //         fetchOptions
+    //       );
 
-    const res = await fetchPromise;
+    // const res = await fetchPromise;
 
-    // const res = await fetch(NEWS_URL + "everything?q=keyword", fetchOptions);
+    // console.log(res);
+    // if (!res.ok) throw new Error("Could not fetch news data");
 
-    if (!res.ok) throw new Error("Could not fetch news data");
+    // const data: ArtcilesResObj = await res.json();
 
-    const data: ArtcilesResObj = await res.json();
-
+    const data = testArticlesObj;
     return data;
   } catch (error) {
     console.log(error);
