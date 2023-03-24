@@ -7,7 +7,7 @@ const PopupBtn: React.FC = () => {
   useEffect(() => {
     const bump = setTimeout(() => {
       setIsActive(false);
-    }, 1000);
+    }, 300);
     return () => clearTimeout(bump);
   }, [isActive]);
 

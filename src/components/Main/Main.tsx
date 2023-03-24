@@ -6,7 +6,7 @@ import classes from "./Main.module.scss";
 
 const Main: React.FC = () => {
   const loaderData = useLoaderData() as ArtcilesResObj;
-  const { articles, totalResults } = loaderData;
+  const { articles } = loaderData;
 
   const articlesList = articles.map((article, i) => (
     <ArticleCard key={i} article={article} />
@@ -25,17 +25,28 @@ export default Main;
 /////////////////// LOADER FUNCTION ////////////////////
 ////////////////////////////////////////////////////////
 
+const fetchOptions = {
+  method: "GET",
+  headers: {
+    "X-Api-Key": `${API_KEY}`,
+  },
+};
+
 export const loader: LoaderFunction = async ({ params }) => {
   try {
-    const res = await fetch(
-      NEWS_URL + `top-headlines?country=${params.countryCode}`,
-      {
-        method: "GET",
-        headers: {
-          "X-Api-Key": `${API_KEY}`,
-        },
-      }
-    );
+    console.log("test");
+    const fetchPromise =
+      params.countryCode === "all"
+        ? fetch(NEWS_URL + "everything?q=keyword", fetchOptions)
+        : fetch(
+            NEWS_URL + `top-headlines?country=${params.countryCode}`,
+            fetchOptions
+          );
+
+    const res = await fetchPromise;
+
+    // const res = await fetch(NEWS_URL + "everything?q=keyword", fetchOptions);
+
     if (!res.ok) throw new Error("Could not fetch news data");
 
     const data: ArtcilesResObj = await res.json();

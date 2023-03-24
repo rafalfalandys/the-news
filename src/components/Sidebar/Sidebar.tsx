@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { AVAILABLE_COUNTRIES } from "../../config";
 import { Country, Article } from "../../types";
