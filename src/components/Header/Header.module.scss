@@ -1,0 +1,31 @@
+@import "../../styles/variables";
+
+.wrapper {
+  height: $height-header;
+  background-color: $color-white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 5px $color-shadow;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header {
+  max-width: $width-main;
+  width: 100%;
+  margin: 0 10%;
+  font-size: $font-large;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}

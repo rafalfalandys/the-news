@@ -1,0 +1,63 @@
+@mixin details-wrapper {
+  background-color: $color-white;
+  border-radius: $border-radius;
+  padding: 3rem 2rem;
+  margin-right: $grid-gap;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin details-placeholder {
+  text-align: center;
+  margin: 7rem auto;
+}
+
+@mixin details-header {
+  display: flex;
+  font-size: $font-medium;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin hover-style {
+  @media (min-width: $break-tablet) {
+    cursor: pointer;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 0 3px 3px $color-shadow;
+    }
+    &:active {
+      transform: scale(1.01);
+      box-shadow: 0 1px 1px $color-shadow;
+    }
+  }
+}
+
+@mixin card-cart {
+  background-color: $color-white;
+  padding: 1rem;
+  border-radius: $border-radius;
+  cursor: pointer;
+  height: 7.5rem;
+  min-width: 17rem;
+
+  transition: all 0.3s;
+
+  @include hover-style();
+
+  @media (max-width: $break-tablet) {
+    min-width: 0;
+    // width: 15rem;
+  }
+}
+
+@mixin btn {
+  display: flex;
+  align-items: center;
+  border-radius: 10rem;
+}

@@ -1,0 +1,11 @@
+@import "../../styles/variables";
+
+.logo {
+  & h1 {
+    font-weight: 800;
+    & span {
+      //   font-weight: 800;
+      color: $color-base;
+    }
+  }
+}

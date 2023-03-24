@@ -1,0 +1,24 @@
+@import "../../styles/variables";
+
+.switch {
+  &--wrapper {
+    display: flex;
+    gap: 2rem;
+  }
+
+  &--btn {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    cursor: pointer;
+    color: $color-grey-light;
+
+    & span {
+      font-size: $font-medium;
+    }
+  }
+}
+
+.active {
+  color: $color-grey-dark;
+}

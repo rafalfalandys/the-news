@@ -1,0 +1,22 @@
+@import "../../styles/variables";
+
+.wrapper {
+  padding: 0.1rem;
+  display: flex;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  font-size: $font-medium;
+  width: auto;
+}
+
+.flag {
+  font-size: $font-large;
+}
