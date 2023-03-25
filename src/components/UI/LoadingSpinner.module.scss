@@ -1,0 +1,30 @@
+@import "../../styles/variables";
+
+.spinner {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  svg {
+    width: 5rem;
+    height: 5rem;
+    animation: rotate 2s infinite linear;
+
+    line {
+      stroke: $color-grey-dark;
+    }
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

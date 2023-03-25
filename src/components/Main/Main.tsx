@@ -1,18 +1,21 @@
 import { useSelector } from "react-redux";
-import { LoaderFunction, useLoaderData } from "react-router-dom";
+import { LoaderFunction, useLoaderData, useNavigation } from "react-router-dom";
 import { API_KEY, NEWS_URL } from "../../config";
 import { RootState } from "../../store";
 import { ArtcilesResObj } from "../../types";
+import LoadingSpinner from "../UI/LoadingSpinner";
 import ArticleCard from "./ArticleCard";
 import classes from "./Main.module.scss";
 
 const Main: React.FC = () => {
   const loaderData = useLoaderData() as ArtcilesResObj;
   const isGridView = useSelector((state: RootState) => state.ui.isGridView);
+  const navigation = useNavigation();
+  const isLoading = navigation.state === "loading";
+
+  console.log(navigation);
 
   const { articles } = loaderData;
-
-  console.log(articles[0]);
 
   const articlesList = articles.map((article, i) => (
     <ArticleCard key={i} article={article} />
@@ -20,9 +23,12 @@ const Main: React.FC = () => {
 
   return (
     <div className={classes.wrapper}>
-      <main className={`${classes.main} ${isGridView ? "" : classes.list}`}>
-        {articlesList}
-      </main>
+      {isLoading && <LoadingSpinner />}
+      {!isLoading && (
+        <main className={`${classes.main} ${isGridView ? "" : classes.list}`}>
+          {articlesList}
+        </main>
+      )}
     </div>
   );
 };

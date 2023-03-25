@@ -6,7 +6,10 @@ import classes from "./ViewSwitch.module.scss";
 
 const ViewSwitch: React.FC = () => {
   const dispatch = useDispatch();
+
+  // get current layout state and language
   const isGridView = useSelector((state: RootState) => state.ui.isGridView);
+  const isEnglish = useSelector((state: RootState) => state.ui.isEnglish);
 
   // layout control handlers
   const switchToGridHandler = () => dispatch(uiActions.controlLayout("grid"));
@@ -20,7 +23,8 @@ const ViewSwitch: React.FC = () => {
         }`}
         onClick={switchToListHandler}
       >
-        <span>List View</span>
+        {isEnglish && <span>List View</span>}
+        {!isEnglish && <span>Lista</span>}
         <List weight="bold" />
       </div>
       <div
@@ -29,7 +33,8 @@ const ViewSwitch: React.FC = () => {
         }`}
         onClick={switchToGridHandler}
       >
-        <span>Grid View</span>
+        {isEnglish && <span>Grid view</span>}
+        {!isEnglish && <span>Kafelki</span>}
         <SquaresFour weight="bold" />
       </div>
     </div>

@@ -1,5 +1,7 @@
 @import "../../styles/variables";
 
+@import "../../styles/variables";
+
 .wrapper {
   height: 1.8rem;
   width: 3.6rem;
@@ -9,7 +11,6 @@
   height: 100%;
   width: 100%;
   border-radius: 10rem;
-  border: 1px solid $color-grey-light;
   box-shadow: inset -4px 4px 4px $color-shadow;
   background-image: url("../../img/pl.svg");
   cursor: pointer;
@@ -19,7 +20,6 @@
 
 .active {
   background-image: url("../../img/gb.svg");
-  transform: translateX(1.8rem);
 }
 
 .slider {
@@ -31,4 +31,12 @@
   background-color: $color-white;
   border: 1px solid $color-grey-light;
   border-radius: 10rem;
+}
+
+.left {
+  transform: translateX(0);
+}
+
+.right {
+  transform: translateX(1.8rem);
 }

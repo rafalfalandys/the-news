@@ -1,10 +1,16 @@
+import { useDispatch, useSelector } from "react-redux";
+import { RootState } from "../../store";
+import { uiActions } from "../../store/ui-slice";
 import classes from "./LanguageSwitch.module.scss";
 
 function LanguageSwitch() {
-  const isEnglish = false;
-  const toggleLanguage = () => {};
+  const dispatch = useDispatch();
 
-  const toggleLanguageHandler = () => toggleLanguage();
+  // get app language state
+  const isEnglish = useSelector((state: RootState) => state.ui.isEnglish);
+
+  // toggle language handler
+  const toggleLanguageHandler = () => dispatch(uiActions.toggleLanguage());
 
   return (
     <div className={classes.wrapper} onClick={toggleLanguageHandler}>
