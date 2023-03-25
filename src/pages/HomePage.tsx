@@ -5,8 +5,14 @@ import Sidebar from "../components/Sidebar/Sidebar";
 import { COUNTRIES_URL } from "../config";
 import Footer from "../components/Footer/Footer";
 import SearchArticles from "../components/Main/SearchArticles";
+import PopupWindow from "../components/PopupWindow/PopupWindow";
+import { useSelector } from "react-redux";
+import { RootState } from "../store";
 
 const HomePage: React.FC = () => {
+  const isModalVisible = useSelector(
+    (state: RootState) => state.ui.isModalVisible
+  );
   // check for location to display welcome content on home url
   const location = useLocation();
 
@@ -19,6 +25,7 @@ const HomePage: React.FC = () => {
         <Outlet />
       </div>
       <Footer />
+      {isModalVisible && <PopupWindow />}
     </div>
   );
 };

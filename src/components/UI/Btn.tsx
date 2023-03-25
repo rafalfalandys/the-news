@@ -1,7 +1,7 @@
 import { useEffect, useState, ReactNode } from "react";
 import classes from "./Btn.module.scss";
 
-const Btn: React.FC<{ children: ReactNode }> = (props) => {
+const Btn: React.FC<{ children: ReactNode; onClick?: () => any }> = (props) => {
   const [isActive, setIsActive] = useState(false);
 
   // bump effect after click
@@ -15,7 +15,7 @@ const Btn: React.FC<{ children: ReactNode }> = (props) => {
   return (
     <button
       className={`${classes.btn} ${isActive ? classes.active : ""}`}
-      onClick={() => setIsActive(true)}
+      onClick={props.onClick}
     >
       {props.children}
     </button>
