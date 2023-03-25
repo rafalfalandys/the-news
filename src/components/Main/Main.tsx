@@ -1,11 +1,15 @@
+import { useSelector } from "react-redux";
 import { LoaderFunction, useLoaderData } from "react-router-dom";
 import { API_KEY, NEWS_URL } from "../../config";
+import { RootState } from "../../store";
 import { ArtcilesResObj } from "../../types";
 import ArticleCard from "./ArticleCard";
 import classes from "./Main.module.scss";
 
 const Main: React.FC = () => {
   const loaderData = useLoaderData() as ArtcilesResObj;
+  const isGridView = useSelector((state: RootState) => state.ui.isGridView);
+
   const { articles } = loaderData;
 
   console.log(articles[0]);
@@ -14,11 +18,9 @@ const Main: React.FC = () => {
     <ArticleCard key={i} article={article} />
   ));
 
-  const isGrid = false;
-
   return (
     <div className={classes.wrapper}>
-      <main className={`${classes.main} ${isGrid ? "" : classes.list}`}>
+      <main className={`${classes.main} ${isGridView ? "" : classes.list}`}>
         {articlesList}
       </main>
     </div>

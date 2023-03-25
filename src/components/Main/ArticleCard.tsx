@@ -1,39 +1,41 @@
-import { time } from "console";
+import { useSelector } from "react-redux";
+import { RootState } from "../../store";
 import { Article } from "../../types";
 import classes from "./ArticleCard.module.scss";
 
 const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
+  const isGridView = useSelector((state: RootState) => state.ui.isGridView);
+
   // generate date or today / yesterday msg
   const now = new Date();
-  const datePublished = new Date(article.publishedAt);
+  const publishedAt = new Date(article.publishedAt);
 
-  const publishedAtFormatted = new Intl.DateTimeFormat("pl-PL", {
+  const formattedDate = new Intl.DateTimeFormat("pl-PL", {
     year: "numeric",
     month: "long",
     day: "numeric",
-  }).format(datePublished);
+  }).format(publishedAt);
 
-  const timePast = now.getTime() - datePublished.getTime();
+  const timePast = now.getTime() - publishedAt.getTime();
   const calcTime = () => {
     if (timePast < 1000 * 60 * 60 * 24) return "Today";
     if (timePast < 1000 * 60 * 60 * 48) return "Yesterday";
-    else return publishedAtFormatted;
+    else return formattedDate;
   };
 
   const time = calcTime();
 
-  // tiles / list switch
-  const isGrid = false;
-
   return (
-    <li className={`${classes.wrapper} ${isGrid ? "" : classes.list}`}>
+    <li className={`${classes.wrapper} ${isGridView ? "" : classes.list}`}>
       <div className={classes.card}>
         <div className={classes.textbox}>
-          <h3>{article.source.name}</h3>
+          <div className={classes.source}>
+            <h3>{article.source.name}</h3>
+          </div>
           <h2>{article.title}</h2>
           <span className={classes.date}>{time}</span>
         </div>
-        {isGrid && (
+        {isGridView && (
           <figure>
             {article.urlToImage && <img src={article.urlToImage} alt="" />}
           </figure>
