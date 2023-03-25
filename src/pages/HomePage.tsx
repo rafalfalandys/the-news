@@ -5,7 +5,7 @@ import Sidebar from "../components/Sidebar/Sidebar";
 import { COUNTRIES_URL } from "../config";
 import Footer from "../components/Footer/Footer";
 import SearchArticles from "../components/Main/SearchArticles";
-import PopupWindow from "../components/PopupWindow/PopupWindow";
+import PopupWindow from "../components/Popup/Popup";
 import { useSelector } from "react-redux";
 import { RootState } from "../store";
 

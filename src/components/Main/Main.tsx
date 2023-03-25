@@ -1,9 +1,16 @@
+import { Fragment } from "react";
 import { useSelector } from "react-redux";
-import { LoaderFunction, useLoaderData, useNavigation } from "react-router-dom";
+import {
+  LoaderFunction,
+  Outlet,
+  useLoaderData,
+  useNavigation,
+} from "react-router-dom";
 import { API_KEY, NEWS_URL } from "../../config";
 import { RootState } from "../../store";
 import { ArtcilesResObj } from "../../types";
 import LoadingSpinner from "../UI/LoadingSpinner";
+import Modal from "../UI/Modal";
 import ArticleCard from "./ArticleCard";
 import classes from "./Main.module.scss";
 
@@ -13,8 +20,6 @@ const Main: React.FC = () => {
   const navigation = useNavigation();
   const isLoading = navigation.state === "loading";
 
-  console.log(navigation);
-
   const { articles } = loaderData;
 
   const articlesList = articles.map((article, i) => (
@@ -22,14 +27,17 @@ const Main: React.FC = () => {
   ));
 
   return (
-    <div className={classes.wrapper}>
-      {isLoading && <LoadingSpinner />}
-      {!isLoading && (
-        <main className={`${classes.main} ${isGridView ? "" : classes.list}`}>
-          {articlesList}
-        </main>
-      )}
-    </div>
+    <Fragment>
+      <Outlet />
+      <div className={classes.wrapper}>
+        {isLoading && <LoadingSpinner />}
+        {!isLoading && (
+          <main className={`${classes.main} ${isGridView ? "" : classes.list}`}>
+            {articlesList}
+          </main>
+        )}
+      </div>
+    </Fragment>
   );
 };
 

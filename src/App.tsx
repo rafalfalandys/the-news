@@ -1,19 +1,9 @@
-import { lazy, Suspense } from "react";
-import {
-  createBrowserRouter,
-  LoaderFunction,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ArticleModal from "./components/Main/ArticleModal";
+import Main, { loader as loadArticles } from "./components/Main/Main";
 import ErrorPage from "./pages/ErrorPage";
 import HomePage, { loader as loadCountries } from "./pages/HomePage";
 import RootLayout from "./pages/RootLayout";
-
-const MainContent = lazy(() => import("./components/Main/Main"));
-
-const loadArticles: LoaderFunction = ({ params, request }) =>
-  import("./components/Main/Main").then((module) =>
-    module.loader({ params, request })
-  );
 
 const router = createBrowserRouter([
   {
@@ -28,13 +18,11 @@ const router = createBrowserRouter([
         children: [
           {
             path: "country/:countryCode",
-            element: (
-              <Suspense fallback={<p>Loading...</p>}>
-                <MainContent />
-              </Suspense>
-            ),
+            element: <Main />,
             errorElement: <ErrorPage />,
             loader: loadArticles,
+            id: "country",
+            children: [{ path: ":articleDetails", element: <ArticleModal /> }],
           },
         ],
       },

@@ -9,10 +9,9 @@ import { uiActions } from "../../store/ui-slice";
 
 const Header: React.FC = () => {
   const dispatch = useDispatch();
-  const showPopupHandler = () => {
-    console.log("test");
-    dispatch(uiActions.controlModal("show"));
-  };
+
+  // clicking on btn triggers this handler which changes state of modal visibility
+  const showPopupHandler = () => dispatch(uiActions.controlModal("show"));
 
   return (
     <div className={classes.wrapper}>

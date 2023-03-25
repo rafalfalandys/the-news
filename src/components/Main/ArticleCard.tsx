@@ -1,4 +1,6 @@
 import { useSelector } from "react-redux";
+import { Link } from "react-router-dom";
+import { buildQuery } from "../../helper";
 import { RootState } from "../../store";
 import { Article } from "../../types";
 import classes from "./ArticleCard.module.scss";
@@ -25,28 +27,29 @@ const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
 
   const time = calcTime();
 
+  // build article query
+  const query = buildQuery(article.title);
+
   return (
     <li className={`${classes.wrapper} ${isGridView ? "" : classes.list}`}>
-      <div className={classes.card}>
-        <div className={classes.textbox}>
-          <div className={classes.source}>
-            <h3>{article.source.name}</h3>
+      <Link to={query}>
+        <div className={classes.card}>
+          <div className={classes.textbox}>
+            <div className={classes.source}>
+              <h3>{article.source.name}</h3>
+            </div>
+            <h2>{article.title}</h2>
+            <span className={classes.date}>{time}</span>
           </div>
-          <h2>{article.title}</h2>
-          <span className={classes.date}>{time}</span>
+          {isGridView && (
+            <figure>
+              {article.urlToImage && <img src={article.urlToImage} alt="" />}
+            </figure>
+          )}
         </div>
-        {isGridView && (
-          <figure>
-            {article.urlToImage && <img src={article.urlToImage} alt="" />}
-          </figure>
-        )}
-      </div>
+      </Link>
     </li>
   );
 };
 
 export default ArticleCard;
-
-// tytul
-// zrodlo
-// data

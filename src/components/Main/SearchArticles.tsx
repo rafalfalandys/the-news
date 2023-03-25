@@ -2,7 +2,6 @@ import { Input } from "antd";
 import { FormEventHandler, useState } from "react";
 import { useNavigate, useNavigation } from "react-router-dom";
 import Btn from "../UI/Btn";
-import LoadingSpinner from "../UI/LoadingSpinner";
 import classes from "./SearchArticles.module.scss";
 
 const SearchArticles: React.FC = () => {
