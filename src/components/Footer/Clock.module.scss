@@ -4,12 +4,12 @@
   display: flex;
   align-items: center;
   font-weight: 700;
-  font-size: $font-large-very;
+  font-size: $font-large;
   gap: 0.5rem;
 
   & svg {
     color: $color-base;
     margin-right: 1rem;
-    font-size: larger;
+    font-size: $font-large;
   }
 }

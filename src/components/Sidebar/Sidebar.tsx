@@ -1,3 +1,4 @@
+import Input from "antd/es/input/Input";
 import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { AVAILABLE_COUNTRIES } from "../../config";
@@ -24,6 +25,7 @@ const Sidebar: React.FC = () => {
       ).reduce((acc, cur) => acc || cur)
     )
     .sort((a, b) => {
+      if (a.name.common === "Poland") return -1;
       if (a.name.common < b.name.common) return -1;
       if (a.name.common > b.name.common) return 1;
       else return 0;
@@ -43,13 +45,16 @@ const Sidebar: React.FC = () => {
     <aside className={classes.wrapper}>
       <div className={classes.sidebar}>
         <h2>News from:</h2>
-        <input
+        <Input
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className={classes.input}
           maxLength={20}
         />
-        <ul className={classes.list}>{countries}</ul>
+        <ul className={classes.list}>
+          <CountryEl flag="" name="Show all articles" code="all" />
+          {countries}
+        </ul>
       </div>
     </aside>
   );

@@ -1,7 +1,6 @@
 @import "../../styles/variables";
 
 .wrapper {
-  padding: 0.1rem;
   display: flex;
   transform-origin: left;
   transition: all 0.3s;
@@ -10,16 +9,30 @@
     transform: scale(1.05);
     font-weight: 600;
   }
+
+  &:first-child {
+    margin-bottom: 1rem;
+
+    & .country {
+      transform-origin: left;
+      gap: 0;
+    }
+  }
 }
 
 .country {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
   font-size: $font-medium;
   width: auto;
 }
 
 .flag {
-  font-size: $font-large;
+  font-size: $font-large-very;
+}
+
+.active {
+  transform: scale(1.05);
+  font-weight: 600;
 }

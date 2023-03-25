@@ -4,6 +4,7 @@ import Header from "../components/Header/Header";
 import Sidebar from "../components/Sidebar/Sidebar";
 import { COUNTRIES_URL } from "../config";
 import Footer from "../components/Footer/Footer";
+import SearchArticles from "../components/Main/SearchArticles";
 
 const HomePage: React.FC = () => {
   // check for location to display welcome content on home url
@@ -14,7 +15,7 @@ const HomePage: React.FC = () => {
       <Header />
       <div className={classes.content}>
         <Sidebar />
-        {location.pathname === "/" && <div>Search for news</div>}
+        {location.pathname === "/" && <SearchArticles />}
         <Outlet />
       </div>
       <Footer />

@@ -2,21 +2,19 @@
 
 .wrapper {
   height: 100%;
-  padding: 3rem;
-  height: 100%;
   display: flex;
   padding: $grid-gap;
   overflow: auto;
 }
 
 .sidebar {
-  padding: 3rem;
+  width: 100%;
+  padding: 2rem;
   border-right: 1px solid $color-grey;
   border-left: 1px solid $color-grey;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 100%;
 
   & h2 {
     font-size: $font-large;
@@ -24,11 +22,7 @@
 }
 
 .input {
-  width: 100%;
-  padding: 0.4rem 1rem;
-  margin: 1rem 0 3rem 0;
-  border-radius: $border-radius-small;
-  border: 1px solid $color-grey;
+  margin: 1rem 0 2rem 0;
 }
 
 .list {

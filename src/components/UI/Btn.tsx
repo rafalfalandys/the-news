@@ -1,7 +1,7 @@
 import { useEffect, useState, ReactNode } from "react";
-import classes from "./PopupBtn.module.scss";
+import classes from "./Btn.module.scss";
 
-const PopupBtn: React.FC<{ children: ReactNode }> = (props) => {
+const Btn: React.FC<{ children: ReactNode }> = (props) => {
   const [isActive, setIsActive] = useState(false);
 
   // bump effect after click
@@ -22,4 +22,4 @@ const PopupBtn: React.FC<{ children: ReactNode }> = (props) => {
   );
 };
 
-export default PopupBtn;
+export default Btn;

@@ -1,9 +1,21 @@
 @import "../../styles/variables";
 
 .wrapper {
-  padding: $grid-gap;
-  height: 100%;
+  flex-grow: 1;
+  width: 100%;
 }
 
 .main {
+  padding: $grid-gap $grid-gap 0 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: $grid-gap;
+}
+
+.list {
+  grid-template-columns: 1fr;
 }

@@ -6,7 +6,14 @@ const CountryEl: React.FC<{ name: string; flag: string; code: string }> = (
 ) => {
   return (
     <li className={classes.wrapper}>
-      <NavLink to={`country/${props.code}`} className={classes.country}>
+      <NavLink
+        to={`country/${props.code}`}
+        className={(navData) =>
+          navData.isActive
+            ? `${classes.country} ${classes.active}`
+            : classes.country
+        }
+      >
         <div className={classes.flag}> {props.flag}</div>
         <span>{props.name}</span>
       </NavLink>

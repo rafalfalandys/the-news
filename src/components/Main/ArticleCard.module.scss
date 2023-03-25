@@ -1,0 +1,83 @@
+@import "../../styles/variables";
+
+.wrapper {
+  height: 14rem;
+  overflow: hidden;
+  border-radius: $border-radius;
+}
+
+.card {
+  background-color: $color-white;
+  height: 100%;
+  font-size: $font-small;
+  display: grid;
+  grid-template-columns: 1fr 40%;
+  grid-template-rows: 1fr 40%;
+  padding: 1rem;
+  gap: 1rem;
+
+  & figure {
+    position: relative;
+    grid-column: 2;
+    border-radius: $border-radius-small;
+    overflow: hidden;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: $color-grey-light-very;
+      box-shadow: inset 0 2px 2px $color-shadow;
+    }
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: relative;
+    }
+  }
+}
+
+.textbox {
+  grid-row: 1/-1;
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: start;
+
+  & h2 {
+    font-size: $font-small;
+    font-weight: 700;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+  }
+  & h3 {
+    font-size: $font-small;
+    color: $color-base;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+
+  & span {
+  }
+}
+
+.list {
+  height: 8rem;
+
+  & figure {
+    display: none;
+  }
+}

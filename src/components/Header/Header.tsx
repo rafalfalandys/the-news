@@ -2,7 +2,7 @@ import classes from "./Header.module.scss";
 
 import Logo from "./Logo";
 import ViewSwitch from "./ViewSwitch";
-import PopupBtn from "./PopupBtn";
+import Btn from "../UI/Btn";
 import LanguageSwitch from "./LanguageSwitch";
 
 const Header: React.FC = () => {
@@ -12,7 +12,7 @@ const Header: React.FC = () => {
         <Logo />
         <div className={classes.buttons}>
           <ViewSwitch />
-          <PopupBtn>Popup</PopupBtn>
+          <Btn>Popup</Btn>
           <LanguageSwitch />
         </div>
       </header>
