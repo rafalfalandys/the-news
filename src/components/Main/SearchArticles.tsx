@@ -1,16 +1,12 @@
 import { Input } from "antd";
 import { FormEventHandler, useState } from "react";
-import { useNavigate, useNavigation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Btn from "../UI/Btn";
 import classes from "./SearchArticles.module.scss";
 
 const SearchArticles: React.FC = () => {
   const navigate = useNavigate();
   const [query, setQuery] = useState("");
-  const navigation = useNavigation();
-
-  // checking loading state to display loading spinner
-  const isLoading = navigation.state === "loading";
 
   // handling search - passing query tu url, and then to loader function
   const submitHandler: FormEventHandler = (e) => {
@@ -32,9 +28,8 @@ const SearchArticles: React.FC = () => {
             onChange={(e) => setQuery(e.target.value)}
           />
           <Btn>
-            {query && !isLoading && <span> Search</span>}
-            {!query && !isLoading && <span> See all articles</span>}
-            {isLoading && <span> Loading...</span>}
+            {query && <span> Search</span>}
+            {!query && <span> See all articles</span>}
           </Btn>
         </form>
       </main>

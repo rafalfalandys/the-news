@@ -4,9 +4,9 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { RootState } from "../../store";
 import { uiActions } from "../../store/ui-slice";
-import Btn from "../UI/Btn";
-import Overlay from "../UI/Overlay";
 import classes from "./Modal.module.scss";
+
+import Btn from "../UI/Btn";
 
 const Modal: React.FC<{ children: ReactNode }> = (props) => {
   const portalEl = document.getElementById("overlays")!;
@@ -15,18 +15,19 @@ const Modal: React.FC<{ children: ReactNode }> = (props) => {
   const navigate = useNavigate();
   const params = useParams();
 
-  // hide modal handler for button
+  // hide modal on clicking a button
   const hideModalHandler = () => {
     dispatch(uiActions.controlModal("hide"));
-    if (params.articleDetails) navigate(-1);
+    if (params.articleDetails)
+      navigate(`/country/${params.countryCode}`, { replace: true });
   };
 
-  // handle 2 languages
+  // handle 2 languages in button
   const closeText = isEnglish ? "Close" : "Zamknij";
 
   const popup = (
     <Fragment>
-      <Overlay />
+      <div className={classes.overlay} onClick={hideModalHandler}></div>
       <div className={classes.wrapper}>
         <div className={classes.modal}>
           {props.children}

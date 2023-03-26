@@ -1,24 +1,16 @@
 import { Fragment } from "react";
 import { useSelector } from "react-redux";
-import {
-  LoaderFunction,
-  Outlet,
-  useLoaderData,
-  useNavigation,
-} from "react-router-dom";
+import { LoaderFunction, Outlet, useLoaderData } from "react-router-dom";
 import { API_KEY, NEWS_URL } from "../../config";
-import { RootState } from "../../store";
+import store, { RootState } from "../../store";
+import { uiActions } from "../../store/ui-slice";
 import { ArtcilesResObj } from "../../types";
-import LoadingSpinner from "../UI/LoadingSpinner";
-import Modal from "../UI/Modal";
 import ArticleCard from "./ArticleCard";
 import classes from "./Main.module.scss";
 
 const Main: React.FC = () => {
   const loaderData = useLoaderData() as ArtcilesResObj;
   const isGridView = useSelector((state: RootState) => state.ui.isGridView);
-  const navigation = useNavigation();
-  const isLoading = navigation.state === "loading";
 
   const { articles } = loaderData;
 
@@ -30,12 +22,9 @@ const Main: React.FC = () => {
     <Fragment>
       <Outlet />
       <div className={classes.wrapper}>
-        {isLoading && <LoadingSpinner />}
-        {!isLoading && (
-          <main className={`${classes.main} ${isGridView ? "" : classes.list}`}>
-            {articlesList}
-          </main>
-        )}
+        <main className={`${classes.main} ${isGridView ? "" : classes.list}`}>
+          {articlesList}
+        </main>
       </div>
     </Fragment>
   );
@@ -74,7 +63,13 @@ export const loader: LoaderFunction = async ({ params, request }) => {
 
     const data: ArtcilesResObj = await res.json();
 
-    // const data = testArticlesObj;
+    store.dispatch(
+      uiActions.controlResults({
+        onPage: data.articles.length,
+        total: data.totalResults,
+      })
+    );
+
     return data;
   } catch (error) {
     console.log(error);

@@ -24,10 +24,13 @@ $color-base-dark: rgb(180, 208, 0);
 
 $color-secondary: rgb(57, 79, 240);
 
-// height
+// dimension
 $height-header: 7rem;
 $height-header-phone: 8rem;
 $height-footer: 5rem;
+
+$width-main: 120rem;
+$width-sidebar: 28rem;
 
 // breaks
 $break-phone-tiny: 310px;
@@ -39,4 +42,3 @@ $border-radius-small: 5px;
 $border-radius: 10px;
 $grid-gap-small: 1rem;
 $grid-gap: 1.5rem;
-$width-main: 120rem;
