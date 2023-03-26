@@ -1,5 +1,5 @@
 import { Input } from "antd";
-import { FormEventHandler, useState } from "react";
+import { FormEventHandler, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import Btn from "../UI/Btn";
 import classes from "./SearchArticles.module.scss";
@@ -26,10 +26,11 @@ const SearchArticles: React.FC = () => {
             id="search articles"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
+            autoComplete="off"
           />
           <Btn>
             {query && <span> Search</span>}
-            {!query && <span> See all articles</span>}
+            {!query && <span> See random articles</span>}
           </Btn>
         </form>
       </main>

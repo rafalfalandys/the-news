@@ -52,7 +52,7 @@ const Sidebar: React.FC = () => {
           maxLength={20}
         />
         <ul className={classes.list}>
-          <CountryEl flag="" name="Show all articles" code="all" />
+          <CountryEl flag="" name="Show random articles" code="all" />
           {countries}
         </ul>
       </div>

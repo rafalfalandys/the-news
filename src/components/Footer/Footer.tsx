@@ -1,24 +1,15 @@
 import classes from "./Footer.module.scss";
 import Clock from "./Clock";
-import { useSelector } from "react-redux";
-import { RootState } from "../../store";
+import Results from "./Results";
+import { useParams } from "react-router-dom";
 
 const Footer: React.FC = () => {
-  const results = useSelector((state: RootState) => state.ui.results);
+  const params = useParams();
 
   return (
     <div className={classes.wrapper}>
       <footer className={classes.footer}>
-        <div className={classes.results}>
-          <span>
-            <span className={classes.total}>{results.total}</span>
-            articles
-          </span>
-          <span>
-            <span className={classes["on-page"]}>{results.onPage}</span>
-            per page
-          </span>
-        </div>
+        {params.countryCode && <Results />}
         <Clock />
       </footer>
     </div>
