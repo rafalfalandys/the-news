@@ -33,6 +33,8 @@ export type Country = {
 export type QueryObj = {
   [key: string]: any;
   keyword?: string;
+  articleTitle?: string;
+  countryQuery?: string;
   page?: number;
   results?: number;
 };

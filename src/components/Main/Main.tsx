@@ -59,7 +59,7 @@ const buildQueryParams = (data: string) => {
 
 export const loader: LoaderFunction = async ({ params, request }) => {
   try {
-    const queries = buildQueryParams(request.url);
+    const queries: QueryObj = buildQueryParams(request.url);
 
     // if param = 'all' = fetch random artciles. If param = country code fetch only articles for this country
     const fetchUrl =

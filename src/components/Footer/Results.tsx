@@ -16,7 +16,7 @@ const Results: React.FC = () => {
   const handleChange = (value: string) => {
     dispatch(uiActions.controlResultsPerPage(+value));
     console.log(+value);
-    navigate(buildQuery(params.countryCode!, null, +value), {
+    navigate(buildQuery(params.countryCode!, { results: +value }), {
       replace: true,
     });
   };

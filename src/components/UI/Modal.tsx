@@ -1,7 +1,7 @@
 import { Fragment, ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { useNavigate, useParams } from "react-router-dom";
+import { useLocation, useNavigate, useParams } from "react-router-dom";
 import { RootState } from "../../store";
 import { uiActions } from "../../store/ui-slice";
 import classes from "./Modal.module.scss";
@@ -21,7 +21,7 @@ const Modal: React.FC<{ children: ReactNode }> = (props) => {
   const hideModalHandler = () => {
     dispatch(uiActions.controlModal("hide"));
     if (params.articleDetails)
-      navigate(buildQuery(params.countryCode!, null), {
+      navigate(buildQuery(params.countryCode!), {
         replace: true,
       });
   };

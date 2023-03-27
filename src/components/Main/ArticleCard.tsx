@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { Link, useParams } from "react-router-dom";
+import { Link, useLocation, useParams } from "react-router-dom";
 import useQuery from "../../hooks/useQuery";
 import { RootState } from "../../store";
 import { Article } from "../../types";
@@ -31,7 +31,11 @@ const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
 
   return (
     <li className={`${classes.wrapper} ${isGridView ? "" : classes.list}`}>
-      <Link to={buildQuery(params.countryCode!, article.title)}>
+      <Link
+        to={buildQuery(params.countryCode!, {
+          articleTitle: article.title,
+        })}
+      >
         <div className={classes.card}>
           <div className={classes.textbox}>
             <div className={classes.source}>

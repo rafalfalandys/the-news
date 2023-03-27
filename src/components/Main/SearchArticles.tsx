@@ -13,9 +13,8 @@ const SearchArticles: React.FC = () => {
   // handling search - passing searchQuery tu url, and then to loader function
   const submitHandler: FormEventHandler = (e) => {
     e.preventDefault();
-    if (searchQuery)
-      navigate(`${buildQuery("all", null)}?keyword=${searchQuery}`);
-    else navigate(buildQuery("all", null));
+    if (searchQuery) navigate(`${buildQuery("all", { keyword: searchQuery })}`);
+    else navigate(buildQuery("all"));
   };
 
   return (
