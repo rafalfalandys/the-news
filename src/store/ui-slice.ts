@@ -5,9 +5,8 @@ const uiSlice = createSlice({
   initialState: {
     isGridView: false,
     isEnglish: true,
-    isModalVisible: false,
-    results: { onPage: 20, total: 0 },
-    pages: { current: 1, total: 1 },
+    isModalVisible: false, // controls header popup
+    results: { total: 0, onScreen: 20 }, // data to be dispalyed in footer
   },
   reducers: {
     controlLayout(state, action) {
@@ -23,28 +22,9 @@ const uiSlice = createSlice({
     },
     controlResults(
       state,
-      action: { payload: { onPage: number; total: number } }
+      action: { payload: { total: number; onScreen: number } }
     ) {
       state.results = action.payload;
-      state.pages.total = Math.floor(
-        action.payload.total / action.payload.onPage + 1
-      );
-    },
-    controlResultsPerPage(state, action: { payload: number }) {
-      console.log(action.payload);
-      const total = Math.floor(action.payload / state.results.total + 1);
-      state.results = { total, onPage: action.payload };
-    },
-    controlPage(state, action) {
-      if (action.payload === "next") {
-        if (state.pages.current === state.pages.total) return;
-        state.pages.current++;
-      }
-      if (action.payload === "previous") {
-        if (state.pages.current === 1) return;
-        state.pages.current--;
-      }
-      if (action.payload) state.pages.current = action.payload;
     },
   },
 });

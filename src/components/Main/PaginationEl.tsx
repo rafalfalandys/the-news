@@ -1,24 +1,24 @@
 import classes from "./PaginationEl.module.scss";
 import { Pagination } from "antd";
-import { useDispatch, useSelector } from "react-redux";
-import { RootState } from "../../store";
-import { useLoaderData, useNavigate, useParams } from "react-router-dom";
+import {
+  useLoaderData,
+  useLocation,
+  useNavigate,
+  useParams,
+} from "react-router-dom";
 import useQuery from "../../hooks/useQuery";
 import { ArtcilesResObj } from "../../types";
-import { uiActions } from "../../store/ui-slice";
+import { buildQueryParams } from "../../helper";
 
 const PaginationEl: React.FC = () => {
   const loaderData = useLoaderData() as ArtcilesResObj;
-  const curPageState = useSelector(
-    (state: RootState) => state.ui.pages.current
-  );
-  const curResultsState = useSelector(
-    (state: RootState) => state.ui.results.onPage
-  );
-  const dispatch = useDispatch();
+
   const navigate = useNavigate();
   const buildQuery = useQuery();
   const params = useParams();
+  const location = useLocation();
+
+  const queries = buildQueryParams(location.search);
 
   const { totalResults } = loaderData;
 
@@ -26,8 +26,6 @@ const PaginationEl: React.FC = () => {
     page,
     pageSize
   ) => {
-    dispatch(uiActions.controlResultsPerPage(pageSize));
-    dispatch(uiActions.controlPage(page));
     navigate(buildQuery(params.countryCode!, { results: pageSize, page }), {
       replace: true,
     });
@@ -36,12 +34,14 @@ const PaginationEl: React.FC = () => {
   return (
     <Pagination
       defaultCurrent={1}
-      current={curPageState}
+      current={+queries.page!}
       total={totalResults}
       onChange={changePagination}
       defaultPageSize={20}
-      pageSize={curResultsState}
+      pageSize={queries.results}
       className={classes.pagination}
+      pageSizeOptions={[10, 20, 50]}
+      showSizeChanger={true}
     />
   );
 };

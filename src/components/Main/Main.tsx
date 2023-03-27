@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { useSelector } from "react-redux";
 import { LoaderFunction, Outlet, useLoaderData } from "react-router-dom";
 import { API_KEY, NEWS_URL } from "../../config";
+import { buildQueryParams } from "../../helper";
 
 import store, { RootState } from "../../store";
 import { uiActions } from "../../store/ui-slice";
@@ -39,27 +40,6 @@ export default Main;
 ////////// LOADER FUNCTION - loading articles //////////
 ////////////////////////////////////////////////////////
 
-// reusable fetch options object
-const fetchOptions = {
-  method: "GET",
-  headers: {
-    "X-Api-Key": `${API_KEY}`,
-  },
-};
-
-const buildQueryParams = (data: string) => {
-  const queryTest: string[] = data.split("?");
-  queryTest.shift();
-  const queryObj: QueryObj = {};
-
-  queryTest.forEach((str) => {
-    const arr = str.split("=");
-    return (queryObj[arr[0]] = arr[1]);
-  });
-
-  return queryObj;
-};
-
 export const loader: LoaderFunction = async ({ params, request }) => {
   try {
     const queries: QueryObj = buildQueryParams(request.url);
@@ -72,17 +52,25 @@ export const loader: LoaderFunction = async ({ params, request }) => {
         : NEWS_URL +
           `top-headlines?country=${params.countryCode}&pageSize=${queries.results}&page=${queries.page}`;
 
-    const res = await fetch(fetchUrl, fetchOptions);
+    const res = await fetch(fetchUrl, {
+      method: "GET",
+      headers: {
+        "X-Api-Key": `${API_KEY}`,
+      },
+    });
 
     if (!res.ok) throw new Error("Could not fetch news data");
 
     const data: ArtcilesResObj = await res.json();
     const resultsNum = queries.results || 20;
+    const onScreen =
+      data.totalResults <= resultsNum ? data.totalResults : resultsNum;
 
+    // updating state for footer data
     store.dispatch(
       uiActions.controlResults({
-        onPage: resultsNum,
         total: data.totalResults,
+        onScreen,
       })
     );
 

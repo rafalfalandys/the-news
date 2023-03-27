@@ -1,16 +1,11 @@
-import { useSelector } from "react-redux";
 import { useLocation } from "react-router-dom";
-import { buildArticleQuery } from "../helper";
-import { RootState } from "../store";
+import { buildArticleQuery, buildQueryParams } from "../helper";
 import { QueryObj } from "../types";
 
 const useQuery = () => {
-  // get state of current page and results per page. To be used when new ones are not passed:
-  const pages = useSelector((state: RootState) => state.ui.pages.current);
-  const resultsState = useSelector(
-    (state: RootState) => state.ui.results.onPage
-  );
+  // read queries params. To be used when new ones are not passed:
   const location = useLocation();
+  const queries = buildQueryParams(location.search);
 
   // check the search keyword in order to handle modal window correctly
   const locationKeyword: string = location.search.includes("?keyword=")
@@ -35,9 +30,9 @@ const useQuery = () => {
       ? `?keyword=${locationKeyword}`
       : "";
 
-    // use cur page/results per page from obj, if no take ones from state
-    const page = `?page=${queryObj?.page || pages}`;
-    const results = `?results=${queryObj?.results || resultsState}`;
+    // use cur page/results per page from obj, if no take ones from url
+    const page = `?page=${queryObj?.page || queries.page}`;
+    const results = `?results=${queryObj?.results || queries.results}`;
 
     const query =
       "/country/" + countryCode + article + keyword + page + results;
