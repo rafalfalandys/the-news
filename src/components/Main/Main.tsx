@@ -2,11 +2,13 @@ import { Fragment } from "react";
 import { useSelector } from "react-redux";
 import { LoaderFunction, Outlet, useLoaderData } from "react-router-dom";
 import { API_KEY, NEWS_URL } from "../../config";
+
 import store, { RootState } from "../../store";
 import { uiActions } from "../../store/ui-slice";
 import { ArtcilesResObj, QueryObj } from "../../types";
 import ArticleCard from "./ArticleCard";
 import classes from "./Main.module.scss";
+import PaginationEl from "./PaginationEl";
 
 const Main: React.FC = () => {
   const loaderData = useLoaderData() as ArtcilesResObj;
@@ -20,10 +22,11 @@ const Main: React.FC = () => {
 
   return (
     <Fragment>
-      <Outlet />
+      <Outlet /> {/* outlet for article details modal window */}
       <div className={classes.wrapper}>
         <main className={`${classes.main} ${isGridView ? "" : classes.list}`}>
           {articlesList}
+          <PaginationEl />
         </main>
       </div>
     </Fragment>

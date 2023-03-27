@@ -6,7 +6,7 @@ import { QueryObj } from "../types";
 
 const useQuery = () => {
   // get state of current page and results per page. To be used when new ones are not passed:
-  const pages = useSelector((state: RootState) => state.ui.pages.curent);
+  const pages = useSelector((state: RootState) => state.ui.pages.current);
   const resultsState = useSelector(
     (state: RootState) => state.ui.results.onPage
   );

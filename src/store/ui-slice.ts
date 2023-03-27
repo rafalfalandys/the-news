@@ -7,7 +7,7 @@ const uiSlice = createSlice({
     isEnglish: true,
     isModalVisible: false,
     results: { onPage: 20, total: 0 },
-    pages: { curent: 1, total: 1 },
+    pages: { current: 1, total: 1 },
   },
   reducers: {
     controlLayout(state, action) {
@@ -37,14 +37,14 @@ const uiSlice = createSlice({
     },
     controlPage(state, action) {
       if (action.payload === "next") {
-        if (state.pages.curent === state.pages.total) return;
-        state.pages.curent++;
+        if (state.pages.current === state.pages.total) return;
+        state.pages.current++;
       }
       if (action.payload === "previous") {
-        if (state.pages.curent === 1) return;
-        state.pages.curent--;
+        if (state.pages.current === 1) return;
+        state.pages.current--;
       }
-      if (action.payload) state.pages.curent = action.payload;
+      if (action.payload) state.pages.current = action.payload;
     },
   },
 });
