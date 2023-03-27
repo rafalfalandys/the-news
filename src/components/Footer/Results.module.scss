@@ -18,17 +18,21 @@
       font-weight: 700;
     }
   }
+}
 
-  .total {
-    // color: $color-base;
-    background-color: $color-base;
-    width: 3.5rem;
-    height: 3.5rem;
-    border-radius: 10rem;
-    color: $color-white;
+.total {
+  // color: $color-base;
+  background-color: $color-base;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 10rem;
+  color: $color-white;
 
-    display: flex;
-    justify-content: center;
-    margin-right: 0.5rem;
-  }
+  display: flex;
+  justify-content: center;
+  margin: 0 0.5rem;
+}
+
+.selector {
+  width: 9rem;
 }

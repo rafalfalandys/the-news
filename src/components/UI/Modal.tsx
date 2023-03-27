@@ -7,6 +7,7 @@ import { uiActions } from "../../store/ui-slice";
 import classes from "./Modal.module.scss";
 
 import Btn from "../UI/Btn";
+import useQuery from "../../hooks/useQuery";
 
 const Modal: React.FC<{ children: ReactNode }> = (props) => {
   const portalEl = document.getElementById("overlays")!;
@@ -14,12 +15,15 @@ const Modal: React.FC<{ children: ReactNode }> = (props) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const params = useParams();
+  const buildQuery = useQuery();
 
   // hide modal on clicking a button
   const hideModalHandler = () => {
     dispatch(uiActions.controlModal("hide"));
     if (params.articleDetails)
-      navigate(`/country/${params.countryCode}`, { replace: true });
+      navigate(buildQuery(params.countryCode!, null), {
+        replace: true,
+      });
   };
 
   // handle 2 languages in button

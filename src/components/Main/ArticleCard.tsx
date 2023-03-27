@@ -1,12 +1,14 @@
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
-import { buildQuery } from "../../helper";
+import { Link, useParams } from "react-router-dom";
+import useQuery from "../../hooks/useQuery";
 import { RootState } from "../../store";
 import { Article } from "../../types";
 import classes from "./ArticleCard.module.scss";
 
 const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
   const isGridView = useSelector((state: RootState) => state.ui.isGridView);
+  const params = useParams();
+  const buildQuery = useQuery();
 
   // generate date or today / yesterday msg
   const now = new Date();
@@ -27,12 +29,9 @@ const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
 
   const time = calcTime();
 
-  // build article query
-  const query = buildQuery(article.title);
-
   return (
     <li className={`${classes.wrapper} ${isGridView ? "" : classes.list}`}>
-      <Link to={query}>
+      <Link to={buildQuery(params.countryCode!, article.title)}>
         <div className={classes.card}>
           <div className={classes.textbox}>
             <div className={classes.source}>

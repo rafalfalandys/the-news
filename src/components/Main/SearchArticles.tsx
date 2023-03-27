@@ -1,18 +1,21 @@
 import { Input } from "antd";
-import { FormEventHandler, useEffect, useState } from "react";
+import { FormEventHandler, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import useQuery from "../../hooks/useQuery";
 import Btn from "../UI/Btn";
 import classes from "./SearchArticles.module.scss";
 
 const SearchArticles: React.FC = () => {
   const navigate = useNavigate();
-  const [query, setQuery] = useState("");
+  const [searchQuery, setSearchQuery] = useState("");
+  const buildQuery = useQuery();
 
-  // handling search - passing query tu url, and then to loader function
+  // handling search - passing searchQuery tu url, and then to loader function
   const submitHandler: FormEventHandler = (e) => {
     e.preventDefault();
-    if (query) navigate(`/country/all?keyword=${query}`);
-    else navigate(`/country/all`);
+    if (searchQuery)
+      navigate(`${buildQuery("all", null)}?keyword=${searchQuery}`);
+    else navigate(buildQuery("all", null));
   };
 
   return (
@@ -24,13 +27,13 @@ const SearchArticles: React.FC = () => {
           </label>
           <Input
             id="search articles"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
             autoComplete="off"
           />
           <Btn>
-            {query && <span> Search</span>}
-            {!query && <span> See random articles</span>}
+            {searchQuery && <span> Search</span>}
+            {!searchQuery && <span> See random articles</span>}
           </Btn>
         </form>
       </main>

@@ -4,7 +4,7 @@ import { LoaderFunction, Outlet, useLoaderData } from "react-router-dom";
 import { API_KEY, NEWS_URL } from "../../config";
 import store, { RootState } from "../../store";
 import { uiActions } from "../../store/ui-slice";
-import { ArtcilesResObj } from "../../types";
+import { ArtcilesResObj, QueryObj } from "../../types";
 import ArticleCard from "./ArticleCard";
 import classes from "./Main.module.scss";
 
@@ -44,28 +44,41 @@ const fetchOptions = {
   },
 };
 
+const buildQueryParams = (data: string) => {
+  const queryTest: string[] = data.split("?");
+  queryTest.shift();
+  const queryObj: QueryObj = {};
+
+  queryTest.forEach((str) => {
+    const arr = str.split("=");
+    return (queryObj[arr[0]] = arr[1]);
+  });
+
+  return queryObj;
+};
+
 export const loader: LoaderFunction = async ({ params, request }) => {
   try {
-    const query: string = request.url.split("?keyword=")[1];
+    const queries = buildQueryParams(request.url);
 
-    // if param = 'all' = fetch all artciles. If param = country code fetch only articles for this country
-    const fetchPromise =
+    // if param = 'all' = fetch random artciles. If param = country code fetch only articles for this country
+    const fetchUrl =
       params.countryCode === "all"
-        ? fetch(NEWS_URL + `everything?q=${query}`, fetchOptions)
-        : fetch(
-            NEWS_URL + `top-headlines?country=${params.countryCode}`,
-            fetchOptions
-          );
+        ? NEWS_URL +
+          `everything?q=${queries.keyword}&pageSize=${queries.results}&page=${queries.page}`
+        : NEWS_URL +
+          `top-headlines?country=${params.countryCode}&pageSize=${queries.results}&page=${queries.page}`;
 
-    const res = await fetchPromise;
+    const res = await fetch(fetchUrl, fetchOptions);
 
     if (!res.ok) throw new Error("Could not fetch news data");
 
     const data: ArtcilesResObj = await res.json();
+    const resultsNum = queries.results || 20;
 
     store.dispatch(
       uiActions.controlResults({
-        onPage: data.articles.length,
+        onPage: resultsNum,
         total: data.totalResults,
       })
     );

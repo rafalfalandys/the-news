@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import { useParams, useRouteLoaderData } from "react-router-dom";
-import { buildQuery } from "../../helper";
+import { buildArticleQuery } from "../../helper";
 import { ArtcilesResObj } from "../../types";
 import Modal from "../UI/Modal";
 import classes from "./ArticleModal.module.scss";
@@ -12,7 +12,7 @@ const ArticleModal: React.FC = () => {
   const { articles } = loaderData;
 
   const article = articles.find(
-    (article) => buildQuery(article.title) === params.articleDetails
+    (article) => buildArticleQuery(article.title) === params.articleDetails
   );
 
   return (
