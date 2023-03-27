@@ -17,6 +17,7 @@ export type ArtcilesResObj = {
 
 export type Country = {
   name: {
+    namePL?: string;
     common: string;
     official: string;
     nativeName: {

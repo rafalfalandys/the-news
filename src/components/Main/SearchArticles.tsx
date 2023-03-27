@@ -2,6 +2,7 @@ import { Input } from "antd";
 import { FormEventHandler, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import useQuery from "../../hooks/useQuery";
+import useText from "../../hooks/useText";
 import Btn from "../UI/Btn";
 import classes from "./SearchArticles.module.scss";
 
@@ -9,6 +10,7 @@ const SearchArticles: React.FC = () => {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState("");
   const buildQuery = useQuery();
+  const text = useText();
 
   // handling search - passing searchQuery tu url, and then to loader function
   const submitHandler: FormEventHandler = (e) => {
@@ -23,7 +25,7 @@ const SearchArticles: React.FC = () => {
       <main className={classes.main}>
         <form className={classes.form} onSubmit={submitHandler}>
           <label htmlFor="search articles" className={classes.label}>
-            <h2> Search articles</h2>
+            <h2>{text.searchView.header}</h2>
           </label>
           <Input
             id="search articles"
@@ -32,8 +34,8 @@ const SearchArticles: React.FC = () => {
             autoComplete="off"
           />
           <Btn>
-            {searchQuery && <span> Search</span>}
-            {!searchQuery && <span> See random articles</span>}
+            {!searchQuery && <span>{text.searchView.btnAllArticles}</span>}
+            {searchQuery && <span>{text.searchView.btnSearch}</span>}
           </Btn>
         </form>
       </main>

@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import { useParams, useRouteLoaderData } from "react-router-dom";
 import { buildArticleQuery } from "../../helper";
+import useText from "../../hooks/useText";
 import { ArtcilesResObj } from "../../types";
 import Modal from "../UI/Modal";
 import classes from "./ArticleModal.module.scss";
@@ -8,6 +9,7 @@ import classes from "./ArticleModal.module.scss";
 const ArticleModal: React.FC = () => {
   const loaderData = useRouteLoaderData("country") as ArtcilesResObj;
   const params = useParams();
+  const text = useText();
 
   const { articles } = loaderData;
 
@@ -22,7 +24,7 @@ const ArticleModal: React.FC = () => {
           <h1>{article?.author}</h1>
           <p>{article?.content}</p>
           <a href={article?.url} target="_blank" rel="noreferrer">
-            Link
+            {text.articleDetails.link}
           </a>
         </div>
       </Modal>

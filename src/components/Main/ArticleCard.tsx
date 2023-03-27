@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
 import useQuery from "../../hooks/useQuery";
+import useText from "../../hooks/useText";
 import { RootState } from "../../store";
 import { Article } from "../../types";
 import classes from "./ArticleCard.module.scss";
@@ -9,12 +10,13 @@ const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
   const isGridView = useSelector((state: RootState) => state.ui.isGridView);
   const params = useParams();
   const buildQuery = useQuery();
+  const text = useText();
 
   // generate date or today / yesterday msg
   const now = new Date();
   const publishedAt = new Date(article.publishedAt);
 
-  const formattedDate = new Intl.DateTimeFormat("pl-PL", {
+  const formattedDate = new Intl.DateTimeFormat(text.main.locales, {
     year: "numeric",
     month: "long",
     day: "numeric",
@@ -22,8 +24,8 @@ const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
 
   const timePast = now.getTime() - publishedAt.getTime();
   const calcTime = () => {
-    if (timePast < 1000 * 60 * 60 * 24) return "Today";
-    if (timePast < 1000 * 60 * 60 * 48) return "Yesterday";
+    if (timePast < 1000 * 60 * 60 * 24) return text.main.today;
+    if (timePast < 1000 * 60 * 60 * 48) return text.main.yesterday;
     else return formattedDate;
   };
 

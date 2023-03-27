@@ -1,15 +1,16 @@
 import { List, SquaresFour } from "@phosphor-icons/react";
 import { useDispatch, useSelector } from "react-redux";
+import useText from "../../hooks/useText";
 import { RootState } from "../../store";
 import { uiActions } from "../../store/ui-slice";
 import classes from "./ViewSwitch.module.scss";
 
 const ViewSwitch: React.FC = () => {
   const dispatch = useDispatch();
+  const text = useText();
 
   // get current layout state and language
   const isGridView = useSelector((state: RootState) => state.ui.isGridView);
-  const isEnglish = useSelector((state: RootState) => state.ui.isEnglish);
 
   // layout control handlers
   const switchToGridHandler = () => dispatch(uiActions.controlLayout("grid"));
@@ -23,8 +24,7 @@ const ViewSwitch: React.FC = () => {
         }`}
         onClick={switchToListHandler}
       >
-        {isEnglish && <span>List View</span>}
-        {!isEnglish && <span>Lista</span>}
+        <span>{text.header.viewSwitch.list}</span>
         <List weight="bold" />
       </div>
       <div
@@ -33,8 +33,7 @@ const ViewSwitch: React.FC = () => {
         }`}
         onClick={switchToGridHandler}
       >
-        {isEnglish && <span>Grid view</span>}
-        {!isEnglish && <span>Kafelki</span>}
+        <span>{text.header.viewSwitch.grid}</span>
         <SquaresFour weight="bold" />
       </div>
     </div>

@@ -1,7 +1,8 @@
 export const NEWS_URL = "https://newsapi.org/v2/";
 export const COUNTRIES_URL = "https://restcountries.com/v3.1/";
-export const API_KEY2 = "69b3c2c0892e432db9e997b572f8908e";
-export const API_KEY = "4abb363523094764946249ff8382f7c0";
+export const API_KEY1 = "69b3c2c0892e432db9e997b572f8908e";
+export const API_KEY2 = "4abb363523094764946249ff8382f7c0";
+export const API_KEY = "90fd8cb861e943cc8ee98eb6c493ae40";
 export const AVAILABLE_COUNTRIES = [
   "ae",
   "ar",

@@ -1,4 +1,5 @@
-import { QueryObj } from "./types";
+import { AVAILABLE_COUNTRIES } from "./config";
+import { Country, QueryObj } from "./types";
 
 // build query from article titile to get proper modal window
 export const buildArticleQuery = (string: string) =>
@@ -15,4 +16,12 @@ export const buildQueryParams = (str: string) => {
   });
 
   return queryObj;
+};
+
+export const filterCountries = (arr: Country[]) => {
+  return arr.filter((country: Country) =>
+    AVAILABLE_COUNTRIES.map(
+      (code) => code === country.cca2.toLowerCase()
+    ).reduce((acc, cur) => acc || cur)
+  );
 };
