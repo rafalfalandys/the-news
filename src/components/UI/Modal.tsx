@@ -1,7 +1,7 @@
 import { Fragment, ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { useDispatch, useSelector } from "react-redux";
-import { useLocation, useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { RootState } from "../../store";
 import { uiActions } from "../../store/ui-slice";
 import classes from "./Modal.module.scss";

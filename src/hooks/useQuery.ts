@@ -25,12 +25,17 @@ const useQuery = () => {
     const article = queryObj?.articleTitle
       ? `/${buildArticleQuery(queryObj.articleTitle)}`
       : "";
+
+    // 1st use keyword from object, if no
+    // 2nd reuse one from url, if no
+    // 3rd do not use keyword
     const keyword = queryObj?.keyword
       ? `?keyword=${queryObj.keyword}`
       : locationKeyword
       ? `?keyword=${locationKeyword}`
       : "";
 
+    // use cur page/results per page from obj, if no take ones from state
     const page = `?page=${queryObj?.page || pages}`;
     const results = `?results=${queryObj?.results || resultsState}`;
 

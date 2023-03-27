@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { Link, useLocation, useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import useQuery from "../../hooks/useQuery";
 import { RootState } from "../../store";
 import { Article } from "../../types";
