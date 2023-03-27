@@ -32,7 +32,7 @@ const useQuery = () => {
 
     // use cur page/results per page from obj, if no take ones from url
     const page = `?page=${queryObj?.page || queries.page}`;
-    const results = `?results=${queryObj?.results || queries.results}`;
+    const results = `?results=${queryObj?.results || queries.results || 20}`;
 
     const query =
       "/country/" + countryCode + article + keyword + page + results;

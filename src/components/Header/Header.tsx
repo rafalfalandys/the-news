@@ -6,9 +6,11 @@ import Btn from "../UI/Btn";
 import LanguageSwitch from "./LanguageSwitch";
 import { useDispatch } from "react-redux";
 import { uiActions } from "../../store/ui-slice";
+import { useParams } from "react-router-dom";
 
 const Header: React.FC = () => {
   const dispatch = useDispatch();
+  const params = useParams();
 
   // clicking on btn triggers this handler which changes state of modal visibility
   const showPopupHandler = () => dispatch(uiActions.controlModal("show"));
@@ -18,7 +20,7 @@ const Header: React.FC = () => {
       <header className={classes.header}>
         <Logo />
         <div className={classes.buttons}>
-          <ViewSwitch />
+          {params.countryCode && <ViewSwitch />}
           <Btn onClick={showPopupHandler}>Popup</Btn>
           <LanguageSwitch />
         </div>

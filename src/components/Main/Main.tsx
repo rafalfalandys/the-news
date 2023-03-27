@@ -25,9 +25,17 @@ const Main: React.FC = () => {
     <Fragment>
       <Outlet /> {/* outlet for article details modal window */}
       <div className={classes.wrapper}>
-        <main className={`${classes.main} ${isGridView ? "" : classes.list}`}>
-          {articlesList}
-          <PaginationEl />
+        <main className={classes.main}>
+          <ul
+            className={
+              isGridView ? `${classes.list} ${classes.grid}` : classes.list
+            }
+          >
+            {articlesList}
+          </ul>
+          <div className={classes["pagination-wrapper"]}>
+            <PaginationEl />
+          </div>
         </main>
       </div>
     </Fragment>
