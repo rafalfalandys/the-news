@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { useSelector } from "react-redux";
 import { LoaderFunction, Outlet, useLoaderData } from "react-router-dom";
-// import { API_KEY, NEWS_URL } from "../../config";
+import { API_KEY, NEWS_URL } from "../../config";
 import { buildQueryParams } from "../../helper";
 
 import store, { RootState } from "../../store";
@@ -10,8 +10,6 @@ import { ArtcilesResObj, QueryObj } from "../../types";
 import ArticleCard from "./ArticleCard";
 import classes from "./Main.module.scss";
 import PaginationEl from "./PaginationEl";
-
-import articlesMock from "../../assets/articlesMock.json";
 
 const Main: React.FC = () => {
   const loaderData = useLoaderData() as ArtcilesResObj;
@@ -54,28 +52,25 @@ export const loader: LoaderFunction = async ({ params, request }) => {
   try {
     const queries: QueryObj = buildQueryParams(request.url);
 
-    // // if param = 'all' = fetch random artciles. If param = country code fetch only articles for this country
-    // const fetchUrl =
-    //   params.countryCode === "all"
-    //     ? NEWS_URL +
-    //       `everything?q=${queries.keyword}&pageSize=${queries.results}&page=${queries.page}`
-    //     : NEWS_URL +
-    //       `top-headlines?country=${params.countryCode}&pageSize=${queries.results}&page=${queries.page}`;
+    // if param = 'all' = fetch random artciles. If param = country code fetch only articles for this country
+    const fetchUrl =
+      params.countryCode === "all"
+        ? NEWS_URL +
+          `everything?q=${queries.keyword}&pageSize=${queries.results}&page=${queries.page}`
+        : NEWS_URL +
+          `top-headlines?country=${params.countryCode}&pageSize=${queries.results}&page=${queries.page}`;
 
-    // const res = await fetch(fetchUrl, {
-    //   method: "GET",
-    //   headers: {
-    //     "X-Api-Key": `${API_KEY}`,
-    //   },
-    // });
+    const res = await fetch(fetchUrl, {
+      method: "GET",
+      headers: {
+        "X-Api-Key": `${API_KEY}`,
+      },
+    });
 
-    // if (!res.ok) throw new Error("Could not fetch news data");
+    if (!res.ok) throw new Error("Could not fetch news data");
 
-    // const data: ArtcilesResObj = await res.json();
+    const data: ArtcilesResObj = await res.json();
 
-    const randomDigit = Math.floor(Math.random() * 10); // picking random article list from 10 mock objects
-
-    const data = articlesMock[randomDigit];
     const resultsNum = queries.results || 20;
     const onScreen =
       data.totalResults <= resultsNum ? data.totalResults : resultsNum;

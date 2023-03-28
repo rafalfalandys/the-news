@@ -1,4 +1,4 @@
-import { useEffect, useState, ReactNode } from "react";
+import { ReactNode } from "react";
 import classes from "./Btn.module.scss";
 
 const Btn: React.FC<{
@@ -6,21 +6,9 @@ const Btn: React.FC<{
   onClick?: () => any;
   className?: string;
 }> = (props) => {
-  const [isActive, setIsActive] = useState(false);
-
-  // bump effect after click
-  useEffect(() => {
-    const bump = setTimeout(() => {
-      setIsActive(false);
-    }, 300);
-    return () => clearTimeout(bump);
-  }, [isActive]);
-
   return (
     <button
-      className={`${classes.btn} ${isActive ? classes.active : ""} ${
-        props.className
-      }`}
+      className={`${classes.btn} ${props.className}`}
       onClick={props.onClick}
     >
       {props.children}
