@@ -14,16 +14,12 @@ const Modal: React.FC<{ children: ReactNode }> = (props) => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const params = useParams();
-  const buildQuery = useQuery();
   const text = useText();
 
   // hide modal on clicking a button
   const hideModalHandler = () => {
     dispatch(uiActions.controlModal("hide"));
-    if (params.articleDetails)
-      navigate(buildQuery(params.countryCode!), {
-        replace: true,
-      });
+    if (params.articleDetails) navigate(-1);
   };
 
   const popup = (

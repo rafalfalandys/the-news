@@ -17,7 +17,7 @@ const SearchArticles: React.FC = () => {
     e.preventDefault();
     if (searchQuery)
       navigate(`${buildQuery("all", { keyword: searchQuery, page: 1 })}`);
-    else navigate(buildQuery("all", { page: 1 }));
+    else navigate(buildQuery("all", { page: 1, keyword: "__skip__" }));
   };
 
   return (

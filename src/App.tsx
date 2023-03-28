@@ -19,7 +19,6 @@ const router = createBrowserRouter([
           {
             path: "country/:countryCode",
             element: <Main />,
-            errorElement: <ErrorPage />,
             loader: loadArticles,
             id: "country",
             children: [{ path: ":articleDetails", element: <ArticleModal /> }],

@@ -24,11 +24,11 @@ const useQuery = () => {
     // 1st use keyword from object, if no
     // 2nd reuse one from url, if no
     // 3rd do not use keyword
-    const keyword = queryObj?.keyword
-      ? `?keyword=${queryObj.keyword}`
-      : locationKeyword
-      ? `?keyword=${locationKeyword}`
-      : "";
+    let keyword = queryObj?.keyword ? `?keyword=${queryObj.keyword}` : "";
+    if (queryObj?.keyword) keyword = `?keyword=${queryObj.keyword}`;
+    if (!queryObj?.keyword && locationKeyword)
+      keyword = `?keyword=${locationKeyword}`;
+    if (queryObj?.keyword === "__skip__") keyword = "";
 
     // use cur page/results per page from obj, if no take ones from url
     const page = `?page=${queryObj?.page || queries.page}`;
