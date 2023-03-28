@@ -1,5 +1,5 @@
-import { ReactNode } from "react";
 import classes from "./Btn.module.scss";
+import { ReactNode } from "react";
 
 const Btn: React.FC<{
   children: ReactNode;

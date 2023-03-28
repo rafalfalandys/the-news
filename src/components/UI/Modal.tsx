@@ -1,12 +1,12 @@
+import classes from "./Modal.module.scss";
 import { Fragment, ReactNode } from "react";
 import { createPortal } from "react-dom";
 import { useDispatch } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { uiActions } from "../../store/ui-slice";
-import classes from "./Modal.module.scss";
 
-import Btn from "../UI/Btn";
 import useText from "../../hooks/useText";
+import Btn from "../UI/Btn";
 
 const Modal: React.FC<{ children: ReactNode }> = (props) => {
   const portalEl = document.getElementById("overlays")!;

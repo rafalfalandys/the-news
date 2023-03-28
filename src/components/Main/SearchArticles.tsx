@@ -1,15 +1,16 @@
-import { Input } from "antd";
+import classes from "./SearchArticles.module.scss";
 import { FormEventHandler, useState } from "react";
 import { useNavigate } from "react-router-dom";
+
+import { Input } from "antd";
 import useQuery from "../../hooks/useQuery";
-import useText from "../../hooks/useText";
 import Btn from "../UI/Btn";
-import classes from "./SearchArticles.module.scss";
+import useText from "../../hooks/useText";
 
 const SearchArticles: React.FC = () => {
   const navigate = useNavigate();
-  const [searchQuery, setSearchQuery] = useState("");
   const buildQuery = useQuery();
+  const [searchQuery, setSearchQuery] = useState("");
   const text = useText();
 
   // handling search - passing searchQuery tu url, and then to loader function

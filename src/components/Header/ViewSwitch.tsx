@@ -1,15 +1,15 @@
-import { List, SquaresFour } from "@phosphor-icons/react";
+import classes from "./ViewSwitch.module.scss";
 import { useDispatch, useSelector } from "react-redux";
-import useText from "../../hooks/useText";
 import { RootState } from "../../store";
 import { uiActions } from "../../store/ui-slice";
-import classes from "./ViewSwitch.module.scss";
+import { List, SquaresFour } from "@phosphor-icons/react";
+import useText from "../../hooks/useText";
 
 const ViewSwitch: React.FC = () => {
   const dispatch = useDispatch();
   const text = useText();
 
-  // get current layout state and language
+  // get current layout state
   const isGridView = useSelector((state: RootState) => state.ui.isGridView);
 
   // layout control handlers

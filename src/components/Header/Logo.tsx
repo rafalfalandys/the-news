@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
 import classes from "./Logo.module.scss";
+import { Link } from "react-router-dom";
 
 const Logo: React.FC = () => {
   return (

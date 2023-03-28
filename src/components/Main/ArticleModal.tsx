@@ -1,10 +1,11 @@
-import { Fragment } from "react";
+import classes from "./ArticleModal.module.scss";
 import { useParams, useRouteLoaderData } from "react-router-dom";
 import { buildArticleQuery } from "../../helper";
-import useText from "../../hooks/useText";
 import { ArtcilesResObj } from "../../types";
+
+import { Fragment } from "react";
 import Modal from "../UI/Modal";
-import classes from "./ArticleModal.module.scss";
+import useText from "../../hooks/useText";
 
 const ArticleModal: React.FC = () => {
   const loaderData = useRouteLoaderData("country") as ArtcilesResObj;
@@ -13,6 +14,7 @@ const ArticleModal: React.FC = () => {
 
   const { articles } = loaderData;
 
+  // find proper modal to display by the url
   const article = articles.find(
     (article) => buildArticleQuery(article.title) === params.articleDetails
   );

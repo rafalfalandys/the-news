@@ -1,5 +1,5 @@
-import { Spinner } from "@phosphor-icons/react";
 import classes from "./LoadingSpinner.module.scss";
+import { Spinner } from "@phosphor-icons/react";
 
 function LoadingSpinner() {
   return (

@@ -12,14 +12,14 @@
   width: 100%;
   border-radius: 10rem;
   box-shadow: inset -4px 4px 4px $color-shadow;
-  background-image: url("../../img/pl.svg");
+  background-image: url("../../assets/img/pl.svg");
   cursor: pointer;
   position: relative;
   transition: all 0.3s;
 }
 
 .active {
-  background-image: url("../../img/gb.svg");
+  background-image: url("../../assets/img/gb.svg");
 }
 
 .slider {

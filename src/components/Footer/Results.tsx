@@ -1,9 +1,10 @@
-import { useSelector } from "react-redux";
-import useText from "../../hooks/useText";
-import { RootState } from "../../store";
 import classes from "./Results.module.scss";
+import { useSelector } from "react-redux";
+import { RootState } from "../../store";
+import useText from "../../hooks/useText";
 
 const Results: React.FC = () => {
+  // get results from state
   const results = useSelector((state: RootState) => state.ui.results);
   const text = useText();
 

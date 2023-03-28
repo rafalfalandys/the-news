@@ -74,35 +74,6 @@
   }
 }
 
-.toggle-btn {
-  display: none;
-
-  @media (max-width: $break-phone) {
-    position: absolute;
-    top: 70%;
-    right: -7rem;
-    background-color: $color-white;
-    height: 6rem;
-    width: 6rem;
-    border-radius: 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0 4px 4px $color-shadow;
-    transition: all 0.5s;
-
-    & svg {
-      height: 75%;
-      width: 75%;
-    }
-
-    &.rotated {
-      transform: rotate(180deg);
-      box-shadow: 0 -4px 4px $color-shadow;
-    }
-  }
-}
-
 .lang-switch {
   position: absolute;
   right: 2rem;

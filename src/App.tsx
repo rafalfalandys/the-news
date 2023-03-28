@@ -1,8 +1,9 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ArticleModal from "./components/Main/ArticleModal";
-import Main, { loader as loadArticles } from "./components/Main/Main";
+import { loader as loadArticles } from "./components/Main/loaderFunction";
+import Main from "./components/Main/Main";
 import ErrorPage from "./pages/ErrorPage";
-import HomePage, { loader as loadCountries } from "./pages/HomePage";
+import HomePage from "./pages/HomePage";
 import RootLayout from "./pages/RootLayout";
 
 const router = createBrowserRouter([
@@ -14,7 +15,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <HomePage />,
-        loader: loadCountries,
         children: [
           {
             path: "country/:countryCode",

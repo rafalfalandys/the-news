@@ -6,20 +6,20 @@ import {
   useNavigate,
   useParams,
 } from "react-router-dom";
-import useQuery from "../../hooks/useQuery";
 import { ArtcilesResObj } from "../../types";
 import { buildQueryParams } from "../../helper";
+import useQuery from "../../hooks/useQuery";
 
 const PaginationEl: React.FC = () => {
-  const loaderData = useLoaderData() as ArtcilesResObj;
-
   const navigate = useNavigate();
   const buildQuery = useQuery();
+  const loaderData = useLoaderData() as ArtcilesResObj;
   const params = useParams();
   const location = useLocation();
 
   const queries = buildQueryParams(location.search);
 
+  // reusing loader data
   const { totalResults } = loaderData;
 
   const changePagination: (page: number, pageSize: number) => void = (

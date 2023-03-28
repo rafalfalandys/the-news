@@ -1,10 +1,12 @@
+import classes from "./ArticleCard.module.scss";
 import { useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
-import useQuery from "../../hooks/useQuery";
-import useText from "../../hooks/useText";
 import { RootState } from "../../store";
 import { Article } from "../../types";
-import classes from "./ArticleCard.module.scss";
+import { buildDate } from "../../helper";
+
+import useQuery from "../../hooks/useQuery";
+import useText from "../../hooks/useText";
 
 const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
   const isGridView = useSelector((state: RootState) => state.ui.isGridView);
@@ -13,23 +15,7 @@ const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
   const text = useText();
 
   // generate date or today / yesterday msg
-  const now = new Date();
-  const publishedAt = new Date(article.publishedAt);
-
-  const formattedDate = new Intl.DateTimeFormat(text.main.locales, {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  }).format(publishedAt);
-
-  const timePast = now.getTime() - publishedAt.getTime();
-  const calcTime = () => {
-    if (timePast < 1000 * 60 * 60 * 24) return text.main.today;
-    if (timePast < 1000 * 60 * 60 * 48) return text.main.yesterday;
-    else return formattedDate;
-  };
-
-  const time = calcTime();
+  const time = buildDate(article.publishedAt, text.main.locales, text);
 
   return (
     <li className={`${classes.wrapper} ${isGridView ? "" : classes.list}`}>

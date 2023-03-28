@@ -1,7 +1,8 @@
 import classes from "./Footer.module.scss";
-import Clock from "./Clock";
-import Results from "./Results";
 import { useParams } from "react-router-dom";
+
+import Results from "./Results";
+import Clock from "./Clock";
 
 const Footer: React.FC = () => {
   const params = useParams();
@@ -9,6 +10,7 @@ const Footer: React.FC = () => {
   return (
     <div className={classes.wrapper}>
       <footer className={classes.footer}>
+        {/* only show number of results when articles are loaded */}
         {params.countryCode && <Results />}
         <Clock />
       </footer>

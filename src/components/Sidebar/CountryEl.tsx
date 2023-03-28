@@ -1,9 +1,8 @@
+import classes from "./CountryEl.module.scss";
 import { useDispatch } from "react-redux";
 import { NavLink } from "react-router-dom";
-import useQuery from "../../hooks/useQuery";
 import { uiActions } from "../../store/ui-slice";
-
-import classes from "./CountryEl.module.scss";
+import useQuery from "../../hooks/useQuery";
 
 const CountryEl: React.FC<{ name: string; flag: string; code: string }> = (
   props
@@ -11,6 +10,7 @@ const CountryEl: React.FC<{ name: string; flag: string; code: string }> = (
   const buildQuery = useQuery();
   const dispatch = useDispatch();
 
+  // selecting one country hides sidebar on phone
   const toggleSidebar = () => dispatch(uiActions.toggleSidebar());
 
   return (

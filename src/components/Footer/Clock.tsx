@@ -1,10 +1,12 @@
-import { ClockAfternoon } from "@phosphor-icons/react";
-import { useEffect, useState } from "react";
 import classes from "./Clock.module.scss";
+import { useEffect, useState } from "react";
+
+import { ClockAfternoon } from "@phosphor-icons/react";
 
 const Clock: React.FC = () => {
   const [time, setTime] = useState(new Date());
 
+  // count seconds
   useEffect(() => {
     setInterval(() => {
       setTime(new Date());
