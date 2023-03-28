@@ -3,9 +3,14 @@
 .logo {
   & h1 {
     font-weight: 800;
+
     & span {
       //   font-weight: 800;
       color: $color-base;
     }
+  }
+
+  @media (max-width: $break-phone) {
+    font-size: $font-medium;
   }
 }

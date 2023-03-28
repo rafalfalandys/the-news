@@ -7,6 +7,7 @@ const uiSlice = createSlice({
     isEnglish: false,
     isModalVisible: false, // controls header popup
     results: { total: 0, onScreen: 20 }, // data to be dispalyed in footer
+    isSidebarVisible: false, // controls sidebar on phones
   },
   reducers: {
     controlLayout(state, action) {
@@ -25,6 +26,9 @@ const uiSlice = createSlice({
       action: { payload: { total: number; onScreen: number } }
     ) {
       state.results = action.payload;
+    },
+    toggleSidebar(state) {
+      state.isSidebarVisible = !state.isSidebarVisible;
     },
   },
 });

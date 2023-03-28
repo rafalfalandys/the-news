@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import { useSelector } from "react-redux";
 import { LoaderFunction, Outlet, useLoaderData } from "react-router-dom";
-import { API_KEY, NEWS_URL } from "../../config";
+// import { API_KEY, NEWS_URL } from "../../config";
 import { buildQueryParams } from "../../helper";
 
 import store, { RootState } from "../../store";

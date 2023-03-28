@@ -11,6 +11,10 @@
   width: 100%;
   position: relative;
   z-index: 1;
+
+  @media (max-width: $break-phone) {
+    z-index: 2;
+  }
 }
 
 .header {
@@ -22,6 +26,10 @@
   align-items: center;
   justify-content: space-between;
   gap: 3rem;
+
+  @media (max-width: $break-phone) {
+    padding: 0 2rem;
+  }
 }
 
 .buttons {
@@ -31,6 +39,12 @@
 
   @media (max-width: $break-phone) {
     gap: 3rem;
+  }
+}
+
+.btn-popup {
+  @media (max-width: $break-phone) {
+    padding: 1rem;
   }
 }
 

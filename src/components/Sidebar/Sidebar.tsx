@@ -1,5 +1,5 @@
 import Input from "antd/es/input/Input";
-import { useState } from "react";
+import { Fragment, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import useText from "../../hooks/useText";
 import { Country, Article } from "../../types";
@@ -7,8 +7,11 @@ import CountryEl from "./CountryEl";
 import classes from "./Sidebar.module.scss";
 import countriesNamesPL from "../../assets/countriesNamesPL.json";
 import { filterCountries } from "../../helper";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../store";
+import { CaretLeft } from "@phosphor-icons/react";
+import { uiActions } from "../../store/ui-slice";
+import LanguageSwitch from "../Header/LanguageSwitch";
 
 const Sidebar: React.FC = () => {
   const loaderData = useLoaderData() as {
@@ -18,6 +21,10 @@ const Sidebar: React.FC = () => {
   const text = useText();
   const isEnglish = useSelector((state: RootState) => state.ui.isEnglish);
   const [query, setQuery] = useState("");
+  const isSidebarVisible = useSelector(
+    (state: RootState) => state.ui.isSidebarVisible
+  );
+  const dispatch = useDispatch();
 
   // filter countries available in news API. Array of available ones is in config file. It is copied from API documentation
   const countriesFiltered = filterCountries(loaderData.countries.slice(0));
@@ -57,6 +64,8 @@ const Sidebar: React.FC = () => {
       }
     });
 
+  const onListToggleHandler = () => dispatch(uiActions.toggleSidebar());
+
   // building countries components
   const countries = countriesList.map((country) => (
     <CountryEl
@@ -68,21 +77,42 @@ const Sidebar: React.FC = () => {
   ));
 
   return (
-    <aside className={classes.wrapper}>
-      <div className={classes.sidebar}>
-        <h2>{text.sideBar.header}</h2>
-        <Input
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-          className={classes.input}
-          maxLength={20}
-        />
-        <ul className={classes.list}>
-          <CountryEl flag="" name={text.sideBar.randomAricles} code="all" />
-          {countries}
-        </ul>
-      </div>
-    </aside>
+    <Fragment>
+      <div
+        className={`${classes.overlay} ${
+          isSidebarVisible ? "" : classes.hidden
+        }`}
+        onClick={onListToggleHandler}
+      ></div>
+      <aside
+        className={`${classes.wrapper} ${
+          isSidebarVisible ? "" : classes.hidden
+        }`}
+      >
+        <div className={classes.sidebar}>
+          <h2>{text.sideBar.header}</h2>
+          <Input
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            className={classes.input}
+            maxLength={20}
+          />
+          <ul className={classes.list}>
+            <CountryEl flag="" name={text.sideBar.randomAricles} code="all" />
+            {countries}
+          </ul>
+        </div>
+        <div
+          className={`${classes["toggle-btn"]} ${
+            isSidebarVisible ? "" : classes.rotated
+          }`}
+          onClick={onListToggleHandler}
+        >
+          <CaretLeft />
+        </div>
+        <LanguageSwitch className={classes["lang-switch"]} />
+      </aside>
+    </Fragment>
   );
 };
 

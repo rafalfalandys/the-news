@@ -6,6 +6,9 @@
   display: grid;
   grid-template-columns: $width-sidebar 1fr;
   grid-template-rows: calc(100vh - $height-header - $height-footer);
-
   margin: auto;
+
+  @media (max-width: $break-phone) {
+    grid-template-columns: 1fr;
+  }
 }

@@ -4,7 +4,24 @@
   height: 100%;
   display: flex;
   padding: $grid-gap;
-  overflow: auto;
+
+  @media (max-width: $break-phone) {
+    position: absolute;
+    z-index: 1;
+    background-color: $color-white;
+    height: 70vh;
+    width: 70vw;
+    max-width: 80vw;
+    border-radius: 0 0 $border-radius 0;
+    padding: $grid-gap-small;
+    transition: all 0.5s;
+  }
+
+  &.hidden {
+    @media (max-width: $break-phone) {
+      transform: translateX(-100%);
+    }
+  }
 }
 
 .sidebar {
@@ -19,6 +36,10 @@
   & h2 {
     font-size: $font-large;
   }
+
+  @media (max-width: $break-phone) {
+    border: none;
+  }
 }
 
 .input {
@@ -30,4 +51,60 @@
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+.overlay {
+  @media (min-width: $break-phone) {
+    display: none;
+  }
+
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: $color-shadow;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(5px);
+  transition: all 0.5s;
+
+  &.hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+}
+
+.toggle-btn {
+  display: none;
+
+  @media (max-width: $break-phone) {
+    position: absolute;
+    top: 70%;
+    right: -7rem;
+    background-color: $color-white;
+    height: 6rem;
+    width: 6rem;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 4px $color-shadow;
+    transition: all 0.5s;
+
+    & svg {
+      height: 75%;
+      width: 75%;
+    }
+
+    &.rotated {
+      transform: rotate(180deg);
+      box-shadow: 0 -4px 4px $color-shadow;
+    }
+  }
+}
+
+.lang-switch {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
 }
