@@ -24,4 +24,7 @@ Zegarek chciałem wziąć z jakiejś biblioteki, ale żaden mi nie pasował, wi�
 2 języki.
 Dwujęzyczność obsługuję trzymając całą prozę interfejsu w dwóch obiektach - pl i en. Custom hook ‘useText’ zajmuje się wybraniem tego odpowiedniego i zasileniem interfejsu w odpowiednie teksty.
 
+RWD.
+Interfejs zachowuje się sensownie aż do tabletowych szerokości ekranu, więc wystarczyło dodać obsługę telefonu. Oprócz zmniejszenia czcionki, zmieniam kilka rzeczy w nagłówku, zmieniam 3 kafelki w rzędzie na 2 i przede wszystkim buduję chowany sidebar, którego stan trzymam w reduxie.
+
 No i to w sumie tyle. Starałem się jak mogłem opisać swój tok myślenia w kodzie. Mam nadzieję, że wszystko będzie tam jasne.
