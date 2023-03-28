@@ -6,7 +6,6 @@ import { uiActions } from "../../store/ui-slice";
 import classes from "./Modal.module.scss";
 
 import Btn from "../UI/Btn";
-import useQuery from "../../hooks/useQuery";
 import useText from "../../hooks/useText";
 
 const Modal: React.FC<{ children: ReactNode }> = (props) => {

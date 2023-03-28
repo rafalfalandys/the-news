@@ -11,6 +11,8 @@ import ArticleCard from "./ArticleCard";
 import classes from "./Main.module.scss";
 import PaginationEl from "./PaginationEl";
 
+import articlesMock from "../../assets/articlesMock.json";
+
 const Main: React.FC = () => {
   const loaderData = useLoaderData() as ArtcilesResObj;
   const isGridView = useSelector((state: RootState) => state.ui.isGridView);
@@ -70,6 +72,7 @@ export const loader: LoaderFunction = async ({ params, request }) => {
     if (!res.ok) throw new Error("Could not fetch news data");
 
     const data: ArtcilesResObj = await res.json();
+
     const resultsNum = queries.results || 20;
     const onScreen =
       data.totalResults <= resultsNum ? data.totalResults : resultsNum;

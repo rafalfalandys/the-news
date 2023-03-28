@@ -3,7 +3,7 @@ import { RootState } from "../../store";
 import { uiActions } from "../../store/ui-slice";
 import classes from "./LanguageSwitch.module.scss";
 
-function LanguageSwitch() {
+const LanguageSwitch: React.FC<{ className?: string }> = (props) => {
   const dispatch = useDispatch();
 
   // get app language state
@@ -13,7 +13,10 @@ function LanguageSwitch() {
   const toggleLanguageHandler = () => dispatch(uiActions.toggleLanguage());
 
   return (
-    <div className={classes.wrapper} onClick={toggleLanguageHandler}>
+    <div
+      className={`${classes.wrapper} ${props.className}`}
+      onClick={toggleLanguageHandler}
+    >
       <div className={`${classes.switch} ${isEnglish ? classes.active : ""}`}>
         <div
           className={`${classes.slider} ${
@@ -23,6 +26,6 @@ function LanguageSwitch() {
       </div>
     </div>
   );
-}
+};
 
 export default LanguageSwitch;

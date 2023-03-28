@@ -15,7 +15,18 @@
 
     & span {
       font-size: $font-medium;
+
+      @media (max-width: $break-phone) {
+        // display: none;
+      }
     }
+
+    // & svg {
+    //   @media (max-width: $break-phone) {
+    //     height: 3rem;
+    //     width: 3rem;
+    //   }
+    // }
   }
 }
 

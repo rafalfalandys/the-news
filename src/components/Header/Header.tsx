@@ -23,8 +23,10 @@ const Header: React.FC = () => {
         <Logo />
         <div className={classes.buttons}>
           {params.countryCode && <ViewSwitch />}
-          <Btn onClick={showPopupHandler}>{text.header.popupBtn}</Btn>
-          <LanguageSwitch />
+          <Btn onClick={showPopupHandler} className={classes["btn-popup"]}>
+            {text.header.popupBtn}
+          </Btn>
+          <LanguageSwitch className={classes["lang-switch"]} />
         </div>
       </header>
     </div>

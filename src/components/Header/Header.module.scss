@@ -28,4 +28,20 @@
   display: flex;
   align-items: center;
   gap: 5rem;
+
+  @media (max-width: $break-phone) {
+    gap: 3rem;
+  }
+}
+
+.lang-switch {
+  @media (max-width: $break-phone) {
+    display: none;
+  }
+}
+
+.menu-icon {
+  @media (min-width: $break-phone) {
+    display: none;
+  }
 }
