@@ -1,0 +1,69 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.wrapper {
+  padding: 3rem 4rem 0 4rem;
+  display: flex;
+  flex-direction: column;
+
+  @media (max-width: $break-phone) {
+    padding: 0;
+  }
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+
+  @media (max-width: $break-phone) {
+    flex-direction: column-reverse;
+  }
+
+  & .text {
+    & h2 {
+      color: $color-base;
+      font-size: $font-medium;
+    }
+
+    & h3 {
+      font-size: $font-medium;
+    }
+
+    @media (max-width: $break-phone) {
+      padding: 2rem;
+    }
+  }
+
+  & figure {
+    max-width: 40%;
+    max-height: 25vh;
+    border-radius: $border-radius-small;
+    overflow: hidden;
+
+    & img {
+      object-fit: contain;
+      width: 100%;
+      height: 100%;
+    }
+
+    @media (max-width: $break-phone) {
+      width: 100%;
+      max-width: 100%;
+      border-radius: 0;
+    }
+  }
+}
+
+.content {
+  padding-top: 2.5rem;
+  align-self: flex-start;
+
+  & a {
+    & h3 {
+      display: inline;
+    }
+  }
+  @media (max-width: $break-phone) {
+    padding: 2rem;
+  }
+}

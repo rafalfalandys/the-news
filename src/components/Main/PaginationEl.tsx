@@ -1,4 +1,4 @@
-import classes from "./PaginationEl.module.scss";
+import "./PaginationEl.scss"; // css modules is unable to override antd styling so I use scss in this component
 import { Pagination } from "antd";
 import {
   useLoaderData,
@@ -39,9 +39,9 @@ const PaginationEl: React.FC = () => {
       onChange={changePagination}
       defaultPageSize={20}
       pageSize={queries.results}
-      className={classes.pagination}
       pageSizeOptions={[10, 20, 50]}
       showSizeChanger={true}
+      responsive={true}
     />
   );
 };

@@ -9,6 +9,7 @@
   margin: auto;
 
   @media (max-width: $break-phone) {
+    grid-template-rows: auto;
     grid-template-columns: 1fr;
   }
 }

@@ -1,27 +1,23 @@
 @import "../../styles/variables";
-
-.overlay {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background-color: $color-shadow;
-  z-index: 2;
-  backdrop-filter: blur(5px);
-}
+@import "../../styles/animations";
 
 .wrapper {
   z-index: 3;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 60%;
+  max-width: calc($width-main - 3rem);
+
+  @media (max-width: $break-phone) {
+    width: 80%;
+  }
 }
 
 .modal {
   background-color: $color-white;
-  padding: 2rem 5rem;
+  overflow: hidden;
   border-radius: $border-radius;
   font-size: $font-medium;
   display: flex;
@@ -45,5 +41,14 @@
 
   & button {
     align-self: flex-end;
+    margin: 2rem 3rem;
   }
+}
+
+.showing {
+  animation: show 0.4s;
+}
+
+.hiding {
+  animation: hide 0.4s;
 }

@@ -32,6 +32,7 @@ export type TextObj = {
   };
   articleDetails: {
     link: string;
+    author: string;
   };
   modal: {
     btnClose: string;
@@ -46,7 +47,7 @@ export const textsEnglish: TextObj = {
   header: {
     logo: "The News",
     popupBtn: "Popup",
-    viewSwitch: { list: "List View", grid: "Grid View" },
+    viewSwitch: { list: "List", grid: "Tiles" },
   },
   sideBar: {
     header: "News From:",
@@ -76,7 +77,8 @@ export const textsEnglish: TextObj = {
     textPros: "When I finally found the right ones!",
   },
   articleDetails: {
-    link: "Link",
+    link: "Go to page",
+    author: "Author:",
   },
   modal: {
     btnClose: "Close",
@@ -120,7 +122,8 @@ export const textsPolish: TextObj = {
     textPros: "Nareszcie zaczęły działać!",
   },
   articleDetails: {
-    link: "Link",
+    link: "Zobacz detale",
+    author: "Autor:",
   },
   modal: {
     btnClose: "Zamknij",

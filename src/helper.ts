@@ -2,10 +2,14 @@ import { TextObj } from "./assets/texts";
 import { AVAILABLE_COUNTRIES } from "./config";
 import { Country, QueryObj } from "./types";
 
+////////////////////////////////////////////////////////
+///////////////////// URL QUERIES //////////////////////
+
 // build query from article titile to get proper modal window
 export const buildArticleQuery = (string: string) =>
-  string.trim().toLowerCase().replace(/\W/g, "-").slice(0, 20).trim();
+  encodeURI(string.trim().toLowerCase().slice(0, 20).trim());
 
+// build an object with query params from URL
 export const buildQueryParams = (str: string) => {
   const query: string[] = str.split("?");
   query.shift();
@@ -19,6 +23,10 @@ export const buildQueryParams = (str: string) => {
   return queryObj;
 };
 
+////////////////////////////////////////////////////////
+///////////////// SIDEBAR - COUNTRIES //////////////////
+
+// from list of 250 countries filter ones available in news API
 export const filterCountries = (arr: Country[]) => {
   return arr.filter((country: Country) =>
     AVAILABLE_COUNTRIES.map(
@@ -26,6 +34,24 @@ export const filterCountries = (arr: Country[]) => {
     ).reduce((acc, cur) => acc || cur)
   );
 };
+
+// sort countries alphabetically and bring Poland on top
+export const sortCountries: (a: string, b: string) => number = (a, b) => {
+  if (a.includes("Pol")) return -1;
+  if (b.includes("Pol")) return 1;
+  if (a < b) return -1;
+  if (a > b) return 1;
+  else return 0;
+};
+
+// filtering countries by search query
+export const searchCountries: (name: string, query: string) => boolean = (
+  name,
+  query
+) => name.toLowerCase().includes(query.toLowerCase().trim());
+
+////////////////////////////////////////////////////////
+//////////////////////// OTHER /////////////////////////
 
 // generate date or today / yesterday msg
 export const buildDate: (
@@ -50,18 +76,4 @@ export const buildDate: (
   };
 
   return calcTime();
-};
-
-// filtering countries by search query
-export const searchCountries: (name: string, query: string) => boolean = (
-  name,
-  query
-) => name.toLowerCase().includes(query.toLowerCase().trim());
-
-export const sortCountries: (a: string, b: string) => number = (a, b) => {
-  if (a.includes("Pol")) return -1;
-  if (b.includes("Pol")) return 1;
-  if (a < b) return -1;
-  if (a > b) return 1;
-  else return 0;
 };

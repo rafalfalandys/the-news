@@ -1,12 +1,16 @@
 @import "../../styles/variables";
 
 .wrapper {
-  margin: 5rem auto;
+  margin: auto;
   width: 100%;
+
+  @media (max-width: $break-phone) {
+    min-height: calc(100vh - $height-footer - $height-header);
+  }
 }
 
 .form {
-  margin: 0 auto;
+  margin: 5rem auto;
   display: flex;
   gap: 2rem;
   flex-direction: column;

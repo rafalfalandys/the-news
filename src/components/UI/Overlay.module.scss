@@ -1,4 +1,5 @@
 @import "../../styles/variables";
+@import "../../styles/animations";
 
 .overlay {
   position: fixed;
@@ -7,6 +8,14 @@
   top: 0;
   left: 0;
   background-color: $color-shadow;
-  z-index: 2;
+  z-index: 3;
   backdrop-filter: blur(5px);
+}
+
+.showing {
+  animation: show 0.4s;
+}
+
+.hiding {
+  animation: hide 0.4s;
 }

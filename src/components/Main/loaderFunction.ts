@@ -1,43 +1,35 @@
 import { LoaderFunction } from "react-router-dom";
+import { API_KEY, NEWS_URL } from "../../config";
 import { buildQueryParams } from "../../helper";
 import { ArtcilesResObj, QueryObj } from "../../types";
 import { uiActions } from "../../store/ui-slice";
 import store from "../../store";
-import articlesMock from "../../assets/articlesMock.json";
 
 //////////////////////////////////////////////////////////
 /////////////////////// THE ENGINE ///////////////////////
-//////////////////////////////////////////////////////////
 
 export const loader: LoaderFunction = async ({ params, request }) => {
   try {
     const { keyword, results, page }: QueryObj = buildQueryParams(request.url);
     const { countryCode } = params;
 
-    // // if param = 'all', fetch random artciles. If param = country code fetch only articles for this country
-    // const fetchUrl =
-    //   NEWS_URL +
-    //   (countryCode === "all"
-    //     ? `everything?q=${keyword}&pageSize=${results}&page=${page}`
-    //     : `top-headlines?country=${countryCode}&pageSize=${results}&page=${page}`);
+    // if param = 'all', fetch random artciles. If param = country code fetch only articles for this country
+    const fetchUrl =
+      NEWS_URL +
+      (countryCode === "all"
+        ? `everything?q=${keyword}&pageSize=${results}&page=${page}`
+        : `top-headlines?country=${countryCode}&pageSize=${results}&page=${page}`);
 
-    // const res = await fetch(fetchUrl, {
-    //   method: "GET",
-    //   headers: {
-    //     "X-Api-Key": `${API_KEY}`,
-    //   },
-    // });
+    const res = await fetch(fetchUrl, {
+      method: "GET",
+      headers: {
+        "X-Api-Key": `${API_KEY}`,
+      },
+    });
 
-    // if (!res.ok) throw new Error("Could not fetch news data");
-    // const data: ArtcilesResObj = await res.json();
+    if (!res.ok) throw new Error("Could not fetch news data");
 
-    // hold 1s to fake fetching
-    const delay = () => new Promise((resolve) => setTimeout(resolve, 700));
-    await delay();
-
-    const randomDigit = Math.floor(Math.random() * 10); // picking random article list from 10 mock objects
-    const data: ArtcilesResObj =
-      countryCode === "all" ? articlesMock[0] : articlesMock[randomDigit];
+    const data: ArtcilesResObj = await res.json();
 
     // amount of articles to display in footer
     const resultsNum = results || 20;
@@ -52,13 +44,7 @@ export const loader: LoaderFunction = async ({ params, request }) => {
       })
     );
 
-    const trimData: ArtcilesResObj = {
-      totalResults: data.totalResults,
-      status: data.status,
-      articles: data.articles.slice(0, results),
-    };
-
-    return trimData;
+    return data;
   } catch (error) {
     console.log(error);
     return error;

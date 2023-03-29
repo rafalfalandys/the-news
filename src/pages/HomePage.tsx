@@ -6,8 +6,6 @@ import Sidebar from "../components/Sidebar/Sidebar";
 import Footer from "../components/Footer/Footer";
 import SearchArticles from "../components/Main/SearchArticles";
 import PopupWindow from "../components/Popup/Popup";
-import { useSelector } from "react-redux";
-import { RootState } from "../store";
 import LoadingSpinner from "../components/UI/LoadingSpinner";
 
 const HomePage: React.FC = () => {
@@ -15,9 +13,6 @@ const HomePage: React.FC = () => {
   const location = useLocation();
   const navigation = useNavigation();
   const isLoading = navigation.state === "loading";
-  const isModalVisible = useSelector(
-    (state: RootState) => state.ui.isModalVisible
-  );
 
   return (
     <div className={classes.wrapper}>
@@ -30,7 +25,7 @@ const HomePage: React.FC = () => {
         {isLoading && <LoadingSpinner />}
       </div>
       <Footer />
-      {isModalVisible && <PopupWindow />}
+      <PopupWindow />
     </div>
   );
 };

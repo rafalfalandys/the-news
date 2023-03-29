@@ -1,4 +1,5 @@
 import { CaretLeft } from "@phosphor-icons/react";
+import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../store";
 import { uiActions } from "../../store/ui-slice";
@@ -11,6 +12,12 @@ const ToggleSidebarBtn = () => {
   ); // handling sidebar visibility on phones
 
   const onListToggleHandler = () => dispatch(uiActions.toggleSidebar());
+
+  // disabling background scroll while modal window is open
+  useEffect(() => {
+    if (isSidebarVisible) document.body.style.overflow = "hidden";
+    if (!isSidebarVisible) document.body.style.overflow = "unset";
+  }, [isSidebarVisible]);
 
   return (
     <div

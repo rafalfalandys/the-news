@@ -13,6 +13,8 @@ import LanguageSwitch from "../Header/LanguageSwitch";
 import Input from "antd/es/input/Input";
 import useText from "../../hooks/useText";
 import ToggleSidebarBtn from "./ToggleSidebarBtn";
+import Overlay from "../UI/Overlay";
+import { Transition } from "react-transition-group";
 
 const Sidebar: React.FC = () => {
   const text = useText();
@@ -55,12 +57,11 @@ const Sidebar: React.FC = () => {
   return (
     <Fragment>
       {/* overlay for RWD: */}
-      <div
-        className={`${classes.overlay} ${
-          isSidebarVisible ? "" : classes.hidden
-        }`}
+      <Overlay
         onClick={onListToggleHandler}
-      ></div>
+        showState={isSidebarVisible}
+        className={classes.overlay}
+      />
 
       {/* Sidebar: */}
       <aside

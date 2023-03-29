@@ -1,14 +1,18 @@
 import classes from "./Modal.module.scss";
 import { Fragment, ReactNode } from "react";
 import { createPortal } from "react-dom";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { uiActions } from "../../store/ui-slice";
 
 import useText from "../../hooks/useText";
-import Btn from "../UI/Btn";
+import Btn from "./Btn";
+import Overlay from "./Overlay";
+import { CSSTransition, Transition } from "react-transition-group";
 
-const Modal: React.FC<{ children: ReactNode }> = (props) => {
+const Modal: React.FC<{ children: ReactNode; isVisible: boolean }> = (
+  props
+) => {
   const portalEl = document.getElementById("overlays")!;
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -21,19 +25,36 @@ const Modal: React.FC<{ children: ReactNode }> = (props) => {
     if (params.articleDetails) navigate(-1);
   };
 
-  const popup = (
+  const modal = (
     <Fragment>
-      <div className={classes.overlay} onClick={hideModalHandler}></div>
-      <div className={classes.wrapper}>
-        <div className={classes.modal}>
-          {props.children}
-          <Btn onClick={hideModalHandler}>{text.modal.btnClose}</Btn>
-        </div>
-      </div>
+      <Overlay onClick={hideModalHandler} showState={props.isVisible} />
+      <CSSTransition
+        in={props.isVisible}
+        timeout={400}
+        mountOnEnter
+        unmountOnExit
+        classNames={{
+          enter: "",
+          enterActive: classes.showing,
+          exit: "",
+          exitActive: classes.hiding,
+          appear: "",
+          appearActive: classes.showing,
+        }}
+      >
+        <Fragment>
+          <div className={classes.wrapper}>
+            <div className={classes.modal}>
+              {props.children}
+              <Btn onClick={hideModalHandler}>{text.modal.btnClose}</Btn>
+            </div>
+          </div>
+        </Fragment>
+      </CSSTransition>
     </Fragment>
   );
 
-  return <Fragment>{createPortal(popup, portalEl)}</Fragment>;
+  return <Fragment>{createPortal(modal, portalEl)}</Fragment>;
 };
 
 export default Modal;
