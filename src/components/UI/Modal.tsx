@@ -1,14 +1,14 @@
 import classes from "./Modal.module.scss";
 import { Fragment, ReactNode } from "react";
 import { createPortal } from "react-dom";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
 import { uiActions } from "../../store/ui-slice";
 
 import useText from "../../hooks/useText";
 import Btn from "./Btn";
 import Overlay from "./Overlay";
-import { CSSTransition, Transition } from "react-transition-group";
+import { CSSTransition } from "react-transition-group";
 
 const Modal: React.FC<{ children: ReactNode; isVisible: boolean }> = (
   props

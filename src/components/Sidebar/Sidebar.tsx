@@ -14,7 +14,6 @@ import Input from "antd/es/input/Input";
 import useText from "../../hooks/useText";
 import ToggleSidebarBtn from "./ToggleSidebarBtn";
 import Overlay from "../UI/Overlay";
-import { Transition } from "react-transition-group";
 
 const Sidebar: React.FC = () => {
   const text = useText();
