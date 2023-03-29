@@ -1,6 +1,6 @@
 import { LoaderFunction } from "react-router-dom";
 import { buildQueryParams } from "../../helper";
-import { QueryObj } from "../../types";
+import { ArtcilesResObj, QueryObj } from "../../types";
 import { uiActions } from "../../store/ui-slice";
 import store from "../../store";
 import articlesMock from "../../assets/articlesMock.json";
@@ -32,11 +32,11 @@ export const loader: LoaderFunction = async ({ params, request }) => {
     // const data: ArtcilesResObj = await res.json();
 
     // hold 1s to fake fetching
-    const delay = () => new Promise((resolve) => setTimeout(resolve, 1000));
+    const delay = () => new Promise((resolve) => setTimeout(resolve, 700));
     await delay();
 
     const randomDigit = Math.floor(Math.random() * 10); // picking random article list from 10 mock objects
-    const data =
+    const data: ArtcilesResObj =
       countryCode === "all" ? articlesMock[0] : articlesMock[randomDigit];
 
     // amount of articles to display in footer
@@ -52,7 +52,13 @@ export const loader: LoaderFunction = async ({ params, request }) => {
       })
     );
 
-    return data;
+    const trimData: ArtcilesResObj = {
+      totalResults: data.totalResults,
+      status: data.status,
+      articles: data.articles.slice(0, results),
+    };
+
+    return trimData;
   } catch (error) {
     console.log(error);
     return error;

@@ -1,12 +1,12 @@
 export type Article = {
-  author: string;
-  content: string;
-  description: string;
+  author: string | null;
+  content: string | null;
+  description: string | null;
   publishedAt: string;
-  source: { id: any; name: string };
+  source: { id: any; name: string | null };
   title: string;
   url: string;
-  urlToImage: string;
+  urlToImage: string | null;
 };
 
 export type ArtcilesResObj = {

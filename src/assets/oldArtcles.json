@@ -1,0 +1,2396 @@
+[
+  {
+    "status": "ok",
+    "totalResults": 38,
+    "articles": [
+      {
+        "source": {
+          "id": null,
+          "name": "Investor's Business Daily"
+        },
+        "author": "Investor's Business Daily",
+        "title": "Dow Jones Futures Rise On Silicon Valley Bank Purchase; First Republic Soars 25% - Investor's Business Daily",
+        "description": null,
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-rise-on-silicon-valley-bank-purchase-first-republic-soars/",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T12:05:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "reuters",
+          "name": "Reuters"
+        },
+        "author": null,
+        "title": "Largest strike in decades brings Germany to a standstill - Reuters.com",
+        "description": "Airports and bus and train stations across Germany were at a standstill on Monday, causing disruption for millions at the start of the working week during one of the largest walkouts in decades as Europe's biggest economy reels from inflation.",
+        "url": "https://www.reuters.com/world/europe/largest-strike-decades-leaves-germany-standstill-2023-03-27/",
+        "urlToImage": "https://www.reuters.com/resizer/JTukbZSCQvT4i0ffT99N4LRMXfA=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/4A73DMI2VJNG3A3RJQ5YF5HXOM.jpg",
+        "publishedAt": "2023-03-27T11:25:00Z",
+        "content": "BERLIN/FRANKFURT, March 27 (Reuters) - Airports and bus and train stations across Germany were at a standstill on Monday, causing disruption for millions at the start of the working week during one o… [+5313 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CNBC"
+        },
+        "author": "Mike Calia",
+        "title": "5 things to know before the stock market opens Monday - CNBC",
+        "description": "Here are the most important news items that investors need to start their trading day.",
+        "url": "https://www.cnbc.com/2023/03/27/5-things-to-know-before-the-stock-market-opens-monday-march-27.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/107214097-16795844972023-03-23t151150z_577687682_rc2pzz9swmbl_rtrmadp_0_usa-stocks.jpeg?v=1679916021&w=1920&h=1080",
+        "publishedAt": "2023-03-27T11:20:21Z",
+        "content": "A Specialist trader works inside a booth on the floor of the New York Stock Exchange (NYSE) in New York City, March 23, 2023.\r\nHere are the most important news items that investors need to start thei… [+4475 chars]"
+      },
+      {
+        "source": {
+          "id": "usa-today",
+          "name": "USA Today"
+        },
+        "author": "Paul Myerberg",
+        "title": "Final Four breakdown: Analyzing Connecticut, Miami, San Diego State and Florida Atlantic - USA TODAY",
+        "description": "The Final Four of the NCAA men's tournament is set. A breakdown of the quartet that will head to Houston in search of winning a national title.",
+        "url": "https://www.usatoday.com/story/sports/ncaab/2023/03/27/final-four-analysis-uconn-miami-san-diego-state-florida-atlantic/11546374002/",
+        "urlToImage": "https://www.gannett-cdn.com/presto/2023/03/25/USAT/08015c3c-e87f-499f-bd77-e5853850e974-SDSU.jpg?crop=3976,2237,x403,y226&width=3200&height=1801&format=pjpg&auto=webp",
+        "publishedAt": "2023-03-27T11:12:56Z",
+        "content": "Meet your 2023 NCAA men's basketball tournament Final Four:\r\nNo. 4 Connecticut rolled through the West Regional, capping this torrid run with an 82-54 destruction of No. 3 Gonzaga. The Huskies are ba… [+6729 chars]"
+      },
+      {
+        "source": {
+          "id": "cnn",
+          "name": "CNN"
+        },
+        "author": "Lauren Said-Moorhouse, Max Foster",
+        "title": "Prince Harry back in London for UK High Court fight - CNN",
+        "description": "Britain's Prince Harry has arrived at London's High Court to attend a hearing in his claim against Associated Newspapers Limited over allegations of unlawful information gathering.",
+        "url": "https://www.cnn.com/2023/03/27/uk/prince-harry-court-intl/index.html",
+        "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230327103821-01-prince-harry-court-london-032723.jpg?c=16x9&q=w_800,c_fill",
+        "publishedAt": "2023-03-27T11:10:00Z",
+        "content": "Britains Prince Harry has arrived at Londons High Court to attend a hearing in his claim against Associated Newspapers Limited over allegations of unlawful information gathering.\r\nThe Duke of Sussex … [+2861 chars]"
+      },
+      {
+        "source": {
+          "id": "wired",
+          "name": "Wired"
+        },
+        "author": "Paresh Dave",
+        "title": "ChatGPT Opened a New Era in Search. Microsoft Could Ruin It - WIRED",
+        "description": "Startups say Microsoft and its Bing chatbot—not just Google—are stifling competition when it comes to creating better search engines.",
+        "url": "https://www.wired.com/story/chatgpt-opened-a-new-era-in-search-microsoft-could-ruin-it/",
+        "urlToImage": "https://media.wired.com/photos/641ccfdc7ed2d3b740a47b0c/191:100/w_1280,c_limit/business-microsoft-bing-search-engines.jpg",
+        "publishedAt": "2023-03-27T11:00:00Z",
+        "content": "Ecosia, which uses Bing results and invests its profits in environmental projects, is considering potential partners to develop its own chatbot. Its leaders would be eager to license Bings chatbot te… [+3777 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "mlive.com"
+        },
+        "author": "Andrew Kahn | akahn1@mlive.com",
+        "title": "Former longtime Michigan basketball assistant reaches Final Four - MLive.com",
+        "description": "Former Michigan assistant Brian Dutcher leads San Diego State to Final Four",
+        "url": "https://www.mlive.com/wolverines/2023/03/former-longtime-michigan-basketball-assistant-reaches-final-four.html",
+        "urlToImage": "https://www.mlive.com/resizer/4Eok1QsfHPlfdc5B7Pe0Lk0omBg=/1280x0/smart/cloudfront-us-east-1.images.arcpublishing.com/advancelocal/HMBLZGBAVBBSDM775U2CQTAN5I.jpeg",
+        "publishedAt": "2023-03-27T10:52:00Z",
+        "content": "Brian Dutcher went to the Final Four three times at Michigan. Now hes going with San Diego State.\r\nThe Aztecs beat Creighton on Sunday, 57-56, to reach the Final Four for the first time in program hi… [+2033 chars]"
+      },
+      {
+        "source": {
+          "id": "the-washington-post",
+          "name": "The Washington Post"
+        },
+        "author": "Todd Frankel, Shawn Boburg, Josh Dawsey, Ashley Parker, Alex Horton",
+        "title": "How the AR-15 became a powerful political, cultural symbol in America - The Washington Post",
+        "description": "The AR-15 wasn’t supposed to be a best-seller. It's the result of a dramatic shift in American gun culture fueled by the firearms industry and its allies.",
+        "url": "https://www.washingtonpost.com/nation/interactive/2023/ar-15-america-gun-culture-politics/",
+        "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/C6JQYJKFYNG45A76DSW4MKPBSA.jpg&w=1200",
+        "publishedAt": "2023-03-27T10:04:11Z",
+        "content": "A series examining the AR-15, a weapon with a singular hold on a divided nation\r\nAbout the terminology  \r\nColt acquired the AR-15 patent and trademark from Armalite in 1959. The patent expired, leavi… [+50510 chars]"
+      },
+      {
+        "source": {
+          "id": "fox-news",
+          "name": "Fox News"
+        },
+        "author": "Ryan Gaydos",
+        "title": "Iowa's Caitlin Clark sets record with 41-point triple-double, hits John Cena taunt - Fox News",
+        "description": "Caitlin Clark scored 41 points in a historic March Madness performance for Iowa. The Hawkeyes defeated Louisville 97-83 to move onto the Final Four.",
+        "url": "https://www.foxnews.com/sports/iowas-caitlin-clark-sets-record-41-point-triple-double-hits-john-cena-taunt",
+        "urlToImage": "https://static.foxnews.com/foxnews.com/content/uploads/2023/03/Caitlin-Clark.jpg",
+        "publishedAt": "2023-03-27T10:04:00Z",
+        "content": "Caitlin Clark had the performance of a lifetime and let her opponents know about it Sunday night as Iowa topped Louisville 97-83 to advance to the Womens Final Four for the second time in school hist… [+2188 chars]"
+      },
+      {
+        "source": {
+          "id": "the-hill",
+          "name": "The Hill"
+        },
+        "author": "Rebecca Beitsch, Rafael Bernal",
+        "title": "As US fentanyl deaths jump, GOP casts blame at the border - The Hill",
+        "description": "Editor’s note: The first part of a 2-part series on the politicization of fentanyl overdoses. The Republican takeover of the House shifted congressional oversight of the border, with GOP lawmakers using their new powers in efforts to link the fentanyl crisis …",
+        "url": "https://thehill.com/latino/3915276-as-u-s-fentanyl-deaths-jump-gop-casts-blame-at-the-border/",
+        "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2023/03/usmexicoborder_032723getty.jpg?w=1280",
+        "publishedAt": "2023-03-27T10:00:00Z",
+        "content": "Skip to content\r\nEditor’s note: The first part of a 2-part series on the politicization of fentanyl overdoses.\r\nThe Republican takeover of the House shifted congressional oversight of the border, wit… [+10262 chars]"
+      },
+      {
+        "source": {
+          "id": "the-washington-post",
+          "name": "The Washington Post"
+        },
+        "author": "Bryan Pietsch, Jennifer Hassan",
+        "title": "Ukraine live briefing: Russia says Western sanctions won't stop it from moving tactical nuclear weapons to Belarus - The Washington Post",
+        "description": "E.U. foreign policy chief Josep Borrell threatened sanctions after Russia's Vladimir Putin announced that Belarus would host Russian tactical nuclear weapons.",
+        "url": "https://www.washingtonpost.com/world/2023/03/27/russia-ukraine-war-news-belarus/",
+        "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/FWCXLFIV7PETTKOGQNTHFPXNRA_size-normalized.jpg&w=1440",
+        "publishedAt": "2023-03-27T09:50:00Z",
+        "content": "Western sanctions will not affect Moscows plans to move tactical nuclear weapons into Belarus, the Kremlin said Monday. The European Union has threatened to impose sanctions on Belarus after Russia a… [+4078 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "CNBC"
+        },
+        "author": "Natasha Turak, Ruxandra Iordache",
+        "title": "Netanyahu survives no-confidence vote as angry protests, strikes paralyze Israel over judicial reforms - CNBC",
+        "description": "Mass protests have erupted in Israel in recent months over controversial judicial reforms pushed by Prime Minister Benjamin Netanyahu's government.",
+        "url": "https://www.cnbc.com/2023/03/27/angry-protests-strikes-paralyse-israel-as-netanyahu-resists-pausing-widely-hated-judicial-reforms.html",
+        "urlToImage": "https://image.cnbcfm.com/api/v1/image/107215332-1679898229258-gettyimages-1249570856-AA_27032023_1129597.jpeg?v=1679906884&w=1920&h=1080",
+        "publishedAt": "2023-03-27T08:48:04Z",
+        "content": "The government of Israeli Prime Minister Benjamin Netanyahu survived a no-confidence vote in the Knesset, the country's parliament, amid what is possibly the largest wave of demonstrations in Israel'… [+4499 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "SciTechDaily"
+        },
+        "author": null,
+        "title": "Interplanetary Weather Observer: Hubble Spies Spectacular Changing Seasons at Jupiter and Uranus - SciTechDaily",
+        "description": "Forecast for Blustery Winds, Smoggy Hazes The outer planets beyond Mars do not have solid surfaces to affect weather as on Earth. And, sunlight is much less able to drive atmospheric circulation. Nevertheless, these are ever-changing worlds. And Hubble – as i…",
+        "url": "https://scitechdaily.com/?p=264005",
+        "urlToImage": "https://scitechdaily.com/images/Hubble-Jupiter-November-2022.jpg",
+        "publishedAt": "2023-03-27T08:29:39Z",
+        "content": "BySpace Telescope Science InstituteMarch 27, 2023\r\nIn this captivating image, Jupiters vibrant cloud tops are interrupted by the orange-hued moon Io, casting a shadow towards the planets western edge… [+11316 chars]"
+      },
+      {
+        "source": {
+          "id": "cnn",
+          "name": "CNN"
+        },
+        "author": "Elizabeth Wolfe, Rob Shackelford",
+        "title": "Southeast to be hit with another round of severe weather after weekend tornadoes and storms killed dozens across the region - CNN",
+        "description": "Another round of severe thunderstorms may bring damaging winds and large hail to portions of the Southeast on Monday as some communities across the region are already working to rebuild following a weekend of intense storms and scattered tornadoes that left 2…",
+        "url": "https://www.cnn.com/2023/03/27/weather/southeast-severe-storms-weather-monday/index.html",
+        "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230327111026-03-mississippi-weather-0326.jpg?c=16x9&q=w_800,c_fill",
+        "publishedAt": "2023-03-27T08:23:00Z",
+        "content": "Another round of severe thunderstorms may bring damaging winds and large hail to portions of the Southeast on Monday as some communities across the region are already working to rebuild following a w… [+5394 chars]"
+      },
+      {
+        "source": {
+          "id": "business-insider",
+          "name": "Business Insider"
+        },
+        "author": "Ed Zitron",
+        "title": "Tech companies are ruining their apps, websites, internet - Business Insider",
+        "description": "Google, Amazon, and Meta are making their core products worse and ruining everything from apps to the internet.",
+        "url": "https://www.businessinsider.com/tech-companies-ruining-apps-websites-internet-worse-google-facebook-amazon-2023-3",
+        "urlToImage": "https://i.insider.com/641e1ba1c60a3d00184ef2e0?width=1200&format=jpeg",
+        "publishedAt": "2023-03-27T07:03:00Z",
+        "content": "In recent years, Google users have developed one very specific complaint about the ubiquitous search engine: They can't find any answers. A simple search for \"best pc for gaming\" leads to a page domi… [+12072 chars]"
+      },
+      {
+        "source": {
+          "id": "axios",
+          "name": "Axios"
+        },
+        "author": "Barak Ravid",
+        "title": "Netanyahu to suspend Israeli judicial overhaul plan after protests - Axios",
+        "description": "The overhaul has in the past 3 months led to an unprecedented political and social crisis in Israel, and destabalized its economy.",
+        "url": "https://www.axios.com/2023/03/27/netanyahu-israeli-judicial-overhaul-suspend-protests",
+        "urlToImage": "https://images.axios.com/AT-zue6DOJC-hzw5f-ClRz5EoGA=/0x0:4100x2306/1366x768/2023/03/27/1679897779389.jpg",
+        "publishedAt": "2023-03-27T06:46:33Z",
+        "content": "Israeli Prime Minister Benjamin Netanyahu is expected to announce Monday that he is suspending his coalition's judicial overhaul legislation after a night of mass protests and the announcement of a g… [+2834 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "New York Post"
+        },
+        "author": "Fox News",
+        "title": "Pennsylvania chocolate factory explosion kills seven after two more bodies found - New York Post ",
+        "description": "Earlier in the day, a fifth body was pulled from the rubble, after authorities initially confirmed four people were dead, and another three were still missing.",
+        "url": "https://nypost.com/2023/03/27/pennsylvania-chocolate-factory-explosion-kills-seven-after-two-more-bodies-found/",
+        "urlToImage": "https://nypost.com/wp-content/uploads/sites/2/2023/03/newspress-collage-26306248-1679894597881.jpg?quality=75&strip=all&1679880261&w=1024",
+        "publishedAt": "2023-03-27T05:44:00Z",
+        "content": "More bodies have been found as emergency crews continue to survey the site of the R.M. chocolate factory in Berks County, Pennsylvania, bringing the number of fatalities from Friday evenings explosio… [+3391 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "BBC News"
+        },
+        "author": "https://www.facebook.com/bbcnews",
+        "title": "Elon Musk: Twitter says parts of source code leaked online - BBC",
+        "description": "Elon Musk has also reportedly indicated Twitter is now worth less than half the amount he paid for it.",
+        "url": "https://www.bbc.com/news/business-65084254",
+        "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/27D3/production/_129159101_d2b2937db5c22ac971a0070ea3f8b8bbd271781f.jpg",
+        "publishedAt": "2023-03-27T05:07:47Z",
+        "content": "Parts of the source code which underpins multi-billionaire Elon Musk's social media platform have been leaked online, Twitter says.\r\nIt says the code was posted on GitHub, a Microsoft-owned service w… [+1703 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Hollywood Reporter"
+        },
+        "author": "Rick Porter",
+        "title": "‘Succession’: Sarah Snook, Matthew Macfadyen Break Down a Tragic Non-Confrontation - Hollywood Reporter",
+        "description": "The two actors discuss Shiv and Tom's emotional scene together in the season four premiere.",
+        "url": "https://www.hollywoodreporter.com/tv/tv-news/succession-season-4-episode-1-shiv-tom-1235360644/",
+        "urlToImage": "https://www.hollywoodreporter.com/wp-content/uploads/2023/03/sarah-snook-H-2023.jpg?w=1024",
+        "publishedAt": "2023-03-27T05:00:32Z",
+        "content": "[This story contains spoilers for the fourth season premiere of Succession on HBO.]\r\nMost of Sunday’s Succession premiere was taken up by a bidding war between media mogul Logan Roy (Brian Cox) and h… [+3100 chars]"
+      },
+      {
+        "source": {
+          "id": null,
+          "name": "Fort Worth Star-Telegram"
+        },
+        "author": "James Hartley",
+        "title": "Family of missing 6-year-old left Texas on international flight before Amber Alert issued - Fort Worth Star-Telegram",
+        "description": "Family of Noel Rodriguez-Alvarez, a missing 6-year-old from Everman TX, left the U.S. on a Turkish Airways flight 2 days before Amber Alert.",
+        "url": "https://www.star-telegram.com/news/local/crime/article273616410.html",
+        "urlToImage": "https://www.star-telegram.com/latest-news/h2x4u0/picture273616495/alternates/LANDSCAPE_1140/noe_fitted.jpeg",
+        "publishedAt": "2023-03-27T03:38:30Z",
+        "content": "The family of a 6-year-old boy missing since November left the U.S. on a Turkish Airways flight without him just two days before an Amber Alert was issued, Everman police said at a news conference Su… [+3911 chars]"
+      }
+    ]
+  },
+  {
+    "status": "ok",
+    "totalResults": 30,
+    "articles": [
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "next.gazeta.pl",
+        "title": "Zakaz sprzedaży aut spalinowych w Europie coraz bliżej. UE osiągnęła porozumienie. Polska przeciwna - next.gazeta.pl",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMidmh0dHBzOi8vbmV4dC5nYXpldGEucGwvbmV4dC83LDE1MTAwMywyOTYwMjQ0Nix6YWthei1zcHJ6ZWRhenktYXV0LXNwYWxpbm93eWNoLXctZXVyb3BpZS1jb3Jhei1ibGl6ZWotdWUtb3NpYWduZWxhLmh0bWzSAXVodHRwczovL25leHQuZ2F6ZXRhLnBsL25leHQvNywxNTEwMDMsMjk2MDI0NDYsemFrYXotc3ByemVkYXp5LWF1dC1zcGFsaW5vd3ljaC13LWV1cm9waWUtY29yYXotYmxpemVqLXVlLW9zaWFnbmVsYS5hbXA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T12:20:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Onet",
+        "title": "Wróciła sprawa \"dziadka z Wehrmachtu\". Tusk w specjalnym nagraniu: prawdy nikt mi nie odbierze - Onet",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMifmh0dHBzOi8vd3d3Lm9uZXQucGwvaW5mb3JtYWNqZS9vbmV0d2lhZG9tb3NjaS90dXNrLXdzcG9taW5hLXN3b2plZ28tZHppYWRrYS1wcmF3ZHktby1uaW0tbmlrdC1taS1uaWUtb2RiaWVyemUveHR5Mjd4Nyw3OWNmYzI3ONIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T12:14:57Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "wiadomosci.gazeta.pl",
+        "title": "Błażej Kmieciak podał się do dymisji. Nie będzie już szefem Państwowej Komisji ds. Pedofilii - wiadomosci.gazeta.pl",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMieWh0dHBzOi8vd2lhZG9tb3NjaS5nYXpldGEucGwvd2lhZG9tb3NjaS83LDExNDg4MywyOTYwMjM5NCxibGF6ZWota21pZWNpYWstcG9kYWwtc2llLWRvLWR5bWlzamktbmllLWJlZHppZS1qdXotc3plZmVtLmh0bWzSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:55:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Wiadomości - Onet",
+        "title": "Morawiecki zapowiada specjalny wieloletni program. Ma wspierać produkcję amunicji - Wiadomości - Onet",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMibWh0dHBzOi8vd2lhZG9tb3NjaS5vbmV0LnBsL2tyYWovbW9yYXdpZWNraS16YXBvd2lhZGEtc3BlY2phbG55LXByb2dyYW0tbWEtd3NwaWVyYWMtcHJvZHVrY2plLWFtdW5pY2ppLzdwbTJuMGzSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:40:47Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "BusinessInsider",
+        "title": "Protesty w Izraelu. Dwa największe banki w tym kraju przestają działać - BusinessInsider",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMid2h0dHBzOi8vYnVzaW5lc3NpbnNpZGVyLmNvbS5wbC9nb3Nwb2RhcmthL3Byb3Rlc3R5LXctaXpyYWVsdS1kd2EtbmFqd2lla3N6ZS1iYW5raS13LXR5bS1rcmFqdS1wcnplc3RhamEtZHppYWxhYy9uY2xwdmZo0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:20:57Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "PPE.PL",
+        "title": "Silent Hill 2 Remake to „zatruty kielich”? Sam Barlow uważa, że Bloober Team mogło wdepnąć na minę - PPE.PL",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5wcGUucGwvbmV3cy8zMTYwOTMvc2lsZW50LWhpbGwtMi1yZW1ha2UtdG8temF0cnV0eS1raWVsaWNoLXNhbS1iYXJsb3ctdXdhemEtemUtYmxvb2Jlci10ZWFtLW1vZ2xvLXdkZXBuYWMtbmEtbWluZS5odG1s0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:03:36Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Pudelek",
+        "title": "Książę Harry przyleciał do Londynu! Wiadomo już, w jakim celu... (ZDJĘCIA) - Pudelek",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3LnB1ZGVsZWsucGwva3NpYXplLWhhcnJ5LXByenlsZWNpYWwtZG8tbG9uZHludS13aWFkb21vLWp1ei13LWpha2ltLWNlbHUtemRqZWNpYS02ODgwOTE5Mzc0NDAwMzIwYdIBcmh0dHBzOi8vd3d3LnB1ZGVsZWsucGwva3NpYXplLWhhcnJ5LXByenlsZWNpYWwtZG8tbG9uZHludS13aWFkb21vLWp1ei13LWpha2ltLWNlbHUtemRqZWNpYS02ODgwOTE5Mzc0NDAwMzIwYT9hbXA9MQ?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:52:33Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Plejada.pl",
+        "title": "Nie wiedziały, że są na wizji. Izabella Krzan musiała ratować sytuacje w \"Pytaniu na śniadanie\" - Plejada.pl",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZmh0dHBzOi8vcGxlamFkYS5wbC9uZXdzeS93cGFka2Etdy1weXRhbml1LW5hLXNuaWFkYW5pZS1pemFiZWxsYS1rcnphbi1tdXNpYWxhLXJhdG93YWMtc3l0dWFjamUvcHJza2gxaNIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:43:06Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Przegląd Sportowy Onet",
+        "title": "Gwiazdor F1 wyzwał Igę Świątek. A jej reakcja przebiła wszystko [WIDEO] - Przegląd Sportowy Onet",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMic2h0dHBzOi8vcHJ6ZWdsYWRzcG9ydG93eS5vbmV0LnBsL3RlbmlzL2d3aWF6ZG9yLWYxLXd5endhbC1pZ2Utc3dpYXRlay1hLWplai1yZWFrY2phLXByemViaWxhLXdzenlzdGtvLXdpZGVvL2V5cG1xY3fSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:30:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "OKO.press",
+        "title": "Rosjanie nadal tracą impet - ofensywa już tylko pod Bachmutem i Awdijewką [SYTUACJA NA FRONCIE] - OKO.press",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vb2tvLnByZXNzL3Jvc2phbmllLXRyYWNhLWltcGV0LW9mZW5zeXdhLWp1ei10eWxrby1wb2QtYmFjaG11dGVtLWktYXdkaWpld2thLXN5dHVhY2phLW5hLWZyb25jaWXSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:04:40Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Money.pl",
+        "title": "Od kwietnia emerytury będą niższe. GUS pokazał nowe \"tablice trwania życia\" - Money.pl",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMifmh0dHBzOi8vd3d3Lm1vbmV5LnBsL3BpZW5pYWR6ZS9vZC1rd2lldG5pYS1lbWVyeXR1cnktYmVkYS1uaXpzemUtZ3VzLXBva2F6YWwtbm93ZS10YWJsaWNlLXRyd2FuaWEtenljaWEtNjg4MDkwNDQ2MDA2MTUwNGEuaHRtbNIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:32:48Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "TVP Info",
+        "title": "Będzie zakaz TikToka i Huawei w Polsce? Nieoficjalne doniesienia - TVP Info",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiVmh0dHBzOi8vd3d3LnR2cC5pbmZvLzY4NzcwMDM2L3pha2F6LXRpa3Rva2EtaS1odWF3ZWktdy1wb2xzY2Utbmllb2ZpY2phbG5lLWRvbmllc2llbmlh0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:29:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Gazeta Wyborcza",
+        "title": "\"Przecież nie będzie posłanką opozycji\". W PiS chcą wiedzieć, co oznacza powrót Szydło - Gazeta Wyborcza",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiY2h0dHBzOi8vd3lib3JjemEucGwvNyw3NTM5OCwyOTU5Njg2NyxwcnplY2llei1uaWUtYmVkemllLXBvc2xhbmthLW9wb3p5Y2ppLXctcGlzLWNoY2Etd2llZHppZWMuaHRtbNIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:28:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "polsatsport.pl",
+        "title": "Boniek znalazł rozwiązanie. Tak zagramy z Albanią? - polsatsport.pl",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiYWh0dHBzOi8vd3d3LnBvbHNhdHNwb3J0LnBsL3dpYWRvbW9zYy8yMDIzLTAzLTI3L2Jvbmllay16bmFsYXpsLXJvendpYXphbmllLXRhay16YWdyYW15LXotYWxiYW5pYS_SAWVodHRwczovL3d3dy5wb2xzYXRzcG9ydC5wbC93aWFkb21vc2MtYW1wLzIwMjMtMDMtMjcvYm9uaWVrLXpuYWxhemwtcm96d2lhemFuaWUtdGFrLXphZ3JhbXktei1hbGJhbmlhLw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:16:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "o2",
+        "title": "Roksana Węgiel zapytana o aborcję. Nawet się nie wahała - o2",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiYWh0dHBzOi8vd3d3Lm8yLnBsL3Bsb3RraS9yb2tzYW5hLXdlZ2llbC16YXB5dGFuYS1vLWFib3JjamUtbmF3ZXQtc2llLW5pZS13YWhhbGEtNjg4MDg4MzAzMjEyNDE5MmHSAWdodHRwczovL3d3dy5vMi5wbC9wbG90a2kvcm9rc2FuYS13ZWdpZWwtemFweXRhbmEtby1hYm9yY2plLW5hd2V0LXNpZS1uaWUtd2FoYWxhLTY4ODA4ODMwMzIxMjQxOTJhP2FtcD0x?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:09:14Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "TVN24",
+        "title": "Protestujący w Izraelu krzyczą, że \"nie chcą być jak Polska\". Wiceszef MSZ: strona izraelska nas o to pytał... - TVN24",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMihgFodHRwczovL3R2bjI0LnBsL3N3aWF0L3Byb3Rlc3R1amFjeS13LWl6cmFlbHUta3J6eWN6YS16ZS1uaWUtY2hjYS1ieWMtamFrLXBvbHNrYS13aWNlc3plZi1tc3otc3Ryb25hLWl6cmFlbHNrYS1uYXMtby10by1weXRhbGEtNjg2Mjc2NtIBigFodHRwczovL2FtcC50dm4yNC5wbC9zd2lhdC9wcm90ZXN0dWphY3ktdy1penJhZWx1LWtyenljemEtemUtbmllLWNoY2EtYnljLWphay1wb2xza2Etd2ljZXN6ZWYtbXN6LXN0cm9uYS1penJhZWxza2EtbmFzLW8tdG8tcHl0YWxhLTY4NjI3NjY?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:58:10Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Sport.pl",
+        "title": "Polska - Albania. Gdzie i kiedy oglądać mecz el. Euro 2024? [TRANSMISJA NA ŻYWO, STREAM] - Sport.pl",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vd3d3LnNwb3J0LnBsL3BpbGthLzcsNjUwMzcsMjk2MDA3NTYscG9sc2thLWFsYmFuaWEtZ2R6aWUtaS1raWVkeS1vZ2xhZGFjLW1lY3otZWwtZXVyby0yMDI0Lmh0bWzSAWZodHRwczovL3d3dy5zcG9ydC5wbC9waWxrYS83LDY1MDM3LDI5NjAwNzU2LHBvbHNrYS1hbGJhbmlhLWdkemllLWkta2llZHktb2dsYWRhYy1tZWN6LWVsLWV1cm8tMjAyNC5hbXA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:58:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Onet",
+        "title": "Protesty w Izraelu. Media: Netanjahu ogłosi wstrzymanie prac nad sporną reformą - Onet",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMijAFodHRwczovL3d3dy5vbmV0LnBsL2luZm9ybWFjamUvb25ldHdpYWRvbW9zY2kvcHJvdGVzdHktdy1penJhZWx1LW1lZGlhLW5ldGFuamFodS1vZ2xvc2ktd3N0cnp5bWFuaWUtcHJhYy1uYWQtc3Bvcm5hLXJlZm9ybWEvMnI1aHM1eiw3OWNmYzI3ONIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:50:56Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "PPE.PL",
+        "title": "Chris Avellone niewinny w sprawie o molestowanie seksualne. Kobiety przyznają się do „błędnej interpretacji” - PPE.PL",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMijQFodHRwczovL3d3dy5wcGUucGwvbmV3cy8zMTYwOTUvY2hyaXMtYXZlbGxvbmUtbmlld2lubnktdy1zcHJhd2llLW8tbW9sZXN0b3dhbmllLXNla3N1YWxuZS1rb2JpZXR5LXByenl6bmFqYS1zaWUtZG8tYmxlZG5lai1pbnRlcnByZXRhY2ppLmh0bWzSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:47:36Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "polsatnews.pl",
+        "title": "Służby zatrzymały rosyjskiego szpiega. Przyznał się do winy i opisał szczegóły - polsatnews.pl",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMifWh0dHBzOi8vd3d3LnBvbHNhdG5ld3MucGwvd2lhZG9tb3NjLzIwMjMtMDMtMjcvc2x1emJ5LXphdHJ6eW1hbHktcm9zeWpza2llZ28tc3pwaWVnYS1wcnp5em5hbC1zaWUtZG8td2lueS1pLW9waXNhbC1zemN6ZWdvbHkv0gGBAWh0dHBzOi8vd3d3LnBvbHNhdG5ld3MucGwvd2lhZG9tb3NjLWFtcC8yMDIzLTAzLTI3L3NsdXpieS16YXRyenltYWx5LXJvc3lqc2tpZWdvLXN6cGllZ2EtcHJ6eXpuYWwtc2llLWRvLXdpbnktaS1vcGlzYWwtc3pjemVnb2x5Lw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:42:00Z",
+        "content": null
+      }
+    ]
+  },
+  {
+    "status": "ok",
+    "totalResults": 37,
+    "articles": [
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "news.com.au",
+        "title": "Macron holds crisis meeting as more France protests loom - news.com.au",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiigFodHRwczovL3d3dy5uZXdzLmNvbS5hdS9icmVha2luZy1uZXdzL21hY3Jvbi1ob2xkcy1jcmlzaXMtbWVldGluZy1hcy1tb3JlLWZyYW5jZS1wcm90ZXN0cy1sb29tL25ld3Mtc3RvcnkvYTU1MmU3M2ZlN2ZkZTg5NjgzN2M0N2QxMjc2YTk4OWXSAY4BaHR0cHM6Ly93d3cubmV3cy5jb20uYXUvYnJlYWtpbmctbmV3cy9tYWNyb24taG9sZHMtY3Jpc2lzLW1lZXRpbmctYXMtbW9yZS1mcmFuY2UtcHJvdGVzdHMtbG9vbS9uZXdzLXN0b3J5L2E1NTJlNzNmZTdmZGU4OTY4MzdjNDdkMTI3NmE5ODllP2FtcA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:10:29Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ABC News",
+        "title": "Prince Harry makes surprise showing in London court for privacy suit against UK tabloid - ABC News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vd3d3LmFiYy5uZXQuYXUvbmV3cy8yMDIzLTAzLTI3L3ByaW5jZS1oYXJyeS1tYWtlcy1zdXJwcmlzZS1zaG93aW5nLWF0LXVrLXByaXZhY3ktY2FzZS8xMDIxNTIyNzjSAShodHRwczovL2FtcC5hYmMubmV0LmF1L2FydGljbGUvMTAyMTUyMjc4?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:09:04Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "9News",
+        "title": "Victorian MP Moira Deeming to be suspended but avoids expulsion after lengthy Liberal Party vote - 9News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMimgFodHRwczovL3d3dy45bmV3cy5jb20uYXUvbmF0aW9uYWwvbW9pcmEtZGVlbWluZy11cGRhdGUtcm9ndWUtdmljdG9yaWFuLW1wcy1mdXR1cmUtdG8tYmUtZGVjaWRlZC1ieS1saWJlcmFsLXBhcnR5LXZvdGUvZjhlNWU4NTUtYTU4OS00OTU0LWFjNjMtZDJjNjY4NjMzYzNk0gFFaHR0cHM6Ly9hbXAuOW5ld3MuY29tLmF1L2FydGljbGUvZjhlNWU4NTUtYTU4OS00OTU0LWFjNjMtZDJjNjY4NjMzYzNk?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:07:46Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "10Play.com.au",
+        "title": "A Winner Is Crowned On Australian Survivor: Heroes V Villains - 10Play.com.au",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMimwFodHRwczovLzEwcGxheS5jb20uYXUvYXVzdHJhbGlhbi1zdXJ2aXZvci93ZWItZXh0cmFzL3NlYXNvbi04LWhlcm9lcy12LXZpbGxhaW5zL2Etd2lubmVyLWlzLWNyb3duZWQtb24tYXVzdHJhbGlhbi1zdXJ2aXZvci1oZXJvZXMtdi12aWxsYWlucy90cHYyMzAzMjdkamhheNIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:33:49Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "The Guardian",
+        "title": "Alibaba founder Jack Ma seen in China after months of absence - The Guardian",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiWmh0dHBzOi8vd3d3LnRoZWd1YXJkaWFuLmNvbS9idXNpbmVzcy8yMDIzL21hci8yNy9hbGliYWJhLWZvdW5kZXItamFjay1tYS1jaGluYS10ZWNoLXNlY3RvctIBWmh0dHBzOi8vYW1wLnRoZWd1YXJkaWFuLmNvbS9idXNpbmVzcy8yMDIzL21hci8yNy9hbGliYWJhLWZvdW5kZXItamFjay1tYS1jaGluYS10ZWNoLXNlY3Rvcg?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:17:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Nine Shows",
+        "title": "MAFS 2023 Episode 34 recap: One groom 'spits the dummy' and Rupert delivers the most awkward Final Vows in MAFS history - Nine Shows",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMizwFodHRwczovLzlub3cubmluZS5jb20uYXUvbWFycmllZC1hdC1maXJzdC1zaWdodC9tYWZzLTIwMjMtcmVjYXAtZXBpc29kZS0zNC1maW5hbC12b3dzLWx5bmRhbGwtZ3JhY2UtY2FtZXJvbi13b29kcy1ldmVseW4tZWxsaXMtcnVwZXJ0LWJ1Z2Rlbi10YWhuZWUtY29vay1vbGxpZS1za2VsdG9uLXMxMC8wYzM5MDU2Yy0yMmRiLTRmNDYtOTAwMi1kNmIzNWQ1NGFiNjTSAURodHRwczovL2FtcC5uaW5lLmNvbS5hdS9hcnRpY2xlLzBjMzkwNTZjLTIyZGItNGY0Ni05MDAyLWQ2YjM1ZDU0YWI2NA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:09:44Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "9News",
+        "title": "Train project hit with claims it's unsafe for workers - 9News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMib2h0dHBzOi8vd3d3LjluZXdzLmNvbS5hdS9uYXRpb25hbC9jcm9zcy1yaXZlci1yYWlsLWJyaXNiYW5lLWlsbG5lc3MtY2xhaW1zLzIxYzExYTJkLTA1NmEtNDk2MC05NDA0LTIxYjg3Nzc0ZWM4N9IBRWh0dHBzOi8vYW1wLjluZXdzLmNvbS5hdS9hcnRpY2xlLzIxYzExYTJkLTA1NmEtNDk2MC05NDA0LTIxYjg3Nzc0ZWM4Nw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:47:36Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Mirage News",
+        "title": "Genetic Tests Discover Heart Disease Genes - Mirage News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiTWh0dHBzOi8vd3d3Lm1pcmFnZW5ld3MuY29tL2dlbmV0aWMtdGVzdHMtZGlzY292ZXItaGVhcnQtZGlzZWFzZS1nZW5lcy05NzQ5NDUv0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:08:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Fox Sports",
+        "title": "NRL admits ref mistake after ‘complete farce’ robbed Sea Eagles - Fox Sports",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiqwFodHRwczovL3d3dy5mb3hzcG9ydHMuY29tLmF1L25ybC9ucmwtcHJlbWllcnNoaXAvdGVhbXMvc2VhLWVhZ2xlcy9ucmwtYWRtaXRzLXJlZi1taXN0YWtlLWFmdGVyLWNvbXBsZXRlLWZhcmNlLXJvYmJlZC1zZWEtZWFnbGVzL25ld3Mtc3RvcnkvODk2NDVkYmYxNDI2NGQxYmFmZDY1MDUwNDk3YWUzNmHSAasBaHR0cHM6Ly93d3cuZm94c3BvcnRzLmNvbS5hdS9ucmwvbnJsLXByZW1pZXJzaGlwL3RlYW1zL3NlYS1lYWdsZXMvbnJsLWFkbWl0cy1yZWYtbWlzdGFrZS1hZnRlci1jb21wbGV0ZS1mYXJjZS1yb2JiZWQtc2VhLWVhZ2xlcy9uZXdzLXN0b3J5Lzg5NjQ1ZGJmMTQyNjRkMWJhZmQ2NTA1MDQ5N2FlMzZh?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:07:39Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ABC News",
+        "title": "India's parliament adjourns after opposition parties protest against the disqualification of Rahul Gandhi - ABC News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMibmh0dHBzOi8vd3d3LmFiYy5uZXQuYXUvbmV3cy8yMDIzLTAzLTI3L3Byb3Rlc3QtYWdhaW5zdC1kaXNxdWFsaWZpY2F0aW9uLXJhaHVsLWdhbmRpLWluZGlhLXBhcmxpYW1lbnQvMTAyMTUwNTc40gEoaHR0cHM6Ly9hbXAuYWJjLm5ldC5hdS9hcnRpY2xlLzEwMjE1MDU3OA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:02:48Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Courier Mail",
+        "title": "Premier to limit Qld rent increases in massive shake-up - Courier Mail",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMinwFodHRwczovL3d3dy5jb3VyaWVybWFpbC5jb20uYXUvbmV3cy9xdWVlbnNsYW5kL3FsZC1wb2xpdGljcy9ob3ctcHJlbWllci1hbm5hc3RhY2lhLXBhbGFzemN6dWtzLXJlbnRhbC1jYXAtd2lsbC13b3JrL25ld3Mtc3RvcnkvYmFjOGZiMDZjNTBhODM3N2NmZTJlMzJhODk4N2M3N2PSAaMBaHR0cHM6Ly93d3cuY291cmllcm1haWwuY29tLmF1L25ld3MvcXVlZW5zbGFuZC9xbGQtcG9saXRpY3MvaG93LXByZW1pZXItYW5uYXN0YWNpYS1wYWxhc3pjenVrcy1yZW50YWwtY2FwLXdpbGwtd29yay9uZXdzLXN0b3J5L2JhYzhmYjA2YzUwYTgzNzdjZmUyZTMyYTg5ODdjNzdjP2FtcA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:48:45Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "9News",
+        "title": "Queensland man charged with murder after alleged neighbourhood dispute - 9News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMicmh0dHBzOi8vd3d3LjluZXdzLmNvbS5hdS9uYXRpb25hbC9tYW4tY2hhcmdlZC13aXRoLW11cmRlci1pbi1taWxlcy1xdWVlbnNsYW5kLzI2NzYwYTEzLTg1OGMtNGFkZi1hZDNjLTU3M2U3ZTk2MGZkM9IBRWh0dHBzOi8vYW1wLjluZXdzLmNvbS5hdS9hcnRpY2xlLzI2NzYwYTEzLTg1OGMtNGFkZi1hZDNjLTU3M2U3ZTk2MGZkMw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:40:51Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Technology Networks",
+        "title": "Does Oxytocin Fire Up Fish Empathy? - Technology Networks",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LnRlY2hub2xvZ3luZXR3b3Jrcy5jb20vbmV1cm9zY2llbmNlL25ld3MvZG9lcy1veHl0b2Npbi1maXJlLXVwLWZpc2gtZW1wYXRoeS0zNzE1MDDSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:38:03Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ABC News",
+        "title": "Crown Resorts investigating potential data breach after being contacted by hacking group - ABC News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vd3d3LmFiYy5uZXQuYXUvbmV3cy8yMDIzLTAzLTI3L2Nyb3duLXJlc29ydHMtcmFuc29td2FyZS10aHJlYXQtYnktaGFja2Vycy1kYXRhLWJyZWFjaC8xMDIxNTE4MTbSAShodHRwczovL2FtcC5hYmMubmV0LmF1L2FydGljbGUvMTAyMTUxODE2?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:12:45Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Sydney Morning Herald",
+        "title": "Majority government in the balance as independents promise Labor supply - Sydney Morning Herald",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMigAFodHRwczovL3d3dy5zbWguY29tLmF1L3BvbGl0aWNzL25zdy9tYWpvcml0eS1nb3Zlcm5tZW50LWluLXRoZS1iYWxhbmNlLWFzLWluZGVwZW5kZW50cy1wcm9taXNlLWxhYm9yLXN1cHBseS0yMDIzMDMyNy1wNWN2bHMuaHRtbNIBgAFodHRwczovL2FtcC5zbWguY29tLmF1L3BvbGl0aWNzL25zdy9tYWpvcml0eS1nb3Zlcm5tZW50LWluLXRoZS1iYWxhbmNlLWFzLWluZGVwZW5kZW50cy1wcm9taXNlLWxhYm9yLXN1cHBseS0yMDIzMDMyNy1wNWN2bHMuaHRtbA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:01:09Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Wide World of Sports",
+        "title": "'Cry babies': Bitter war of words erupts between Rugby Australia and NRL after Joseph Suaalii defection - Wide World of Sports",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMijQFodHRwczovL3d3b3MubmluZS5jb20uYXUvcnVnYnkvbmV3cy0yMDIzLXJ1Z2J5LWF1c3RyYWxpYS1jYWxscy1ucmwtY3J5LWJhYmllcy1qb3NlcGgtc3VhYWxpaS1jb2RlLXN3aXRjaC81ZjFjMmIxZC1jYWIxLTQzYjgtOTczYi05NWFkNTg2NDUzYTHSAURodHRwczovL2FtcC5uaW5lLmNvbS5hdS9hcnRpY2xlLzVmMWMyYjFkLWNhYjEtNDNiOC05NzNiLTk1YWQ1ODY0NTNhMQ?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:00:42Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ABC News",
+        "title": "NSW election: Voting comes down to the wire as Labor's leadership team poised to take over - ABC News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMib2h0dHBzOi8vd3d3LmFiYy5uZXQuYXUvbmV3cy8yMDIzLTAzLTI3L25zdy1sYWJvci1zaXQtb24tNDUtc2VhdHMtd2l0aC1uYXJyb3ctbWFyZ2lucy12b3RpbmctY29udGludWVzLzEwMjE1MDI0NNIBKGh0dHBzOi8vYW1wLmFiYy5uZXQuYXUvYXJ0aWNsZS8xMDIxNTAyNDQ?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:52:30Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "9News",
+        "title": "Two men on the run after ramming police car and crashing into tree - 9News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMingFodHRwczovL3d3dy45bmV3cy5jb20uYXUvbmF0aW9uYWwvZmVybnRyZWUtZ3VsbHktY3JpbWUtdHdvLW1lbi1vbi10aGUtcnVuLWFmdGVyLXJhbW1pbmctcG9saWNlLWNhci1hbmQtY3Jhc2hpbmctaW50by10cmVlLzIwZTAwMTIxLTk1NzEtNGRjMi1iNDIzLTNlOTNhMjc5NTU5MtIBRWh0dHBzOi8vYW1wLjluZXdzLmNvbS5hdS9hcnRpY2xlLzIwZTAwMTIxLTk1NzEtNGRjMi1iNDIzLTNlOTNhMjc5NTU5Mg?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:14:02Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "7NEWS Australia",
+        "title": "Hackers steal 7.9 million driver licence numbers from Latitude Financial computer systems | 7NEWS - 7NEWS Australia",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CCAiCzM2dTQxMlBFY3lVmAEB?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:09:50Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "news.com.au",
+        "title": "Major warning for Australian Google users - news.com.au",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMilQFodHRwczovL3d3dy5uZXdzLmNvbS5hdS90ZWNobm9sb2d5L29ubGluZS9oYWNraW5nL21ham9yLWN5YmVyc2VjdXJpdHktd2FybmluZy1mb3ItYXVzdHJhbGlhbi1nb29nbGUtdXNlcnMvbmV3cy1zdG9yeS9hYTU5OWViMzhkYzdmZmUzNzgzMjM3MzkyNTRkNzFmMNIBmQFodHRwczovL3d3dy5uZXdzLmNvbS5hdS90ZWNobm9sb2d5L29ubGluZS9oYWNraW5nL21ham9yLWN5YmVyc2VjdXJpdHktd2FybmluZy1mb3ItYXVzdHJhbGlhbi1nb29nbGUtdXNlcnMvbmV3cy1zdG9yeS9hYTU5OWViMzhkYzdmZmUzNzgzMjM3MzkyNTRkNzFmMD9hbXA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T06:44:38Z",
+        "content": null
+      }
+    ]
+  },
+  {
+    "status": "ok",
+    "totalResults": 37,
+    "articles": [
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "news.com.au",
+        "title": "Macron holds crisis meeting as more France protests loom - news.com.au",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiigFodHRwczovL3d3dy5uZXdzLmNvbS5hdS9icmVha2luZy1uZXdzL21hY3Jvbi1ob2xkcy1jcmlzaXMtbWVldGluZy1hcy1tb3JlLWZyYW5jZS1wcm90ZXN0cy1sb29tL25ld3Mtc3RvcnkvYTU1MmU3M2ZlN2ZkZTg5NjgzN2M0N2QxMjc2YTk4OWXSAY4BaHR0cHM6Ly93d3cubmV3cy5jb20uYXUvYnJlYWtpbmctbmV3cy9tYWNyb24taG9sZHMtY3Jpc2lzLW1lZXRpbmctYXMtbW9yZS1mcmFuY2UtcHJvdGVzdHMtbG9vbS9uZXdzLXN0b3J5L2E1NTJlNzNmZTdmZGU4OTY4MzdjNDdkMTI3NmE5ODllP2FtcA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:10:29Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ABC News",
+        "title": "Prince Harry makes surprise showing in London court for privacy suit against UK tabloid - ABC News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vd3d3LmFiYy5uZXQuYXUvbmV3cy8yMDIzLTAzLTI3L3ByaW5jZS1oYXJyeS1tYWtlcy1zdXJwcmlzZS1zaG93aW5nLWF0LXVrLXByaXZhY3ktY2FzZS8xMDIxNTIyNzjSAShodHRwczovL2FtcC5hYmMubmV0LmF1L2FydGljbGUvMTAyMTUyMjc4?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:09:04Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "9News",
+        "title": "Victorian MP Moira Deeming to be suspended but avoids expulsion after lengthy Liberal Party vote - 9News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMimgFodHRwczovL3d3dy45bmV3cy5jb20uYXUvbmF0aW9uYWwvbW9pcmEtZGVlbWluZy11cGRhdGUtcm9ndWUtdmljdG9yaWFuLW1wcy1mdXR1cmUtdG8tYmUtZGVjaWRlZC1ieS1saWJlcmFsLXBhcnR5LXZvdGUvZjhlNWU4NTUtYTU4OS00OTU0LWFjNjMtZDJjNjY4NjMzYzNk0gFFaHR0cHM6Ly9hbXAuOW5ld3MuY29tLmF1L2FydGljbGUvZjhlNWU4NTUtYTU4OS00OTU0LWFjNjMtZDJjNjY4NjMzYzNk?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:07:46Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "10Play.com.au",
+        "title": "A Winner Is Crowned On Australian Survivor: Heroes V Villains - 10Play.com.au",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMimwFodHRwczovLzEwcGxheS5jb20uYXUvYXVzdHJhbGlhbi1zdXJ2aXZvci93ZWItZXh0cmFzL3NlYXNvbi04LWhlcm9lcy12LXZpbGxhaW5zL2Etd2lubmVyLWlzLWNyb3duZWQtb24tYXVzdHJhbGlhbi1zdXJ2aXZvci1oZXJvZXMtdi12aWxsYWlucy90cHYyMzAzMjdkamhheNIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:33:49Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "The Guardian",
+        "title": "Alibaba founder Jack Ma seen in China after months of absence - The Guardian",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiWmh0dHBzOi8vd3d3LnRoZWd1YXJkaWFuLmNvbS9idXNpbmVzcy8yMDIzL21hci8yNy9hbGliYWJhLWZvdW5kZXItamFjay1tYS1jaGluYS10ZWNoLXNlY3RvctIBWmh0dHBzOi8vYW1wLnRoZWd1YXJkaWFuLmNvbS9idXNpbmVzcy8yMDIzL21hci8yNy9hbGliYWJhLWZvdW5kZXItamFjay1tYS1jaGluYS10ZWNoLXNlY3Rvcg?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:17:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Nine Shows",
+        "title": "MAFS 2023 Episode 34 recap: One groom 'spits the dummy' and Rupert delivers the most awkward Final Vows in MAFS history - Nine Shows",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMizwFodHRwczovLzlub3cubmluZS5jb20uYXUvbWFycmllZC1hdC1maXJzdC1zaWdodC9tYWZzLTIwMjMtcmVjYXAtZXBpc29kZS0zNC1maW5hbC12b3dzLWx5bmRhbGwtZ3JhY2UtY2FtZXJvbi13b29kcy1ldmVseW4tZWxsaXMtcnVwZXJ0LWJ1Z2Rlbi10YWhuZWUtY29vay1vbGxpZS1za2VsdG9uLXMxMC8wYzM5MDU2Yy0yMmRiLTRmNDYtOTAwMi1kNmIzNWQ1NGFiNjTSAURodHRwczovL2FtcC5uaW5lLmNvbS5hdS9hcnRpY2xlLzBjMzkwNTZjLTIyZGItNGY0Ni05MDAyLWQ2YjM1ZDU0YWI2NA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:09:44Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "9News",
+        "title": "Train project hit with claims it's unsafe for workers - 9News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMib2h0dHBzOi8vd3d3LjluZXdzLmNvbS5hdS9uYXRpb25hbC9jcm9zcy1yaXZlci1yYWlsLWJyaXNiYW5lLWlsbG5lc3MtY2xhaW1zLzIxYzExYTJkLTA1NmEtNDk2MC05NDA0LTIxYjg3Nzc0ZWM4N9IBRWh0dHBzOi8vYW1wLjluZXdzLmNvbS5hdS9hcnRpY2xlLzIxYzExYTJkLTA1NmEtNDk2MC05NDA0LTIxYjg3Nzc0ZWM4Nw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:47:36Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Mirage News",
+        "title": "Genetic Tests Discover Heart Disease Genes - Mirage News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiTWh0dHBzOi8vd3d3Lm1pcmFnZW5ld3MuY29tL2dlbmV0aWMtdGVzdHMtZGlzY292ZXItaGVhcnQtZGlzZWFzZS1nZW5lcy05NzQ5NDUv0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:08:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Fox Sports",
+        "title": "NRL admits ref mistake after ‘complete farce’ robbed Sea Eagles - Fox Sports",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiqwFodHRwczovL3d3dy5mb3hzcG9ydHMuY29tLmF1L25ybC9ucmwtcHJlbWllcnNoaXAvdGVhbXMvc2VhLWVhZ2xlcy9ucmwtYWRtaXRzLXJlZi1taXN0YWtlLWFmdGVyLWNvbXBsZXRlLWZhcmNlLXJvYmJlZC1zZWEtZWFnbGVzL25ld3Mtc3RvcnkvODk2NDVkYmYxNDI2NGQxYmFmZDY1MDUwNDk3YWUzNmHSAasBaHR0cHM6Ly93d3cuZm94c3BvcnRzLmNvbS5hdS9ucmwvbnJsLXByZW1pZXJzaGlwL3RlYW1zL3NlYS1lYWdsZXMvbnJsLWFkbWl0cy1yZWYtbWlzdGFrZS1hZnRlci1jb21wbGV0ZS1mYXJjZS1yb2JiZWQtc2VhLWVhZ2xlcy9uZXdzLXN0b3J5Lzg5NjQ1ZGJmMTQyNjRkMWJhZmQ2NTA1MDQ5N2FlMzZh?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:07:39Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ABC News",
+        "title": "India's parliament adjourns after opposition parties protest against the disqualification of Rahul Gandhi - ABC News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMibmh0dHBzOi8vd3d3LmFiYy5uZXQuYXUvbmV3cy8yMDIzLTAzLTI3L3Byb3Rlc3QtYWdhaW5zdC1kaXNxdWFsaWZpY2F0aW9uLXJhaHVsLWdhbmRpLWluZGlhLXBhcmxpYW1lbnQvMTAyMTUwNTc40gEoaHR0cHM6Ly9hbXAuYWJjLm5ldC5hdS9hcnRpY2xlLzEwMjE1MDU3OA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:02:48Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Courier Mail",
+        "title": "Premier to limit Qld rent increases in massive shake-up - Courier Mail",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMinwFodHRwczovL3d3dy5jb3VyaWVybWFpbC5jb20uYXUvbmV3cy9xdWVlbnNsYW5kL3FsZC1wb2xpdGljcy9ob3ctcHJlbWllci1hbm5hc3RhY2lhLXBhbGFzemN6dWtzLXJlbnRhbC1jYXAtd2lsbC13b3JrL25ld3Mtc3RvcnkvYmFjOGZiMDZjNTBhODM3N2NmZTJlMzJhODk4N2M3N2PSAaMBaHR0cHM6Ly93d3cuY291cmllcm1haWwuY29tLmF1L25ld3MvcXVlZW5zbGFuZC9xbGQtcG9saXRpY3MvaG93LXByZW1pZXItYW5uYXN0YWNpYS1wYWxhc3pjenVrcy1yZW50YWwtY2FwLXdpbGwtd29yay9uZXdzLXN0b3J5L2JhYzhmYjA2YzUwYTgzNzdjZmUyZTMyYTg5ODdjNzdjP2FtcA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:48:45Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "9News",
+        "title": "Queensland man charged with murder after alleged neighbourhood dispute - 9News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMicmh0dHBzOi8vd3d3LjluZXdzLmNvbS5hdS9uYXRpb25hbC9tYW4tY2hhcmdlZC13aXRoLW11cmRlci1pbi1taWxlcy1xdWVlbnNsYW5kLzI2NzYwYTEzLTg1OGMtNGFkZi1hZDNjLTU3M2U3ZTk2MGZkM9IBRWh0dHBzOi8vYW1wLjluZXdzLmNvbS5hdS9hcnRpY2xlLzI2NzYwYTEzLTg1OGMtNGFkZi1hZDNjLTU3M2U3ZTk2MGZkMw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:40:51Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Technology Networks",
+        "title": "Does Oxytocin Fire Up Fish Empathy? - Technology Networks",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiXmh0dHBzOi8vd3d3LnRlY2hub2xvZ3luZXR3b3Jrcy5jb20vbmV1cm9zY2llbmNlL25ld3MvZG9lcy1veHl0b2Npbi1maXJlLXVwLWZpc2gtZW1wYXRoeS0zNzE1MDDSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:38:03Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ABC News",
+        "title": "Crown Resorts investigating potential data breach after being contacted by hacking group - ABC News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vd3d3LmFiYy5uZXQuYXUvbmV3cy8yMDIzLTAzLTI3L2Nyb3duLXJlc29ydHMtcmFuc29td2FyZS10aHJlYXQtYnktaGFja2Vycy1kYXRhLWJyZWFjaC8xMDIxNTE4MTbSAShodHRwczovL2FtcC5hYmMubmV0LmF1L2FydGljbGUvMTAyMTUxODE2?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:12:45Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Sydney Morning Herald",
+        "title": "Majority government in the balance as independents promise Labor supply - Sydney Morning Herald",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMigAFodHRwczovL3d3dy5zbWguY29tLmF1L3BvbGl0aWNzL25zdy9tYWpvcml0eS1nb3Zlcm5tZW50LWluLXRoZS1iYWxhbmNlLWFzLWluZGVwZW5kZW50cy1wcm9taXNlLWxhYm9yLXN1cHBseS0yMDIzMDMyNy1wNWN2bHMuaHRtbNIBgAFodHRwczovL2FtcC5zbWguY29tLmF1L3BvbGl0aWNzL25zdy9tYWpvcml0eS1nb3Zlcm5tZW50LWluLXRoZS1iYWxhbmNlLWFzLWluZGVwZW5kZW50cy1wcm9taXNlLWxhYm9yLXN1cHBseS0yMDIzMDMyNy1wNWN2bHMuaHRtbA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:01:09Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Wide World of Sports",
+        "title": "'Cry babies': Bitter war of words erupts between Rugby Australia and NRL after Joseph Suaalii defection - Wide World of Sports",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMijQFodHRwczovL3d3b3MubmluZS5jb20uYXUvcnVnYnkvbmV3cy0yMDIzLXJ1Z2J5LWF1c3RyYWxpYS1jYWxscy1ucmwtY3J5LWJhYmllcy1qb3NlcGgtc3VhYWxpaS1jb2RlLXN3aXRjaC81ZjFjMmIxZC1jYWIxLTQzYjgtOTczYi05NWFkNTg2NDUzYTHSAURodHRwczovL2FtcC5uaW5lLmNvbS5hdS9hcnRpY2xlLzVmMWMyYjFkLWNhYjEtNDNiOC05NzNiLTk1YWQ1ODY0NTNhMQ?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:00:42Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ABC News",
+        "title": "NSW election: Voting comes down to the wire as Labor's leadership team poised to take over - ABC News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMib2h0dHBzOi8vd3d3LmFiYy5uZXQuYXUvbmV3cy8yMDIzLTAzLTI3L25zdy1sYWJvci1zaXQtb24tNDUtc2VhdHMtd2l0aC1uYXJyb3ctbWFyZ2lucy12b3RpbmctY29udGludWVzLzEwMjE1MDI0NNIBKGh0dHBzOi8vYW1wLmFiYy5uZXQuYXUvYXJ0aWNsZS8xMDIxNTAyNDQ?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:52:30Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "9News",
+        "title": "Two men on the run after ramming police car and crashing into tree - 9News",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMingFodHRwczovL3d3dy45bmV3cy5jb20uYXUvbmF0aW9uYWwvZmVybnRyZWUtZ3VsbHktY3JpbWUtdHdvLW1lbi1vbi10aGUtcnVuLWFmdGVyLXJhbW1pbmctcG9saWNlLWNhci1hbmQtY3Jhc2hpbmctaW50by10cmVlLzIwZTAwMTIxLTk1NzEtNGRjMi1iNDIzLTNlOTNhMjc5NTU5MtIBRWh0dHBzOi8vYW1wLjluZXdzLmNvbS5hdS9hcnRpY2xlLzIwZTAwMTIxLTk1NzEtNGRjMi1iNDIzLTNlOTNhMjc5NTU5Mg?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:14:02Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "7NEWS Australia",
+        "title": "Hackers steal 7.9 million driver licence numbers from Latitude Financial computer systems | 7NEWS - 7NEWS Australia",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CCAiCzM2dTQxMlBFY3lVmAEB?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:09:50Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "news.com.au",
+        "title": "Major warning for Australian Google users - news.com.au",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMilQFodHRwczovL3d3dy5uZXdzLmNvbS5hdS90ZWNobm9sb2d5L29ubGluZS9oYWNraW5nL21ham9yLWN5YmVyc2VjdXJpdHktd2FybmluZy1mb3ItYXVzdHJhbGlhbi1nb29nbGUtdXNlcnMvbmV3cy1zdG9yeS9hYTU5OWViMzhkYzdmZmUzNzgzMjM3MzkyNTRkNzFmMNIBmQFodHRwczovL3d3dy5uZXdzLmNvbS5hdS90ZWNobm9sb2d5L29ubGluZS9oYWNraW5nL21ham9yLWN5YmVyc2VjdXJpdHktd2FybmluZy1mb3ItYXVzdHJhbGlhbi1nb29nbGUtdXNlcnMvbmV3cy1zdG9yeS9hYTU5OWViMzhkYzdmZmUzNzgzMjM3MzkyNTRkNzFmMD9hbXA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T06:44:38Z",
+        "content": null
+      }
+    ]
+  },
+  {
+    "status": "ok",
+    "totalResults": 34,
+    "articles": [
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "UOL Confere",
+        "title": "Adolescente esfaqueia três professoras e um aluno em escola de SP - UOL Confere",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMibWh0dHBzOi8vbm90aWNpYXMudW9sLmNvbS5ici9jb3RpZGlhbm8vdWx0aW1hcy1ub3RpY2lhcy8yMDIzLzAzLzI3L2F0YXF1ZS1mYWNhZGFzLWZlcmlkb3MtZXNjb2xhLXNhby1wYXVsby5odG3SAXFodHRwczovL25vdGljaWFzLnVvbC5jb20uYnIvY290aWRpYW5vL3VsdGltYXMtbm90aWNpYXMvMjAyMy8wMy8yNy9hdGFxdWUtZmFjYWRhcy1mZXJpZG9zLWVzY29sYS1zYW8tcGF1bG8uYW1wLmh0bQ?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T12:30:29Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "TechTudo",
+        "title": "7 cuidados que você deveria ter com o carregador do celular - TechTudo",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMieWh0dHBzOi8vd3d3LnRlY2h0dWRvLmNvbS5ici9zdG9yaWVzLzIwMjMvMDMvMjcvNy1jdWlkYWRvcy1xdWUtdm9jZS1kZXZlcmlhLXRlci1jb20tby1jYXJyZWdhZG9yLWRvLWNlbHVsYXItZWRtb2JpbGUuZ2h0bWzSAXlodHRwczovL3d3dy50ZWNodHVkby5jb20uYnIvc3Rvcmllcy8yMDIzLzAzLzI3LzctY3VpZGFkb3MtcXVlLXZvY2UtZGV2ZXJpYS10ZXItY29tLW8tY2FycmVnYWRvci1kby1jZWx1bGFyLWVkbW9iaWxlLmdodG1s?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:53:36Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Terra",
+        "title": "Garota de programa mata coronel da FAB e assume identidade dele - Terra",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMingFodHRwczovL3d3dy50ZXJyYS5jb20uYnIvbm90aWNpYXMvYnJhc2lsL2NpZGFkZXMvZ2Fyb3RhLWRlLXByb2dyYW1hLW1hdGEtY29yb25lbC1kYS1mYWItZS1hc3N1bWUtaWRlbnRpZGFkZS1kZWxlLDFlZWNjMzk1M2FiNWJlNzUyNzdhZTUwZDRkZGQ2NTU4MHR5dGY1YnQuaHRtbNIBogFodHRwczovL3d3dy50ZXJyYS5jb20uYnIvYW1wL25vdGljaWFzL2JyYXNpbC9jaWRhZGVzL2dhcm90YS1kZS1wcm9ncmFtYS1tYXRhLWNvcm9uZWwtZGEtZmFiLWUtYXNzdW1lLWlkZW50aWRhZGUtZGVsZSwxZWVjYzM5NTNhYjViZTc1Mjc3YWU1MGQ0ZGRkNjU1ODB0eXRmNWJ0Lmh0bWw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:41:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Bolavip Brasil",
+        "title": "“Ninguém está vendo…”; Lívia Andrade se manifesta após suposto climão entre José Loreto e Rafa Kalimann no ... - Bolavip Brasil",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMitwFodHRwczovL2JyLmJvbGF2aXAuY29tL2VudHJldGVuaW1lbnRvL05pbmd1ZW0tZXN0YS12ZW5kby1MaXZpYS1BbmRyYWRlLXNlLW1hbmlmZXN0YS1hcG9zLXN1cG9zdG8tY2xpbWFvLWVudHJlLUpvc2UtTG9yZXRvLWUtUmFmYS1LYWxpbWFubi1uby1Eb21pbmdhby1lLW1hbmRhLXJlY2Fkby0yMDIzMDMyNy0wMDA3Lmh0bWzSAbsBaHR0cHM6Ly9ici5ib2xhdmlwLmNvbS9hbXAvZW50cmV0ZW5pbWVudG8vTmluZ3VlbS1lc3RhLXZlbmRvLUxpdmlhLUFuZHJhZGUtc2UtbWFuaWZlc3RhLWFwb3Mtc3Vwb3N0by1jbGltYW8tZW50cmUtSm9zZS1Mb3JldG8tZS1SYWZhLUthbGltYW5uLW5vLURvbWluZ2FvLWUtbWFuZGEtcmVjYWRvLTIwMjMwMzI3LTAwMDcuaHRtbA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:20:26Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Poder360",
+        "title": "Bolsa Família deve tirar 3 milhões da extrema pobreza - Poder360",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiW2h0dHBzOi8vd3d3LnBvZGVyMzYwLmNvbS5ici9lY29ub21pYS9ib2xzYS1mYW1pbGlhLWRldmUtdGlyYXItMy1taWxob2VzLWRhLWV4dHJlbWEtcG9icmV6YS_SAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:01:44Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "NETFLU",
+        "title": "Fluminense conhecerá grupo da Libertadores nesta noite; saiba tudo sobre o sorteio - NETFLU",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3Lm5ldGZsdS5jb20uYnIvZmx1bWluZW5zZS1jb25oZWNlcmEtZ3J1cG8tZGEtbGliZXJ0YWRvcmVzLW5lc3RhLW5vaXRlLXNhaWJhLXR1ZG8tc29icmUtby1zb3J0ZWlvL9IBcGh0dHBzOi8vd3d3Lm5ldGZsdS5jb20uYnIvZmx1bWluZW5zZS1jb25oZWNlcmEtZ3J1cG8tZGEtbGliZXJ0YWRvcmVzLW5lc3RhLW5vaXRlLXNhaWJhLXR1ZG8tc29icmUtby1zb3J0ZWlvL2FtcC8?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:00:12Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Band Jornalismo",
+        "title": "[AO VIVO] BORA BRASIL - 27/03/2023 - Band Jornalismo",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CCAiCzJrbmh0NU5iekZJmAEB?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:59:37Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "InfoMoney",
+        "title": "Futuros dos EUA e Europa sobem com aquisição do SVB pelo First Citizens; expectativa por arcabouço fiscal e mais destaques - InfoMoney",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMinQFodHRwczovL3d3dy5pbmZvbW9uZXkuY29tLmJyL21lcmNhZG9zL2Z1dHVyb3MtZG9zLWV1YS1lLWV1cm9wYS1zb2JlbS1jb20tY29tcHJhLXN2Yi1wZWxvLWZpcnN0LWNpdGl6ZW5zLWVzcGVyYS1hcmNhYm91Y28tZmlzY2FsLWNvbmZpcmEtZXNzZS1lLW1haXMtYXNzdW50b3Mv0gGhAWh0dHBzOi8vd3d3LmluZm9tb25leS5jb20uYnIvbWVyY2Fkb3MvZnV0dXJvcy1kb3MtZXVhLWUtZXVyb3BhLXNvYmVtLWNvbS1jb21wcmEtc3ZiLXBlbG8tZmlyc3QtY2l0aXplbnMtZXNwZXJhLWFyY2Fib3Vjby1maXNjYWwtY29uZmlyYS1lc3NlLWUtbWFpcy1hc3N1bnRvcy9hbXAv?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:29:58Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "NaTelinha",
+        "title": "Série com Xuxa foi cancelada na Globo após um episódio - NaTelinha",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMic2h0dHBzOi8vbmF0ZWxpbmhhLnVvbC5jb20uYnIvdGVsZXZpc2FvLzIwMjMvMDMvMjcvc2VyaWUtY29tLXh1eGEtZm9pLWNhbmNlbGFkYS1uYS1nbG9iby1hcG9zLXVtLWVwaXNvZGlvLTE5NTQwMi5waHDSAXdodHRwczovL25hdGVsaW5oYS51b2wuY29tLmJyL2FtcC90ZWxldmlzYW8vMjAyMy8wMy8yNy9zZXJpZS1jb20teHV4YS1mb2ktY2FuY2VsYWRhLW5hLWdsb2JvLWFwb3MtdW0tZXBpc29kaW8tMTk1NDAyLnBocA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:53:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Metrópoles",
+        "title": "BBB23: enquete mostra quem sai entre Bruna, Aline e Gabriel - Metrópoles",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vd3d3Lm1ldHJvcG9sZXMuY29tL2VudHJldGVuaW1lbnRvL2JiYi9iYmIyMy1lbnF1ZXRlLW1vc3RyYS1xdWVtLXNhaS1lbnRyZS1icnVuYS1hbGluZS1lLWdhYnJpZWzSAWtodHRwczovL3d3dy5tZXRyb3BvbGVzLmNvbS9lbnRyZXRlbmltZW50by9iYmIvYmJiMjMtZW5xdWV0ZS1tb3N0cmEtcXVlbS1zYWktZW50cmUtYnJ1bmEtYWxpbmUtZS1nYWJyaWVsP2FtcA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:28:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "G1",
+        "title": "Bandido faz 'dancinha' após participar de cerco para roubar celular de idoso no Centro de São Paulo - G1",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMimgFodHRwczovL2cxLmdsb2JvLmNvbS9mYW50YXN0aWNvL25vdGljaWEvMjAyMy8wMy8yNy9iYW5kaWRvLWZhei1kYW5jaW5oYS1hcG9zLXBhcnRpY2lwYXItZGUtY2VyY28tcGFyYS1yb3ViYXItY2VsdWxhci1kZS1pZG9zby1uby1jZW50cm8tZGUtc2FvLXBhdWxvLmdodG1s0gGlAWh0dHBzOi8vZzEuZ2xvYm8uY29tL2dvb2dsZS9hbXAvZmFudGFzdGljby9ub3RpY2lhLzIwMjMvMDMvMjcvYmFuZGlkby1mYXotZGFuY2luaGEtYXBvcy1wYXJ0aWNpcGFyLWRlLWNlcmNvLXBhcmEtcm91YmFyLWNlbHVsYXItZGUtaWRvc28tbm8tY2VudHJvLWRlLXNhby1wYXVsby5naHRtbA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:15:50Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Rádio Bandeirantes",
+        "title": "AO VIVO - Jornal Gente - 27/03/2023 - Rádio Bandeirantes - Rádio Bandeirantes",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CCAiC1RIYTRhZHVkX21rmAEB?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:01:19Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "GZH",
+        "title": "Inter acumula mais um vexame de ficar fora da final do Gauchão - GZH",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMirwFodHRwczovL2dhdWNoYXpoLmNsaWNyYnMuY29tLmJyL2NvbHVuaXN0YXMvcGVkcm8tZXJuZXN0by1kZW5hcmRpbi9ub3RpY2lhLzIwMjMvMDMvaW50ZXItYWN1bXVsYS1tYWlzLXVtLXZleGFtZS1kZS1maWNhci1mb3JhLWRhLWZpbmFsLWRvLWdhdWNoYW8tY2xmcTNnOTl1MDAwYTAxNmI0cXhrNWxpMy5odG1s0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:00:05Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "FogãoNET",
+        "title": "Botafogo x Portuguesa: onde assistir, escalações, desfalques e arbitragem do jogo de volta da semifinal da - FogãoNET",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiiQFodHRwczovL3d3dy5mb2dhb25ldC5jb20vbm90aWNpYXMtZG8tYm90YWZvZ28vYm90YWZvZ28tcG9ydHVndWVzYS1vbmRlLWFzc2lzdGlyLWVzY2FsYWNvZXMtZGVzZmFscXVlcy1hcmJpdHJhZ2VtLXNlbWlmaW5hbC10YWNhLXJpby0yMDIzL9IBjQFodHRwczovL3d3dy5mb2dhb25ldC5jb20vbm90aWNpYXMtZG8tYm90YWZvZ28vYm90YWZvZ28tcG9ydHVndWVzYS1vbmRlLWFzc2lzdGlyLWVzY2FsYWNvZXMtZGVzZmFscXVlcy1hcmJpdHJhZ2VtLXNlbWlmaW5hbC10YWNhLXJpby0yMDIzL2FtcC8?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:00:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "G1",
+        "title": "Aeroporto de Tel Aviv suspende operações por protestos em Israel - G1",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMidWh0dHBzOi8vZzEuZ2xvYm8uY29tL211bmRvL25vdGljaWEvMjAyMy8wMy8yNy9hZXJvcG9ydG8tZGUtdGVsLWF2aXYtc3VzcGVuZGUtb3BlcmFjb2VzLWFwb3MtcHJvdGVzdG9zLWVtLWlzcmFlbC5naHRtbNIBgAFodHRwczovL2cxLmdsb2JvLmNvbS9nb29nbGUvYW1wL211bmRvL25vdGljaWEvMjAyMy8wMy8yNy9hZXJvcG9ydG8tZGUtdGVsLWF2aXYtc3VzcGVuZGUtb3BlcmFjb2VzLWFwb3MtcHJvdGVzdG9zLWVtLWlzcmFlbC5naHRtbA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:56:43Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Diário do Nordeste",
+        "title": "Fogo se espalhou em 'minutos', diz pai de miss que caiu do 6º andar ao fugir de incêndio em SP - Diário do Nordeste",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMioQFodHRwczovL2RpYXJpb2Rvbm9yZGVzdGUudmVyZGVzbWFyZXMuY29tLmJyL3VsdGltYS1ob3JhL3BhaXMvZm9nby1zZS1lc3BhbGhvdS1lbS1taW51dG9zLWRpei1wYWktZGUtbWlzcy1xdWUtY2FpdS1kby02LWFuZGFyLWFvLWZ1Z2lyLWRlLWluY2VuZGlvLWVtLXNwLTEuMzM1MDgyN9IBpQFodHRwczovL2RpYXJpb2Rvbm9yZGVzdGUudmVyZGVzbWFyZXMuY29tLmJyL3VsdGltYS1ob3JhL3BhaXMvYW1wL2ZvZ28tc2UtZXNwYWxob3UtZW0tbWludXRvcy1kaXotcGFpLWRlLW1pc3MtcXVlLWNhaXUtZG8tNi1hbmRhci1hby1mdWdpci1kZS1pbmNlbmRpby1lbS1zcC0xLjMzNTA4Mjc?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:32:06Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "G1",
+        "title": "Volkswagen e GM iniciam férias coletivas para 5 mil trabalhadores nas fábricas do Vale do Paraíba - G1",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiqQFodHRwczovL2cxLmdsb2JvLmNvbS9zcC92YWxlLWRvLXBhcmFpYmEtcmVnaWFvL25vdGljaWEvMjAyMy8wMy8yNy92b2xrc3dhZ2VuLWUtZ20taW5pY2lhbS1mZXJpYXMtY29sZXRpdmFzLXBhcmEtNS1taWwtdHJhYmFsaGFkb3Jlcy1uYXMtZmFicmljYXMtZG8tdmFsZS1kby1wYXJhaWJhLmdodG1s0gG0AWh0dHBzOi8vZzEuZ2xvYm8uY29tL2dvb2dsZS9hbXAvc3AvdmFsZS1kby1wYXJhaWJhLXJlZ2lhby9ub3RpY2lhLzIwMjMvMDMvMjcvdm9sa3N3YWdlbi1lLWdtLWluaWNpYW0tZmVyaWFzLWNvbGV0aXZhcy1wYXJhLTUtbWlsLXRyYWJhbGhhZG9yZXMtbmFzLWZhYnJpY2FzLWRvLXZhbGUtZG8tcGFyYWliYS5naHRtbA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:00:25Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "G1",
+        "title": "EXCLUSIVO: juiz é acusado de violência física, sexual e psicológica e proibido de se aproximar da mulher; vídeos mostram agressões - G1",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiugFodHRwczovL2cxLmdsb2JvLmNvbS9zcC9zYW8tcGF1bG8vbm90aWNpYS8yMDIzLzAzLzI3L2V4Y2x1c2l2by1qdWl6LWUtYWN1c2Fkby1kZS12aW9sZW5jaWEtZmlzaWNhLXNleHVhbC1lLXBzaWNvbG9naWNhLWUtcHJvaWJpZG8tZGUtc2UtYXByb3hpbWFyLWRhLW11bGhlci12aWRlb3MtbW9zdHJhbS1hZ3Jlc3NvZXMuZ2h0bWzSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:00:05Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "UOL Economia",
+        "title": "Preço de remédio vai subir até 5,6% a partir de abril; veja como economizar - UOL Economia",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiWGh0dHBzOi8vZWNvbm9taWEudW9sLmNvbS5ici9ub3RpY2lhcy9yZWRhY2FvLzIwMjMvMDMvMjcvYXVtZW50by1lbS1wcmVjby1kZS1yZW1lZGlvcy5odG3SAVxodHRwczovL2Vjb25vbWlhLnVvbC5jb20uYnIvbm90aWNpYXMvcmVkYWNhby8yMDIzLzAzLzI3L2F1bWVudG8tZW0tcHJlY28tZGUtcmVtZWRpb3MuYW1wLmh0bQ?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:00:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "FAPESP",
+        "title": "Sensor de baixo custo detecta Parkinson inicial em amostras biológicas - FAPESP",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZ2h0dHBzOi8vYWdlbmNpYS5mYXBlc3AuYnIvc2Vuc29yLWRlLWJhaXhvLWN1c3RvLWRldGVjdGEtcGFya2luc29uLWluaWNpYWwtZW0tYW1vc3RyYXMtYmlvbG9naWNhcy80MDk3Ny_SAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T05:42:03Z",
+        "content": null
+      }
+    ]
+  },
+  {
+    "status": "ok",
+    "totalResults": 34,
+    "articles": [
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Le Figaro",
+        "title": "Automobile: le blocage allemand levé, les 27 approuvent la fin des moteurs thermiques à partir de 2035 - Le Figaro",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMifmh0dHBzOi8vd3d3LmxlZmlnYXJvLmZyL2ZsYXNoLWVjby9hdXRvbW9iaWxlLWxlLWJsb2NhZ2UtYWxsZW1hbmQtbGV2ZS1sZXMtMjctYXBwcm91dmVudC1sYS1maW4tZGVzLW1vdGV1cnMtdGhlcm1pcXVlcy0yMDIzMDMyN9IBfmh0dHBzOi8vYW1wLmxlZmlnYXJvLmZyL2ZsYXNoLWVjby9hdXRvbW9iaWxlLWxlLWJsb2NhZ2UtYWxsZW1hbmQtbGV2ZS1sZXMtMjctYXBwcm91dmVudC1sYS1maW4tZGVzLW1vdGV1cnMtdGhlcm1pcXVlcy0yMDIzMDMyNw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:30:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "L'ÉQUIPE",
+        "title": "Luxembourg 0-6 Portugal : La preuve que Cristiano Ronaldo doit rester jusqu'à l'Euro 2024 ? - L'ÉQUIPE",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CCAiC2NESHpCak5BOWN3mAEB?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:00:24Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "20 Minutes",
+        "title": "Pénurie de carburants : Au moins 15 % de stations-service à court d'essence ou de gazole - 20 Minutes",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMic2h0dHBzOi8vd3d3LjIwbWludXRlcy5mci9zb2NpZXRlLzQwMjk4MDMtMjAyMzAzMjctcGVudXJpZS1jYXJidXJhbnRzLW1vaW5zLTE1LXN0YXRpb25zLXNlcnZpY2UtY291cnQtZXNzZW5jZS1nYXpvbGXSASRodHRwczovL20uMjBtaW51dGVzLmZyL2FtcC9hLzQwMjk4MDM?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:56:35Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Frandroid",
+        "title": "Coup de tonnerre, Oppo et OnePlus quitteraient la France : le point sur les rumeurs - Frandroid",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMif2h0dHBzOi8vd3d3LmZyYW5kcm9pZC5jb20vbWFycXVlcy9vcHBvLzE2NDc3ODlfY291cC1kZS10b25uZXJyZS1vcHBvLWV0LW9uZXBsdXMtcXVpdHRlcmFpZW50LWxhLWZyYW5jZS1sZS1wb2ludC1zdXItbGVzLXJ1bWV1cnPSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:29:57Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Le Monde",
+        "title": "Réforme des retraites, en direct : Elisabeth Borne ouvre une séquence de consultations politiques afin de construire une majorité favorable à son « programme législatif » - Le Monde",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMi6AFodHRwczovL3d3dy5sZW1vbmRlLmZyL3BvbGl0aXF1ZS9saXZlLzIwMjMvMDMvMjcvcmVmb3JtZS1kZXMtcmV0cmFpdGVzLWVuLWRpcmVjdC1lbGlzYWJldGgtYm9ybmUtb3V2cmUtdW5lLXNlcXVlbmNlLWRlLWNvbnN1bHRhdGlvbnMtcG9saXRpcXVlcy1hZmluLWRlLWNvbnN0cnVpcmUtdW5lLW1ham9yaXRlLWZhdm9yYWJsZS1hLXNvbi1wcm9ncmFtbWUtbGVnaXNsYXRpZl82MTY3MDk3XzgyMzQ0OC5odG1s0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:07:30Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "LaDepeche.fr",
+        "title": "Guerre en Ukraine : risque d'escalade nucléaire, menace pour l'Europe... 3 questions sur la situation en Biélo - LaDepeche.fr",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMinQFodHRwczovL3d3dy5sYWRlcGVjaGUuZnIvMjAyMy8wMy8yNy9ndWVycmUtZW4tdWtyYWluZS1yaXNxdWUtZGVzY2FsYWRlLW51Y2xlYWlyZS1tZW5hY2UtcG91ci1sZXVyb3BlLTMtcXVlc3Rpb25zLXN1ci1sYS1zaXR1YXRpb24tZW4tYmllbG9ydXNzaWUtMTEwODg4NTQucGhw0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:48:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Le Figaro",
+        "title": "Réforme des retraites : le Louvre bloqué lundi matin par des grévistes - Le Figaro",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMibWh0dHBzOi8vd3d3LmxlZmlnYXJvLmZyL2N1bHR1cmUvcmVmb3JtZS1kZXMtcmV0cmFpdGVzLWxlLWxvdXZyZS1ibG9xdWUtbHVuZGktbWF0aW4tcGFyLWRlcy1ncmV2aXN0ZXMtMjAyMzAzMjfSAW1odHRwczovL2FtcC5sZWZpZ2Fyby5mci9jdWx0dXJlL3JlZm9ybWUtZGVzLXJldHJhaXRlcy1sZS1sb3V2cmUtYmxvcXVlLWx1bmRpLW1hdGluLXBhci1kZXMtZ3JldmlzdGVzLTIwMjMwMzI3?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:31:22Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "BFMTV",
+        "title": "Le prince Harry fait une apparition surprise à Londres à un procès contre l'éditeur du \"Daily Mail\" - BFMTV",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMipAFodHRwczovL3d3dy5iZm10di5jb20vcGVvcGxlL3RldGVzLWNvdXJvbm5lZXMvbGUtcHJpbmNlLWhhcnJ5LWZhaXQtdW5lLWFwcGFyaXRpb24tc3VycHJpc2UtYS1sb25kcmVzLWEtdW4tcHJvY2VzLWNvbnRyZS1sLWVkaXRldXItZHUtZGFpbHktbWFpbF9BRC0yMDIzMDMyNzAzMDQuaHRtbNIBqAFodHRwczovL3d3dy5iZm10di5jb20vYW1wL3Blb3BsZS90ZXRlcy1jb3Vyb25uZWVzL2xlLXByaW5jZS1oYXJyeS1mYWl0LXVuZS1hcHBhcml0aW9uLXN1cnByaXNlLWEtbG9uZHJlcy1hLXVuLXByb2Nlcy1jb250cmUtbC1lZGl0ZXVyLWR1LWRhaWx5LW1haWxfQUQtMjAyMzAzMjcwMzA0Lmh0bWw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:23:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "franceinfo",
+        "title": "Faillite de la Silicon Valley Bank : la banque américaine va être rachetée par First Citizens - franceinfo",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5mcmFuY2V0dmluZm8uZnIvZWNvbm9taWUvZXRhdHMtdW5pcy1sYS1iYW5xdWUtZW4tZmFpbGxpdGUtc2lsaWNvbi12YWxsZXktYmFuay1yYWNoZXRlZS1wYXItZmlyc3QtY2l0aXplbnNfNTczNTI3My5odG1s0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:10:08Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Les Échos",
+        "title": "Credit Suisse : le président de la Banque nationale saoudienne démissionne - Les Échos",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiigFodHRwczovL3d3dy5sZXNlY2hvcy5mci9maW5hbmNlLW1hcmNoZXMvYmFucXVlLWFzc3VyYW5jZXMvY3JlZGl0LXN1aXNzZS1sZS1wcmVzaWRlbnQtZGUtbGEtYmFucXVlLW5hdGlvbmFsZS1zYW91ZGllbm5lLWRlbWlzc2lvbm5lLTE5MTkzNzXSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:03:01Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Foot Mercato",
+        "title": "EdF : les deux bras droit de Kylian Mbappé sont connus - Foot Mercato",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vd3d3LmZvb3RtZXJjYXRvLm5ldC9hNDk0MDM5NzM2MDM4OTQ5NzE3NS1lZGYtbGVzLWRldXgtYnJhcy1kcm9pdC1kZS1reWxpYW4tbWJhcHBlLXNvbnQtY29ubnVz0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:01:24Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "CNEWS",
+        "title": "Grève du mardi 28 mars : voici les prévisions de la RATP - CNEWS",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vd3d3LmNuZXdzLmZyL2ZyYW5jZS8yMDIzLTAzLTI3L2dyZXZlLWR1LW1hcmRpLTI4LW1hcnMtdm9pY2ktbGVzLXByZXZpc2lvbnMtZGUtbGEtcmF0cC0xMzM3MTg30gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:51:02Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Tech & Co",
+        "title": "“On passe pour des cons”: Seb La Frite regrette d'avoir signé la tribune sur la régulation des influenceurs - Tech & Co",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiswFodHRwczovL3d3dy5iZm10di5jb20vdGVjaC9hY3R1YWxpdGVzL3Jlc2VhdXgtc29jaWF1eC9vbi1wYXNzZS1wb3VyLWRlcy1jb25zLXNlYi1sYS1mcml0ZS1yZWdyZXR0ZS1kLWF2b2lyLXNpZ25lLWxhLXRyaWJ1bmUtc3VyLWxhLXJlZ3VsYXRpb24tZGVzLWluZmx1ZW5jZXVyc19BVi0yMDIzMDMyNzAyNjMuaHRtbNIBtwFodHRwczovL3d3dy5iZm10di5jb20vYW1wL3RlY2gvYWN0dWFsaXRlcy9yZXNlYXV4LXNvY2lhdXgvb24tcGFzc2UtcG91ci1kZXMtY29ucy1zZWItbGEtZnJpdGUtcmVncmV0dGUtZC1hdm9pci1zaWduZS1sYS10cmlidW5lLXN1ci1sYS1yZWd1bGF0aW9uLWRlcy1pbmZsdWVuY2V1cnNfQVYtMjAyMzAzMjcwMjYzLmh0bWw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:38:06Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Le Télégramme",
+        "title": "Réforme des retraites : un parcours inédit pour la manifestation du mardi 28 mars à Lorient - Le Télégramme",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMingFodHRwczovL3d3dy5sZXRlbGVncmFtbWUuZnIvbW9yYmloYW4vbG9yaWVudC9yZWZvcm1lLWRlcy1yZXRyYWl0ZXMtdW4tcGFyY291cnMtaW5lZGl0LXBvdXItbGEtbWFuaWZlc3RhdGlvbi1kdS1tYXJkaS0yOC1tYXJzLWEtbG9yaWVudC0yNy0wMy0yMDIzLTEzMzA1MzE2LnBocNIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:22:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Boursorama",
+        "title": "Orpea chute avec l'ouverture d'une procédure de sauvegarde accélérée - Boursorama",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMikgFodHRwczovL3d3dy5ib3Vyc29yYW1hLmNvbS9ib3Vyc2UvYWN0dWFsaXRlcy9vcnBlYS1jaHV0ZS1hdmVjLWwtb3V2ZXJ0dXJlLWQtdW5lLXByb2NlZHVyZS1kZS1zYXV2ZWdhcmRlLWFjY2VsZXJlZS1mNGY3MzA1MzcyOGRkNTJhNjdlOGEwNTMxZGZkOWM5NdIBlgFodHRwczovL3d3dy5ib3Vyc29yYW1hLmNvbS9ib3Vyc2UvYWN0dWFsaXRlcy1hbXAvb3JwZWEtY2h1dGUtYXZlYy1sLW91dmVydHVyZS1kLXVuZS1wcm9jZWR1cmUtZGUtc2F1dmVnYXJkZS1hY2NlbGVyZWUtZjRmNzMwNTM3MjhkZDUyYTY3ZThhMDUzMWRmZDljOTU?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:19:33Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Le HuffPost",
+        "title": "Laurent Berger dénonce (encore) l'absence de dialogue sur la réforme des retraites - Le HuffPost",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMijAFodHRwczovL3d3dy5odWZmaW5ndG9ucG9zdC5mci9wb2xpdGlxdWUvYXJ0aWNsZS9sYXVyZW50LWJlcmdlci1kZW5vbmNlLWVuY29yZS1sLWFic2VuY2UtZGUtZGlhbG9ndWUtc3VyLWxhLXJlZm9ybWUtZGVzLXJldHJhaXRlc18yMTU3NjkuaHRtbNIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:54:55Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "RMC Sport",
+        "title": "Irlande-France: Giroud, Kolo Muani... les tendances pour la compo - RMC Sport",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMihgFodHRwczovL3JtY3Nwb3J0LmJmbXR2LmNvbS9mb290YmFsbC9lcXVpcGUtZGUtZnJhbmNlL2lybGFuZGUtZnJhbmNlLWdpcm91ZC1rb2xvLW11YW5pLWxlcy10ZW5kYW5jZXMtcG91ci1sYS1jb21wb19BVi0yMDIzMDMyNzAyMzQuaHRtbNIBigFodHRwczovL3JtY3Nwb3J0LmJmbXR2LmNvbS9hbXAvZm9vdGJhbGwvZXF1aXBlLWRlLWZyYW5jZS9pcmxhbmRlLWZyYW5jZS1naXJvdWQta29sby1tdWFuaS1sZXMtdGVuZGFuY2VzLXBvdXItbGEtY29tcG9fQVYtMjAyMzAzMjcwMjM0Lmh0bWw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:51:04Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "franceinfo",
+        "title": "Retraites : le patron de la CGT, Philippe Martinez, demande au ministre de l'Intérieur de \"calmer le jeu au ni - franceinfo",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMi3wFodHRwczovL3d3dy5mcmFuY2V0dmluZm8uZnIvZWNvbm9taWUvcmV0cmFpdGUvcmVmb3JtZS1kZXMtcmV0cmFpdGVzL3JldHJhaXRlcy1sZS1wYXRyb24tZGUtbGEtY2d0LXBoaWxpcHBlLW1hcnRpbmV6LWRlbWFuZGUtYXUtbWluaXN0cmUtZGUtbC1pbnRlcmlldXItZGUtY2FsbWVyLWxlLWpldS1hdS1uaXZlYXUtZGUtbGEtcG9saWNlLWV0LWRlLWxhLXJlcHJlc3Npb25fNTczNTE4OS5odG1s0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:49:48Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Ouest-France éditions locales",
+        "title": "Manifestations à Sainte-Soline : Christophe Béchu condamne un « déferlement de violence inouï » - Ouest-France éditions locales",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMirAFodHRwczovL3d3dy5vdWVzdC1mcmFuY2UuZnIvZW52aXJvbm5lbWVudC9lYXUvbWFuaWZlc3RhdGlvbnMtYS1zYWludGUtc29saW5lLWNocmlzdG9waGUtYmVjaHUtY29uZGFtbmUtdW4tZGVmZXJsZW1lbnQtZGUtdmlvbGVuY2UtaW5vdWktN2JkZmRlOTgtY2M2Ny0xMWVkLTgxNDQtZTc0ZWZjMDJkMmQz0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:15:21Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Phonandroid",
+        "title": "Pixel : Google améliore sa technologie de recharge pour préserver votre batterie - Phonandroid",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMib2h0dHBzOi8vd3d3LnBob25hbmRyb2lkLmNvbS9waXhlbC1nb29nbGUtYW1lbGlvcmUtc2EtdGVjaG5vbG9naWUtZGUtcmVjaGFyZ2UtcG91ci1wcmVzZXJ2ZXItdm90cmUtYmF0dGVyaWUuaHRtbNIBc2h0dHBzOi8vd3d3LnBob25hbmRyb2lkLmNvbS9waXhlbC1nb29nbGUtYW1lbGlvcmUtc2EtdGVjaG5vbG9naWUtZGUtcmVjaGFyZ2UtcG91ci1wcmVzZXJ2ZXItdm90cmUtYmF0dGVyaWUuaHRtbC9hbXA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:13:14Z",
+        "content": null
+      }
+    ]
+  },
+  {
+    "status": "ok",
+    "totalResults": 30,
+    "articles": [
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "読売新聞オンライン",
+        "title": "名古屋の双子転落死、窓際の棚をよじ登ったか…両親「窓を施錠し別室で数分間家事」 - 読売新聞オンライン",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiN2h0dHBzOi8vd3d3LnlvbWl1cmkuY28uanAvbmF0aW9uYWwvMjAyMzAzMjctT1lUMVQ1MDE5NS_SAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:50:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "nhk.or.jp",
+        "title": "JOLEDが民事再生法を申請 負債総額337億円 - nhk.or.jp",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiPmh0dHBzOi8vd3d3My5uaGsub3IuanAvbmV3cy9odG1sLzIwMjMwMzI3L2sxMDAxNDAyMTUxMTAwMC5odG1s0gFCaHR0cHM6Ly93d3czLm5oay5vci5qcC9uZXdzL2h0bWwvMjAyMzAzMjcvYW1wL2sxMDAxNDAyMTUxMTAwMC5odG1s?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:31:41Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "BIGLOBEニュース",
+        "title": "Kavli IPMUなど、AIを活用しファーストスターが複数で形成されたと推定（2023年3月27日）｜BIGLOBEニュース - BIGLOBEニュース",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiPWh0dHBzOi8vbmV3cy5iaWdsb2JlLm5lLmpwL2l0LzAzMjcvbW5uXzIzMDMyN18wNzMxNDQ2NDQ3Lmh0bWzSAUdodHRwczovL25ld3MuYmlnbG9iZS5uZS5qcC9zbWFydC9hbXAvaXQvMDMyNy9tbm5fMjMwMzI3XzA3MzE0NDY0NDcuaHRtbA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:04:45Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ねとらぼ",
+        "title": "倉持由香、片瀬美月さん急逝にショック「信じられません…」 片瀬さん実母も悲しみ「身体中の細胞が壊れていく」（1/2 ページ） - ねとらぼ - ねとらぼ",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiO2h0dHBzOi8vbmxhYi5pdG1lZGlhLmNvLmpwL25sL2FydGljbGVzLzIzMDMvMjcvbmV3czE3OC5odG1s0gE2aHR0cHM6Ly9ubGFiLml0bWVkaWEuY28uanAvbmwvYW1wLzIzMDMvMjcvbmV3czE3OC5odG1s?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:00:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "nhk.or.jp",
+        "title": "文化庁 京都に移転し業務開始 都倉長官「文化芸術立国目指す」 - nhk.or.jp",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiPmh0dHBzOi8vd3d3My5uaGsub3IuanAvbmV3cy9odG1sLzIwMjMwMzI3L2sxMDAxNDAyMDk2MTAwMC5odG1s0gFCaHR0cHM6Ly93d3czLm5oay5vci5qcC9uZXdzL2h0bWwvMjAyMzAzMjcvYW1wL2sxMDAxNDAyMDk2MTAwMC5odG1s?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:55:55Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "東スポWEB",
+        "title": "【オリックス】ＷＢＣ登板なしの山崎颯一郎が「ナイスピッチング！」といじられ「僕、一度も投げてないのに…」 | 東スポWEB - 東スポWEB",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiMGh0dHBzOi8vd3d3LnRva3lvLXNwb3J0cy5jby5qcC9hcnRpY2xlcy8tLzI1ODM3M9IBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:46:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ASCII.jp",
+        "title": "アスキーゲーム:世界が絶賛！ダーク三國死にゲー『Wo Long』のアコレードトレーラーが公開 - ASCII.jp",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiKmh0dHBzOi8vYXNjaWkuanAvZWxlbS8wMDAvMDA0LzEzMC80MTMwMjY5L9IBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:17:26Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ANNnewsCH",
+        "title": "巨大竜巻で26人死亡 カメラに発生の“瞬間” 激しい嵐直撃…命がけの救出活動も(2023年3月27日) - ANNnewsCH",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CCAiC1h2TTk4MkFGdGU4mAEB?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:14:56Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "nhk.or.jp",
+        "title": "台湾 馬英九前総統が中国訪問を開始 総統経験者の訪中は初 - nhk.or.jp",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiPmh0dHBzOi8vd3d3My5uaGsub3IuanAvbmV3cy9odG1sLzIwMjMwMzI3L2sxMDAxNDAyMTIyMTAwMC5odG1s0gFCaHR0cHM6Ly93d3czLm5oay5vci5qcC9uZXdzL2h0bWwvMjAyMzAzMjcvYW1wL2sxMDAxNDAyMTIyMTAwMC5odG1s?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:02:21Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "テレ東BIZ",
+        "title": "国産量子コンピューター始動（2023年3月27日） - テレ東BIZ",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CCAiCzJ0bkY3bGJOQVFRmAEB?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:43:24Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "オモコロ",
+        "title": "あなたにオススメの「一人用FPSゲーム」をゲーム好きが診断します - オモコロ",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiJGh0dHBzOi8vb21vY29yby5qcC9icm9zL2tpamkvMzg0NzkwL9IBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:30:48Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "産経ニュース",
+        "title": "ダルビッシュ－大谷リレー「送り出した時点で僕の仕事は終わった」 栗山監督一問一答 - 産経ニュース",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiQ2h0dHBzOi8vd3d3LnNhbmtlaS5jb20vYXJ0aWNsZS8yMDIzMDMyNy1KNFZZRDRQUkZWTTdMRkMyNk1BTURHWFo1WS_SAVJodHRwczovL3d3dy5zYW5rZWkuY29tL2FydGljbGUvMjAyMzAzMjctSjRWWUQ0UFJGVk03TEZDMjZNQU1ER1haNVkvP291dHB1dFR5cGU9YW1w?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:24:49Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ねとらぼ",
+        "title": "10万人来場のAnimeJapan 2023 行列のできる美麗コスプレイヤーさん勢ぞろい（1/2 ページ） - ねとらぼ - ねとらぼ",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiO2h0dHBzOi8vbmxhYi5pdG1lZGlhLmNvLmpwL25sL2FydGljbGVzLzIzMDMvMjcvbmV3czE0Ny5odG1s0gE2aHR0cHM6Ly9ubGFiLml0bWVkaWEuY28uanAvbmwvYW1wLzIzMDMvMjcvbmV3czE0Ny5odG1s?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:00:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "朝日新聞デジタル",
+        "title": "拘束のアステラス製薬社員、中国外務省が「スパイ活動に従事」と言及：朝日新聞デジタル - 朝日新聞デジタル",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiN2h0dHBzOi8vd3d3LmFzYWhpLmNvbS9hcnRpY2xlcy9BU1IzVzVTMEZSM1dVSEJJMDFRLmh0bWzSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:37:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "BBCニュース",
+        "title": "イスラエルで首相に抗議の大規模デモとストライキ 司法改革めぐる国防相解任に反発 - BBCニュース - BBCニュース",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiJWh0dHBzOi8vd3d3LmJiYy5jb20vamFwYW5lc2UvNjUwODU3MTjSASlodHRwczovL3d3dy5iYmMuY29tL2phcGFuZXNlLzY1MDg1NzE4LmFtcA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:24:47Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "SOCCER KING",
+        "title": "コロンビア戦は“継続”がテーマ！ 森保監督「チャレンジを続ける」…久保＆GKの起用法にも言及 - SOCCER KING",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiRGh0dHBzOi8vd3d3LnNvY2Nlci1raW5nLmpwL25ld3MvamFwYW4vbmF0aW9uYWwvMjAyMzAzMjcvMTc1MjE1NS5odG1s0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:12:12Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ANNnewsCH",
+        "title": "日本航空“航空券タイムセール”2日間限定で再開へ(2023年3月27日) - ANNnewsCH",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CCAiC25zZEwteUpka2FFmAEB?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:07:30Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "中日新聞",
+        "title": "水卜麻美アナと結婚の中村倫也は「差し入れ持参で朝早くから来社」日テレ幹部が「ＺＩＰ」サプライズ出演の“裏側”明かす：中日スポーツ・東京中日スポーツ - 中日新聞",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiKWh0dHBzOi8vd3d3LmNodW5pY2hpLmNvLmpwL2FydGljbGUvNjYxMjQ40gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T06:52:26Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "リアルサウンド",
+        "title": "杉野遥亮、『罠の戦争』草彅剛との再共演に意欲 「もっと成長した姿をお見せしたい」 - リアルサウンド",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiNGh0dHBzOi8vcmVhbHNvdW5kLmpwL21vdmllLzIwMjMvMDMvcG9zdC0xMjg5OTI4Lmh0bWzSAThodHRwczovL3JlYWxzb3VuZC5qcC9tb3ZpZS8yMDIzLzAzL3Bvc3QtMTI4OTkyOC5odG1sL2FtcA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T06:00:36Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "au Webポータル",
+        "title": "熊本高3自殺 4人全員と和解 - au Webポータル",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiR2h0dHBzOi8vYXJ0aWNsZS5hdW9uZS5qcC9kZXRhaWwvMS8yLzIvMjE2XzJfcl8yMDIzMDMyN18xNjc5ODk1MDQzMjUzMTU30gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T05:27:00Z",
+        "content": null
+      }
+    ]
+  },
+  {
+    "status": "ok",
+    "totalResults": 26,
+    "articles": [
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Verslo žinios",
+        "title": "„Leroy Merlin“ traukiasi iš Rusijos rinkos - Verslo žinios",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiTWh0dHBzOi8vd3d3LnZ6Lmx0L3ByZWt5YmEvMjAyMy8wMy8yNy9sZXJveS1tZXJsaW4tdHJhdWtpYXNpLWlzLXJ1c2lqb3Mtcmlua29z0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T12:14:59Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "basketnews.lt",
+        "title": "„Žalgirio“ šansai patekti į „Top 8“: gali užtekti vienos pergalės, bet gali neužtekti ir keturių - basketnews.lt",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMihQFodHRwczovL3d3dy5iYXNrZXRuZXdzLmx0L25ld3MtMTg3MjEwLXphbGdpcmlvLXNhbnNhaS1wYXRla3RpLWktdG9wLTgtZ2FsaS11enRla3RpLXZpZW5vcy1wZXJnYWxlcy1iZXQtZ2FsaS1uZXV6dGVrdGktaXIta2V0dXJpdS5odG1s0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T12:11:06Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "DELFI",
+        "title": "Kelininkai įspėja: dosni žiemiškų orų porcija kabins vieną Vilniaus dalį - DELFI",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMif2h0dHBzOi8vd3d3LmRlbGZpLmx0L25ld3MvZGFpbHkvbGl0aHVhbmlhL2tlbGluaW5rYWktaXNwZWphLWRvc25pLXppZW1pc2t1LW9ydS1wb3JjaWphLWthYmlucy12aWVuYS12aWxuaWF1cy1kYWxpLmQ_aWQ9OTI5MTQwOTPSATZodHRwczovL20uZGVsZmkubHQvZGVsZmkvYXJ0aWNsZS5waHA_aWQ9OTI5MTQwOTMmYW1wPTE?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T12:09:12Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "DELFI",
+        "title": "Atlikėjas Viktoras Vaikšnoras viešai prabilo apie atliktą plastinę operaciją: pasakė, kas nutiko ant operac... - DELFI",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMipAFodHRwczovL3d3dy5kZWxmaS5sdC92ZWlkYWkvem1vbmVzL2F0bGlrZWphcy12aWt0b3Jhcy12YWlrc25vcmFzLXZpZXNhaS1wcmFiaWxvLWFwaWUtYXRsaWt0YS1wbGFzdGluZS1vcGVyYWNpamEtcGFzYWtlLWthcy1udXRpa28tYW50LW9wZXJhY2luaW8tc3RhbG8uZD9pZD05MjkwMDMzOdIBN2h0dHBzOi8vbS5kZWxmaS5sdC92ZWlkYWkvYXJ0aWNsZS5waHA_aWQ9OTI5MDAzMzkmYW1wPTE?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:57:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "DELFI",
+        "title": "Ekspertai išnarstė Šimonytės užuominas: scenarijai keli - DELFI",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMibmh0dHBzOi8vd3d3LmRlbGZpLmx0L25ld3MvZGFpbHkvbGl0aHVhbmlhL2Vrc3BlcnRhaS1pc25hcnN0ZS1zaW1vbnl0ZXMtdXp1b21pbmFzLXNjZW5hcmlqYWkta2VsaS5kP2lkPTkyOTEwOTAx0gE2aHR0cHM6Ly9tLmRlbGZpLmx0L2RlbGZpL2FydGljbGUucGhwP2lkPTkyOTEwOTAxJmFtcD0x?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:53:43Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Lrytas.lt",
+        "title": "Vidutinės palūkanos, už kurias pasiskolino Vyriausybė – per plauką nuo 4 proc. - Lrytas.lt",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMikAFodHRwczovL3d3dy5scnl0YXMubHQvdmVyc2xhcy9yaW5rb3MtcHVsc2FzLzIwMjMvMDMvMjcvbmV3cy92aWR1dGluZXMtcGFsdWthbm9zLXV6LWt1cmlhcy1wYXNpc2tvbGluby12eXJpYXVzeWJlLXBlci1wbGF1a2EtbnVvLTQtcHJvYy0tMjY1NTM4ODnSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:53:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "15min",
+        "title": "Rusai išsigandę: ruošiasi 50 tūkst. ukrainiečių dronų kamikadzių atakai - 15min",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMif2h0dHBzOi8vd3d3LjE1bWluLmx0L25hdWppZW5hL2FrdHVhbHUvcGFzYXVsaXMvcnVzYWktaXNzaWdhbmRlLXJ1b3NpYXNpLTUwLXR1a3N0LXVrcmFpbmllY2l1LWRyb251LWthbWlrYWR6aXUtYXRha2FpLTU3LTIwMjkwMTLSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:37:22Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "DELFI",
+        "title": "Įvertino naujus Putino planus: Kremlius pažemino savo artimiausią sąjungininkę - DELFI",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMihQFodHRwczovL3d3dy5kZWxmaS5sdC9uZXdzL2RhaWx5L2xpdGh1YW5pYS9pdmVydGluby1uYXVqdXMtcHV0aW5vLXBsYW51cy1rcmVtbGl1cy1wYXplbWluby1zYXZvLWFydGltaWF1c2lhLXNhanVuZ2luaW5rZS5kP2lkPTkyOTEzMjEz0gE2aHR0cHM6Ly9tLmRlbGZpLmx0L2RlbGZpL2FydGljbGUucGhwP2lkPTkyOTEzMjEzJmFtcD0x?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:44:42Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Lrytas.lt",
+        "title": "3 Zodiako ženklai su pačiu žemiausiu libido - Lrytas.lt",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMidGh0dHBzOi8vd3d3LmxyeXRhcy5sdC9neXZlbmltby1idWRhcy9ub3JpLXRpa2VrLzIwMjMvMDMvMjcvbmV3cy8zLXpvZGlha28temVua2xhaS1zdS1wYWNpdS16ZW1pYXVzaXUtbGliaWRvLTI2NDk3OTU50gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:18:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Lrytas.lt",
+        "title": "D. Sabonio vedama „Kings“ jau artimiausią naktį galės nutraukti 17 metų trunkantį prakeiksmą - Lrytas.lt",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMimgFodHRwczovL3d3dy5scnl0YXMubHQvc3BvcnRhcy9rcmVwc2luaXMvMjAyMy8wMy8yNy9uZXdzL2Qtc2Fib25pby12ZWRhbWEta2luZ3MtamF1LWFydGltaWF1c2lhLW5ha3RpLWdhbGVzLW51dHJhdWt0aS0xNy1tZXR1LXRydW5rYW50aS1wcmFrZWlrc21hLTI2NTUyMjg10gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:07:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Verslo žinios",
+        "title": "Investuotojai gausiai parkuoja lėšas pinigų rinkos fonduose - Verslo žinios",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiX2h0dHBzOi8vd3d3LnZ6Lmx0L3Jpbmtvcy8yMDIzLzAzLzI3L2ludmVzdHVvdG9qYWktZ2F1c2lhaS1wYXJrdW9qYS1sZXNhcy1waW5pZ3Utcmlua29zLWZvbmR1b3Nl0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:14:10Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Lrytas.lt",
+        "title": "Ankstų rytą prie Gariūnų – šauksmai ir pykčiai: prireikė ne tik policijos, bet ir greitosios pagalbos - Lrytas.lt",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiowFodHRwczovL3d3dy5scnl0YXMubHQvYXV0by9zYXVndXMtZWlzbWFzLzIwMjMvMDMvMjcvbmV3cy9hbmtzdHUtcnl0YS1wcmllLWdhcml1bnUtc2F1a3NtYWktaXItcHlrY2lhaS1wcmlyZWlrZS1uZS10aWstcG9saWNpam9zLWJldC1pci1ncmVpdG9zaW9zLXBhZ2FsYm9zLTI2NTUxNDgz0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:58:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "DELFI",
+        "title": "Įvardijo „Oskarų“ suknelę, gavusią „savanaudiškiausio“ šventės rūbo titulą - DELFI",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5kZWxmaS5sdC92ZWlkYWkvdXpzaWVuaW8tenZhaWd6ZGVzL2l2YXJkaWpvLW9za2FydS1zdWtuZWxlLWdhdnVzaWEtc2F2YW5hdWRpc2tpYXVzaW8tc3ZlbnRlcy1ydWJvLXRpdHVsYS5kP2lkPTkyNzg0MDI30gE3aHR0cHM6Ly9tLmRlbGZpLmx0L3ZlaWRhaS9hcnRpY2xlLnBocD9pZD05Mjc4NDAyNyZhbXA9MQ?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:41:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Lrytas.lt",
+        "title": "Karas Ukrainoje: Mariupolyje sprogo rusų vado automobilis, Melitopolyje – sprogimai šalia Rusijos kareivinių - Lrytas.lt",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiswFodHRwczovL3d3dy5scnl0YXMubHQvcGFzYXVsaXMvaXZ5a2lhaS8yMDIzLzAzLzI3L25ld3Mva2FyYXMtdWtyYWlub2plLXBhcm9kZS1rYXMtbGlrby1pcy1ydXN1LW5haWtpbmFtby12dWhsZWRhcm8ta3JlbWxpdXMtcGFzYWxpbm8tdi1wdXRpbm8tbmVzZW5pYWktYXBkb3Zhbm90YS1nZW5lcm9sYS0yNjU0NTY3MtIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:23:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Lrytas.lt",
+        "title": "Galimo rinkėjų papirkinėjimo skandale – garsiai skambanti K. Komskio pavardė: pareikšti įtarimai - Lrytas.lt",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMipAFodHRwczovL3d3dy5scnl0YXMubHQvbGlldHV2b3NkaWVuYS9ha3R1YWxpam9zLzIwMjMvMDMvMjcvbmV3cy9nYWxpbW8tcmlua2VqdS1wYXBpcmtpbmVqaW1vLXNrYW5kYWxlLWdhcnNpYWktc2thbWJhbnRpLWsta29tc2tpby1wYXZhcmRlLXBhcmVpa3N0aS1pdGFyaW1haS0yNjU1MDk4NNIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:17:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "DELFI",
+        "title": "JAV bankas „First Citizens“ perims žlugusio kreditoriaus SVB paskolas ir indėlius - DELFI",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5kZWxmaS5sdC92ZXJzbGFzL3ZlcnNsYXMvamF2LWJhbmthcy1maXJzdC1jaXRpemVucy1wZXJpbXMtemx1Z3VzaW8ta3JlZGl0b3JpYXVzLXN2Yi1wYXNrb2xhcy1pci1pbmRlbGl1cy5kP2lkPTkyOTEwNzAz0gE4aHR0cHM6Ly9tLmRlbGZpLmx0L3ZlcnNsYXMvYXJ0aWNsZS5waHA_aWQ9OTI5MTA3MDMmYW1wPTE?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:54:12Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "15min",
+        "title": "Paaiškėjo Italijos kalnuose per sniego laviną žuvusios lietuvės tapatybė, mirtis buvo staigi - 15min",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMilQFodHRwczovL3d3dy4xNW1pbi5sdC9uYXVqaWVuYS9ha3R1YWx1L3Bhc2F1bGlzL3BhYWlza2Vqby1pdGFsaWpvcy1rYWxudW9zZS1wZXItc25pZWdvLWxhdmluYS16dXZ1c2lvcy1saWV0dXZlcy10YXBhdHliZS1taXJ0aXMtYnV2by1zdGFpZ2ktNTctMjAyODk0NtIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:24:45Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "tv3.lt",
+        "title": "Baltarusijoje grasinama užtvindyti Vilnių ir sudeginti Varšuvą - tv3.lt",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMibGh0dHBzOi8vd3d3LnR2My5sdC9uYXVqaWVuYS91enNpZW5pcy9iYWx0YXJ1c2lqb2plLWdyYXNpbmFtYS11enR2aW5keXRpLXZpbG5pdS1pci1zdWRlZ2ludGktdmFyc3V2YS1uMTIyNjQ4NNIBcmh0dHBzOi8vd3d3LnR2My5sdC9tL2FtcC9uYXVqaWVuYS91enNpZW5pcy9iYWx0YXJ1c2lqb2plLWdyYXNpbmFtYS11enR2aW5keXRpLXZpbG5pdS1pci1zdWRlZ2ludGktdmFyc3V2YS1uMTIyNjQ4NA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:21:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "LRT",
+        "title": "Lietuvos bankas mintis apie krizę veja tolyn: niūriausi debesys prasisklaidė, ekonomika augs, infliacija ma... - LRT",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMimgFodHRwczovL3d3dy5scnQubHQvbmF1amllbm9zL3ZlcnNsYXMvNC8xOTQ3NDU2L2xpZXR1dm9zLWJhbmthcy1taW50aXMtYXBpZS1rcml6ZS12ZWphLXRvbHluLW5pdXJpYXVzaS1kZWJlc3lzLXByYXNpc2tsYWlkZS1la29ub21pa2EtYXVncy1pbmZsaWFjaWphLW1hemVz0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:20:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "tv3.lt",
+        "title": "Alytiškius šokiravo mokytojos elgesys: „Atvyko tokia girta, kad vos pastovėjo ant kojų“ - tv3.lt",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy50djMubHQvbmF1amllbmEvZ3l2ZW5pbWFzL2FseXRpc2tpdXMtc29raXJhdm8tbW9reXRvam9zLWVsZ2VzeXMtYXR2eWtvLXRva2lhLWdpcnRhLWthZC12b3MtcGFzdG92ZWpvLWFudC1rb2p1LW4xMjI2NDgx0gGIAWh0dHBzOi8vd3d3LnR2My5sdC9tL2FtcC9uYXVqaWVuYS9neXZlbmltYXMvYWx5dGlza2l1cy1zb2tpcmF2by1tb2t5dG9qb3MtZWxnZXN5cy1hdHZ5a28tdG9raWEtZ2lydGEta2FkLXZvcy1wYXN0b3Zlam8tYW50LWtvanUtbjEyMjY0ODE?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T07:07:00Z",
+        "content": null
+      }
+    ]
+  },
+  {
+    "status": "ok",
+    "totalResults": 34,
+    "articles": [
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "WinFuture",
+        "title": "Patentkrieg mit Nokia: Oppo/OnePlus sollen Europa verlassen (Update) - WinFuture",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiJWh0dHBzOi8vd2luZnV0dXJlLmRlL25ld3MsMTM1MzQ4Lmh0bWzSASZodHRwczovL20ud2luZnV0dXJlLmRlL2FtcC9uZXdzLzEzNTM0OA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:45:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "n-tv NACHRICHTEN",
+        "title": "Gerichtstermin statt Aussprache: Prinz Harry ist überraschend in London - n-tv NACHRICHTEN",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiVmh0dHBzOi8vd3d3Lm4tdHYuZGUvbGV1dGUvUHJpbnotSGFycnktaXN0LXVlYmVycmFzY2hlbmQtaW4tTG9uZG9uLWFydGljbGUyNDAxNDc0OS5odG1s0gFWaHR0cHM6Ly9hbXAubi10di5kZS9sZXV0ZS9Qcmluei1IYXJyeS1pc3QtdWViZXJyYXNjaGVuZC1pbi1Mb25kb24tYXJ0aWNsZTI0MDE0NzQ5Lmh0bWw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:26:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "DER SPIEGEL",
+        "title": "Kurz nach Bayern-Aus: Nagelsmann gilt als Kandidat bei Tottenham Hotspur - DER SPIEGEL",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMihgFodHRwczovL3d3dy5zcGllZ2VsLmRlL3Nwb3J0L2Z1c3NiYWxsL2p1bGlhbi1uYWdlbHNtYW5uLWdpbHQtYWxzLWthbmRpZGF0LWJlaS10b3R0ZW5oYW0taG90c3B1ci1hLWUwZTkyYjRjLTJlMTMtNDMxNi1iNDZhLWRjNWVjZDBhNTJiY9IBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:15:41Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "finanzen.net",
+        "title": "Impfstoffhype vorbei: BioNTech mit Gewinn- und Umsatzrückgang - BioNTech-Aktie an der NASDAQ vorbörs - finanzen.net",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMitQFodHRwczovL3d3dy5maW5hbnplbi5uZXQvbmFjaHJpY2h0L2FrdGllbi9iaWxhbnotcHJhZXNlbnRpZXJ0LWltcGZzdG9mZmh5cGUtdm9yYmVpLWJpb250ZWNoLW1pdC1nZXdpbm4tdW5kLXVtc2F0enJ1ZWNrZ2FuZy1iaW9udGVjaC1ha3RpZS1hbi1kZXItbmFzZGFxLXZvcmJvZXJzbGljaC1zY2h3YWNoLTEyMjk1MTI10gGoAWh0dHBzOi8vd3d3LmZpbmFuemVuLm5ldC9hbXAvYmlsYW56LXByYWVzZW50aWVydC1pbXBmc3RvZmZoeXBlLXZvcmJlaS1iaW9udGVjaC1taXQtZ2V3aW5uLXVuZC11bXNhdHpydWVja2dhbmctYmlvbnRlY2gtYWt0aWUtYW4tZGVyLW5hc2RhcS12b3Jib2Vyc2xpY2gtc2Nod2FjaC0xMjI5NTEyNQ?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T11:02:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "RND",
+        "title": "Streik heute (27.03.2023): Aktuelle Lage am Montag im Liveticker - RND",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMie2h0dHBzOi8vd3d3LnJuZC5kZS93aXJ0c2NoYWZ0L3N0cmVpay1oZXV0ZS0yNy0wMy0yMDIzLWFrdHVlbGxlLWxhZ2UtYW0tbW9udGFnLWltLWxpdmV0aWNrZXItSkk0UTVXQVlBWkRWVktSSVBJNEhXRDdIWlkuaHRtbNIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:49:14Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "tagesschau.de",
+        "title": "DAX über 15.100 Punkten : Anleger atmen nach SVB-Übernahme auf - tagesschau.de",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMidGh0dHBzOi8vd3d3LnRhZ2Vzc2NoYXUuZGUvd2lydHNjaGFmdC9maW5hbnplbi9tYXJrdGJlcmljaHRlL2RheC0xNTAwMC1wdW5rdGUtZG93LWJhbmtlbi10ZXNsYS1tdXNrLWdvbGQtb2VsLTEwMS5odG1s0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:48:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "NDR.de",
+        "title": "Warnstreik legt Bahnverkehr in MV lahm - NDR.de",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiggFodHRwczovL3d3dy5uZHIuZGUvbmFjaHJpY2h0ZW4vbWVja2xlbmJ1cmctdm9ycG9tbWVybi9MaXZldGlja2VyLVdhcm5zdHJlaWstbGVndC1CYWhudmVya2Voci1pbi1NVi1sYWhtLHZlcmtlaHJzd2FybnN0cmVpazEwMC5odG1s0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:16:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Promiflash.de",
+        "title": "TikTok-Star Lisa Mantler hat ihren Verlobten geheiratet! - Promiflash.de",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZmh0dHBzOi8vd3d3LnByb21pZmxhc2guZGUvbmV3cy8yMDIzLzAzLzI3L3Rpa3Rvay1zdGFyLWxpc2EtbWFudGxlci1oYXQtaWhyZW4tdmVybG9idGVuLWdlaGVpcmF0ZXQuaHRtbNIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:10:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "NDR.de",
+        "title": "Auf Straße festgeklebt: Klima-Aktivisten bleiben in Gewahrsam - NDR.de",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiemh0dHBzOi8vd3d3Lm5kci5kZS9uYWNocmljaHRlbi9oYW1idXJnL0F1Zi1TdHJhc3NlLWZlc3RnZWtsZWJ0LUtsaW1hLUFrdGl2aXN0ZW4tYmxlaWJlbi1pbi1HZXdhaHJzYW0tLGtsaW1hcHJvdGVzdDE4Ni5odG1s0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T10:04:40Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "inFranken.de",
+        "title": "Typ-1-Diabetes: Medikament soll Ausbruch über mehrere Jahre verzögern - Therapie hat stolzen Preis - inFranken.de",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMimQFodHRwczovL3d3dy5pbmZyYW5rZW4uZGUvcmF0Z2ViZXIvZ2VzdW5kaGVpdC90eXAxLWRpYWJldGVzLW1lZGlrYW1lbnQtc29sbC1hdXNicnVjaC11ZWJlci1tZWhyZXJlLWphaHJlLXZlcnpvZWdlcm4tdGhlcmFwaWUtaGF0LXN0b2x6ZW4tcHJlaXMtYXJ0LTU2NjAzNjfSAZkBaHR0cHM6Ly9hbXAuaW5mcmFua2VuLmRlL3JhdGdlYmVyL2dlc3VuZGhlaXQvdHlwMS1kaWFiZXRlcy1tZWRpa2FtZW50LXNvbGwtYXVzYnJ1Y2gtdWViZXItbWVocmVyZS1qYWhyZS12ZXJ6b2VnZXJuLXRoZXJhcGllLWhhdC1zdG9semVuLXByZWlzLWFydC01NjYwMzY3?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:54:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "DER SPIEGEL",
+        "title": "Trotz Bankenbeben und Inflation: Stimmung deutscher Unternehmen hellt sich auf - DER SPIEGEL",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMihQFodHRwczovL3d3dy5zcGllZ2VsLmRlL3dpcnRzY2hhZnQvdW50ZXJuZWhtZW4vc3RpbW11bmctaW4tZGV1dHNjaGVuLXVudGVybmVobWVuLWhlbGx0LXNpY2gtYXVmLWEtZGQ5NzI5N2MtYWY5OS00NzRlLTk1NjItMTUzY2I5ZTlkMWNh0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:52:48Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "DER SPIEGEL",
+        "title": "Amazons »Herr der Ringe«-Serie: Pferd stirbt bei Dreh zu »Die Ringe der Macht« - DER SPIEGEL",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMikAFodHRwczovL3d3dy5zcGllZ2VsLmRlL2t1bHR1ci9raW5vL2Rlci1oZXJyLWRlci1yaW5nZS1yaW5nZS1kZXItbWFjaHQtcGZlcmQtc3RpcmJ0LXBldGEtZm9yZGVydC1jZ2ktdGllcmUtYS1mZWYzNzcwNS0yZTg0LTRmMmEtYmI0Zi03Zjc1Nzc0MGVmMTjSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:37:42Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "WELT",
+        "title": "Amrum: Hobbyastronom Jost Jahn entdeckt neuen Kometen P/2023 C1 - WELT",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMidWh0dHBzOi8vd3d3LndlbHQuZGUvd2lzc2Vuc2NoYWZ0L2FydGljbGUyNDQ1MDkzMDAvQW1ydW0tSG9iYnlhc3Ryb25vbS1Kb3N0LUphaG4tZW50ZGVja3QtbmV1ZW4tS29tZXRlbi1QLTIwMjMtQzEuaHRtbNIBAA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:29:28Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "STERN.de",
+        "title": "Ukraine-News: Militärchef ruft zur Evakuierung von Awdijiwka auf - STERN.de",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMidGh0dHBzOi8vd3d3LnN0ZXJuLmRlL3BvbGl0aWsvYXVzbGFuZC91a3JhaW5lLW5ld3MtLW1pbGl0YWVyY2hlZi1ydWZ0LXp1ci1ldmFrdWllcnVuZy12b24tYXdkaWppd2thLWF1Zi0zMzMxOTg4Ni5odG1s0gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:22:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "ZDFheute",
+        "title": "Nackte David-Skulptur: Lehrerin verliert Job - ZDFheute",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiW2h0dHBzOi8vd3d3LnpkZi5kZS9uYWNocmljaHRlbi9wYW5vcmFtYS9mbG9yaWRhLW1pY2hlbGFuZ2Vsby1zdGF0dWUtZGF2aWQtbGVocmVyaW4tMTAwLmh0bWzSAVtodHRwczovL2FtcC56ZGYuZGUvbmFjaHJpY2h0ZW4vcGFub3JhbWEvZmxvcmlkYS1taWNoZWxhbmdlbG8tc3RhdHVlLWRhdmlkLWxlaHJlcmluLTEwMC5odG1s?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T09:14:51Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Nordbayern.de",
+        "title": "Erste Hinweise aufgetaucht: Führt WhatsApp bald auch Video-Nachrichten ein? - Nordbayern.de",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMid2h0dHBzOi8vd3d3Lm5vcmRiYXllcm4uZGUvcGFub3JhbWEvZXJzdGUtaGlud2Vpc2UtYXVmZ2V0YXVjaHQtZnVocnQtd2hhdHNhcHAtYmFsZC1hdWNoLXZpZGVvLW5hY2hyaWNodGVuLWVpbi0xLjEzMTA4OTI10gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:59:11Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Abendzeitung",
+        "title": "Nach Ehe-Statement: Charlène von Monaco sagt Fürst Albert ab - Abendzeitung",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMic2h0dHBzOi8vd3d3LmFiZW5kemVpdHVuZy1tdWVuY2hlbi5kZS9wcm9taXMvbmFjaC1laGUtc3RhdGVtZW50LWNoYXJsZW5lLXZvbi1tb25hY28tc2FndC1mdWVyc3QtYWxiZXJ0LWFiLWFydC04ODkyMjXSAQA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:42:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "B.Z. – Die Stimme Berlins",
+        "title": "Klima-Volksentscheid: So wurde in Berlins Bezirken gestimmt - B.Z. – Die Stimme Berlins",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiX2h0dHBzOi8vd3d3LmJ6LWJlcmxpbi5kZS9iZXJsaW4vc28td3VyZGUtaW4tYmVybGlucy1iZXppcmtlbi1iZWltLWtsaW1hLXZvbGtzZW50c2NoZWlkLWdlc3RpbW100gEA?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:36:59Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "n-tv NACHRICHTEN",
+        "title": "Anton Hofreiter im \"Frühstart\": \"Putin hält westliche Demokratien für verweichlicht\" - n-tv NACHRICHTEN",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiZWh0dHBzOi8vd3d3Lm4tdHYuZGUvcG9saXRpay9QdXRpbi1oYWVsdC13ZXN0bGljaGUtRGVtb2tyYXRpZW4tZnVlci12ZXJ3ZWljaGxpY2h0LWFydGljbGUyNDAxNDI5NS5odG1s0gFlaHR0cHM6Ly9hbXAubi10di5kZS9wb2xpdGlrL1B1dGluLWhhZWx0LXdlc3RsaWNoZS1EZW1va3JhdGllbi1mdWVyLXZlcndlaWNobGljaHQtYXJ0aWNsZTI0MDE0Mjk1Lmh0bWw?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:13:00Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "google-news",
+          "name": "Google News"
+        },
+        "author": "Esquire",
+        "title": "Die besten Kopfmassagegeräte im Vergleich - Esquire",
+        "description": null,
+        "url": "https://news.google.com/rss/articles/CBMiSmh0dHBzOi8vd3d3LmVzcXVpcmUuZGUvbGlmZS9maXRuZXNzLWdlc3VuZGhlaXQva29wZm1hc3NhZ2VnZXJhZXQtdmVyZ2xlaWNo0gFQaHR0cHM6Ly93d3cuZXNxdWlyZS5kZS9saWZlL2ZpdG5lc3MtZ2VzdW5kaGVpdC9rb3BmbWFzc2FnZWdlcmFldC12ZXJnbGVpY2g_YW1wPTE?oc=5",
+        "urlToImage": null,
+        "publishedAt": "2023-03-27T08:00:00Z",
+        "content": null
+      }
+    ]
+  }
+]
