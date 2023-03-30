@@ -20,16 +20,13 @@
 
     & span {
       font-size: $font-medium;
-
-      @media (max-width: $break-phone) {
-        // display: none;
-      }
     }
 
     & svg {
+      height: 3rem;
+
       @media (max-width: $break-phone) {
-        height: 3rem;
-        width: 3rem;
+        margin-top: 0.2rem;
       }
     }
   }
