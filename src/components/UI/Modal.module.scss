@@ -51,6 +51,12 @@
 
     &-active {
       animation: show 300ms;
+
+      @media (max-width: $break-phone) {
+        animation: none;
+        opacity: 1;
+        transition: all 0.3s;
+      }
     }
   }
 
@@ -59,6 +65,12 @@
 
     &-active {
       animation: hide 300ms;
+
+      @media (max-width: $break-phone) {
+        animation: none;
+        opacity: 0;
+        transition: all 0.3s;
+      }
     }
   }
 }

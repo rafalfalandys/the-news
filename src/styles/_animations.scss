@@ -3,9 +3,9 @@
     opacity: 0%;
     transform: translate(-50%, calc(-50% - 20rem)) scale(0.8);
   }
-  50% {
-    transform: translate(-50%, calc(-50% + 5rem)) scale(1);
-  }
+  // 50% {
+  //   transform: translate(-50%, calc(-50% + 5rem)) scale(1);
+  // }
   100% {
     opacity: 100%;
     transform: translate(-50%, calc(-50%));

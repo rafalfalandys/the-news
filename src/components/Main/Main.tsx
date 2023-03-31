@@ -19,9 +19,13 @@ const Main: React.FC = () => {
     <ArticleCard key={i} article={article} />
   ));
 
+  // get current scroll to display modal in proper posiiton
+  const curScroll = document.documentElement.scrollTop;
+
   return (
     <Fragment>
-      <Outlet /> {/* outlet for article details modal window */}
+      <Outlet context={{ curScroll }} />
+      {/* outlet for article details modal window */}
       <div className={classes.wrapper}>
         <main className={classes.main}>
           <ul

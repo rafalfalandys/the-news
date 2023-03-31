@@ -1,5 +1,9 @@
 import classes from "./ArticleModal.module.scss";
-import { useParams, useRouteLoaderData } from "react-router-dom";
+import {
+  useOutletContext,
+  useParams,
+  useRouteLoaderData,
+} from "react-router-dom";
 import { buildArticleQuery, buildDate } from "../../helper";
 import { ArtcilesResObj } from "../../types";
 
@@ -11,6 +15,7 @@ const ArticleModal: React.FC = () => {
   const loaderData = useRouteLoaderData("country") as ArtcilesResObj;
   const params = useParams();
   const text = useText();
+  const { curScroll } = useOutletContext() as { curScroll: number };
 
   const { articles } = loaderData;
 
@@ -22,10 +27,9 @@ const ArticleModal: React.FC = () => {
   );
 
   const time = buildDate(article!.publishedAt, text.main.locales, text);
-
   return (
     <Fragment>
-      <Modal isVisible={true}>
+      <Modal isVisible={true} curScroll={curScroll}>
         <div className={classes.wrapper}>
           {/* Header */}
           <section className={classes.head}>
