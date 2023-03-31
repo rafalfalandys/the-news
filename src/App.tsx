@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ArticleModal from "./components/Main/ArticleModal";
-import loadArticles from "./components/Main/loaderFunction";
+import loadArticles from "./loadArticlesFunction";
 import Main from "./components/Main/Main";
 import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/HomePage";

@@ -1,9 +1,9 @@
 import { LoaderFunction } from "react-router-dom";
-import { API_KEY, NEWS_URL } from "../../config";
-import { buildQueryParams } from "../../helper";
-import { ArtcilesResObj, QueryObj } from "../../types";
-import { uiActions } from "../../store/ui-slice";
-import store from "../../store";
+import { API_KEY, NEWS_URL } from "./config";
+import { buildQueryParams } from "./helper";
+import { ArtcilesResObj, QueryObj } from "./types";
+import { uiActions } from "./store/ui-slice";
+import store from "./store";
 
 //////////////////////////////////////////////////////////
 /////////////////////// THE ENGINE ///////////////////////

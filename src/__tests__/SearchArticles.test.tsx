@@ -1,8 +1,7 @@
-import { fireEvent, render, screen } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { MemoryRouter } from "react-router-dom";
 import { textsPolish } from "../assets/texts";
-import userEvent from "@testing-library/user-event";
 import SearchArticles from "../components/Main/SearchArticles";
 import store from "../store";
 

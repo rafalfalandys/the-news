@@ -21,11 +21,6 @@ const Modal: React.FC<{
   const params = useParams();
   const text = useText();
 
-  // // scroll to top after opening the modal
-  // if (window.innerWidth > 600)
-  //   window.scrollTo({ left: 0, top: 0, behavior: "smooth" });
-  // else window.scroll(0, 0);
-
   // hide modal on clicking a button
   const hideModalHandler = () => {
     dispatch(uiActions.controlModal("hide"));
