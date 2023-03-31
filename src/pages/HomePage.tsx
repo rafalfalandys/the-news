@@ -1,8 +1,8 @@
 import { Outlet, useLocation, useNavigation } from "react-router-dom";
 import classes from "./HomePage.module.scss";
+
 import Header from "../components/Header/Header";
 import Sidebar from "../components/Sidebar/Sidebar";
-// import { COUNTRIES_URL } from "../config";
 import Footer from "../components/Footer/Footer";
 import SearchArticles from "../components/Main/SearchArticles";
 import PopupWindow from "../components/Popup/Popup";
