@@ -55,8 +55,6 @@ const Sidebar: React.FC = () => {
     />
   ));
 
-  const isArticleModalOn = !!params.articleDetails;
-
   return (
     <Fragment>
       {/* overlay for RWD: */}
