@@ -14,12 +14,14 @@ import Input from "antd/es/input/Input";
 import useText from "../../hooks/useText";
 import ToggleSidebarBtn from "./ToggleSidebarBtn";
 import Overlay from "../UI/Overlay";
+import { useParams } from "react-router-dom";
 
 const Sidebar: React.FC = () => {
   const text = useText();
   const isEnglish = useSelector((state: RootState) => state.ui.isEnglish);
   const [query, setQuery] = useState("");
   const dispatch = useDispatch();
+  const params = useParams();
   const isSidebarVisible = useSelector(
     (state: RootState) => state.ui.isSidebarVisible
   ); // handling sidebar visibility on phones
@@ -53,6 +55,8 @@ const Sidebar: React.FC = () => {
     />
   ));
 
+  const isArticleModalOn = !!params.articleDetails;
+
   return (
     <Fragment>
       {/* overlay for RWD: */}
@@ -84,7 +88,7 @@ const Sidebar: React.FC = () => {
         </div>
 
         {/* button for hiding sidebar on phone and language switch: */}
-        <ToggleSidebarBtn />
+        {!params.articleDetails && <ToggleSidebarBtn />}
 
         {/* language switch is moved here on phones */}
         <LanguageSwitch className={classes["lang-switch"]} />

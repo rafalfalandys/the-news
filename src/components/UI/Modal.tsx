@@ -10,14 +10,21 @@ import Btn from "./Btn";
 import Overlay from "./Overlay";
 import { CSSTransition } from "react-transition-group";
 
-const Modal: React.FC<{ children: ReactNode; isVisible: boolean }> = (
-  props
-) => {
+const Modal: React.FC<{
+  children: ReactNode;
+  isVisible: boolean;
+  curScroll?: number;
+}> = (props) => {
   const portalEl = document.getElementById("overlays")!;
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const params = useParams();
   const text = useText();
+
+  // // scroll to top after opening the modal
+  // if (window.innerWidth > 600)
+  //   window.scrollTo({ left: 0, top: 0, behavior: "smooth" });
+  // else window.scroll(0, 0);
 
   // hide modal on clicking a button
   const hideModalHandler = () => {
@@ -35,13 +42,21 @@ const Modal: React.FC<{ children: ReactNode; isVisible: boolean }> = (
         unmountOnExit
         appear={true}
         classNames={{
+          enter: classes["slide-enter"],
           enterActive: classes["slide-enter-active"],
           exitActive: classes["slide-exit-active"],
+          exit: classes["slide-exit"],
+          appear: classes["slide-enter"],
           appearActive: classes["slide-enter-active"],
         }}
       >
         <Fragment>
-          <div className={classes.wrapper}>
+          <div
+            className={classes.wrapper}
+            style={{
+              top: `calc(${props.curScroll}px + 50%)`,
+            }}
+          >
             <div className={classes.modal}>
               {props.children}
               <Btn onClick={hideModalHandler}>{text.modal.btnClose}</Btn>
