@@ -1,20 +1,12 @@
-import { render } from "@testing-library/react";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { createMemoryRouter, RouterProvider } from "react-router-dom";
 import store from "../../store";
 import Sidebar from "./Sidebar";
+import { AVAILABLE_COUNTRIES } from "../../config";
 
-// jest.mock("antd/es/input", () => {
-//   return {
-//     ...jest.requireActual("antd"),
-//     Input: jest.fn((p) => <input />),
-//   };
-// });
-
-jest.mock("antd/lib/input", () => {
-  return jest.fn().mockImplementation(({ onChange }) => {
-    return <input data-testid="mock-input" onChange={onChange} />;
-  });
+jest.mock("antd/es/input/Input", () => {
+  return "input";
 });
 
 const routes = [
@@ -42,7 +34,33 @@ const renderSidebar = () => {
 };
 
 describe("Sidebar test", () => {
-  test("shows input", () => {
+  test("shows search input", () => {
     renderSidebar();
+    const searchBox = screen.getByRole("textbox");
+
+    expect(searchBox).toBeInTheDocument();
+  });
+
+  test("click on 'see random articles' changes url to '/country/all'", () => {
+    renderSidebar();
+    const links = screen.getAllByRole("link");
+    fireEvent.click(links[0]);
+
+    expect(router.state.location.pathname).toEqual(`/country/all`);
+  });
+
+  test("click on each country changes url to one available in API", () => {
+    renderSidebar();
+
+    const links = screen.getAllByRole("link").slice(1);
+
+    links.forEach((link, i) => {
+      fireEvent.click(link);
+
+      const urlCountry = router.state.location.pathname.slice(-2);
+      const isAvailable = AVAILABLE_COUNTRIES.includes(urlCountry);
+
+      expect(isAvailable).toEqual(true);
+    });
   });
 });

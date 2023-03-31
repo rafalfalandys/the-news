@@ -86,7 +86,7 @@ export const textsEnglish: TextObj = {
   },
   error: {
     header: "Something went wrong.",
-    msg: "Click on logo to go to the home page (maybe it will help)",
+    msg: "Click on logo to go to the home page",
   },
 };
 
@@ -133,6 +133,6 @@ export const textsPolish: TextObj = {
   },
   error: {
     header: "Ups. Coś poszło nie tak.",
-    msg: "Kliknij w logo, żeby wrócić do strony głównej (może pomoże ;])",
+    msg: "Kliknij w logo, żeby wrócić do strony głównej",
   },
 };
