@@ -1,9 +1,9 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { createMemoryRouter, RouterProvider } from "react-router-dom";
-import store from "../../store";
-import Sidebar from "./Sidebar";
-import { AVAILABLE_COUNTRIES } from "../../config";
+import store from "../store";
+import Sidebar from "../components/Sidebar/Sidebar";
+import { AVAILABLE_COUNTRIES } from "../config";
 
 jest.mock("antd/es/input/Input", () => {
   return "input";
@@ -52,11 +52,13 @@ describe("Sidebar test", () => {
   test("click on each country changes url to one available in API", () => {
     renderSidebar();
 
+    // first link is a link to random articles so I start with 2nd
     const links = screen.getAllByRole("link").slice(1);
 
     links.forEach((link, i) => {
       fireEvent.click(link);
 
+      // 2 last letters of the url should be included in api available countries array
       const urlCountry = router.state.location.pathname.slice(-2);
       const isAvailable = AVAILABLE_COUNTRIES.includes(urlCountry);
 

@@ -1,8 +1,8 @@
 import { cleanup, fireEvent, render, screen } from "@testing-library/react";
 import { Provider } from "react-redux";
 import { createMemoryRouter, RouterProvider } from "react-router-dom";
-import store from "../../store";
-import Header from "./Header";
+import Header from "../components/Header/Header";
+import store from "../store";
 
 afterEach(() => cleanup());
 

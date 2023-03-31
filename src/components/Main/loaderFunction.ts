@@ -8,7 +8,7 @@ import store from "../../store";
 //////////////////////////////////////////////////////////
 /////////////////////// THE ENGINE ///////////////////////
 
-export const loader: LoaderFunction = async ({ params, request }) => {
+const loader: LoaderFunction = async ({ params, request }) => {
   try {
     const { keyword, results, page }: QueryObj = buildQueryParams(request.url);
     const { countryCode } = params;
@@ -50,3 +50,5 @@ export const loader: LoaderFunction = async ({ params, request }) => {
     return error;
   }
 };
+
+export default loader;

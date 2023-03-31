@@ -18,7 +18,10 @@ const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
   const time = buildDate(article.publishedAt, text.main.locales, text);
 
   return (
-    <li className={`${classes.wrapper} ${isGridView ? "" : classes.list}`}>
+    <li
+      className={`${classes.wrapper} ${isGridView ? "" : classes.list}`}
+      aria-label="article card"
+    >
       <Link
         to={buildQuery(params.countryCode!, {
           articleTitle: article.title,

@@ -35,8 +35,11 @@ const SearchArticles: React.FC = () => {
             autoComplete="off"
           />
           <Btn>
-            {!searchQuery && <span>{text.searchView.btnAllArticles}</span>}
-            {searchQuery && <span>{text.searchView.btnSearch}</span>}
+            <span aria-label="search button">
+              {searchQuery
+                ? text.searchView.btnSearch
+                : text.searchView.btnAllArticles}
+            </span>
           </Btn>
         </form>
       </main>
