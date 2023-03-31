@@ -30,16 +30,14 @@ const Modal: React.FC<{ children: ReactNode; isVisible: boolean }> = (
       <Overlay onClick={hideModalHandler} showState={props.isVisible} />
       <CSSTransition
         in={props.isVisible}
-        timeout={400}
+        timeout={300}
         mountOnEnter
         unmountOnExit
+        appear={true}
         classNames={{
-          enter: "",
-          enterActive: classes.showing,
-          exit: "",
-          exitActive: classes.hiding,
-          appear: "",
-          appearActive: classes.showing,
+          enterActive: classes["slide-enter-active"],
+          exitActive: classes["slide-exit-active"],
+          appearActive: classes["slide-enter-active"],
         }}
       >
         <Fragment>
