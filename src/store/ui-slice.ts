@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const uiSlice = createSlice({
   name: "ui",
   initialState: {
-    isGridView: false,
+    isGridView: true,
     isEnglish: false,
     isModalVisible: false, // controls header popup
     results: { total: 0, onScreen: 20 }, // data to be dispalyed in footer

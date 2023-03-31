@@ -1,17 +1,28 @@
 @keyframes show {
   0% {
     opacity: 0%;
+    transform: translate(-50%, calc(-50% - 20rem)) scale(0.8);
+  }
+  50% {
+    transform: translate(-50%, calc(-50% + 5rem)) scale(1);
   }
   100% {
     opacity: 100%;
+    transform: translate(-50%, calc(-50%));
   }
 }
 
 @keyframes hide {
   0% {
     opacity: 100%;
+    transform: translate(-50%, calc(-50%));
+  }
+  50% {
+    opacity: 50%;
+    transform: translate(-50%, calc(-50% + 5rem)) scale(1);
   }
   100% {
     opacity: 0%;
+    transform: translate(-50%, calc(-50% - 20rem)) scale(0.8);
   }
 }

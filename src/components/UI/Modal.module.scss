@@ -45,10 +45,20 @@
   }
 }
 
-.showing {
-  animation: show 0.4s;
-}
+.slide {
+  &-enter {
+    opacity: 0;
 
-.hiding {
-  animation: hide 0.4s;
+    &-active {
+      animation: show 300ms;
+    }
+  }
+
+  &-exit {
+    opacity: 1;
+
+    &-active {
+      animation: hide 300ms;
+    }
+  }
 }

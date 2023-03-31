@@ -2,7 +2,7 @@ import classes from "./ViewSwitch.module.scss";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../store";
 import { uiActions } from "../../store/ui-slice";
-import { List, SquaresFour } from "@phosphor-icons/react";
+import { ListBulletIcon, Squares2X2Icon } from "@heroicons/react/24/outline";
 import useText from "../../hooks/useText";
 
 const ViewSwitch: React.FC = () => {
@@ -17,7 +17,7 @@ const ViewSwitch: React.FC = () => {
   const switchToListHandler = () => dispatch(uiActions.controlLayout("list"));
 
   return (
-    <div className={classes["switch--wrapper"]}>
+    <div className={classes["switch--wrapper"]} aria-label="list/grid switch">
       <div
         className={`${classes["switch--btn"]} ${
           isGridView ? "" : classes.active
@@ -25,7 +25,7 @@ const ViewSwitch: React.FC = () => {
         onClick={switchToListHandler}
       >
         <span>{text.header.viewSwitch.list}</span>
-        <List weight="bold" />
+        <ListBulletIcon />
       </div>
       <div
         className={`${classes["switch--btn"]} ${
@@ -34,7 +34,7 @@ const ViewSwitch: React.FC = () => {
         onClick={switchToGridHandler}
       >
         <span>{text.header.viewSwitch.grid}</span>
-        <SquaresFour weight="bold" />
+        <Squares2X2Icon />
       </div>
     </div>
   );

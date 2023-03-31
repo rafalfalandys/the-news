@@ -42,12 +42,6 @@
   }
 }
 
-.btn-popup {
-  @media (max-width: $break-phone) {
-    padding: 1rem;
-  }
-}
-
 .lang-switch {
   @media (max-width: $break-phone) {
     display: none;

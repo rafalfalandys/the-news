@@ -1,7 +1,7 @@
 import classes from "./Clock.module.scss";
 import { useEffect, useState } from "react";
 
-import { ClockAfternoon } from "@phosphor-icons/react";
+import { ClockIcon } from "@heroicons/react/24/outline";
 
 const Clock: React.FC = () => {
   const [time, setTime] = useState(new Date());
@@ -19,7 +19,7 @@ const Clock: React.FC = () => {
   return (
     <div className={classes.wrapper}>
       <div className={classes.clock}>
-        <ClockAfternoon />
+        <ClockIcon />
         <span className={classes.hours}>{hour}</span>:
         <span className={classes.minutes}>{minute}</span>
       </div>

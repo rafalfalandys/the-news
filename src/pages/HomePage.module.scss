@@ -3,6 +3,7 @@
 .content {
   max-width: $width-main;
   width: 100%;
+  min-height: calc(100vh - $height-header - $height-footer);
   display: grid;
   grid-template-columns: $width-sidebar 1fr;
   grid-template-rows: calc(100vh - $height-header - $height-footer);

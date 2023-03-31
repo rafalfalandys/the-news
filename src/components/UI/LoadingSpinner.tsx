@@ -1,10 +1,10 @@
 import classes from "./LoadingSpinner.module.scss";
-import { Spinner } from "@phosphor-icons/react";
+import { ArrowPathIcon } from "@heroicons/react/24/outline";
 
 function LoadingSpinner() {
   return (
     <div className={classes.spinner}>
-      <Spinner />
+      <ArrowPathIcon />
     </div>
   );
 }
