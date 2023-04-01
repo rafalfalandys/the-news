@@ -10,8 +10,12 @@
   width: 60%;
   max-width: calc($width-main - 3rem);
 
+  @media (max-width: $break-tablet) {
+    width: 75%;
+  }
+
   @media (max-width: $break-phone) {
-    width: 80%;
+    width: 85%;
   }
 }
 

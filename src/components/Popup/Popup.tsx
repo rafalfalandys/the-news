@@ -8,7 +8,7 @@ import { RootState } from "../../store";
 const PopupWindow: React.FC = () => {
   const text = useText();
   const isModalVisible = useSelector(
-    (state: RootState) => state.ui.isModalVisible
+    (state: RootState) => state.ui.isPopupVisible
   );
 
   return (
