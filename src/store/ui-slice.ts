@@ -5,7 +5,7 @@ const uiSlice = createSlice({
   initialState: {
     isGridView: true,
     isEnglish: false,
-    isModalVisible: false, // controls header popup
+    isPopupVisible: false, // controls header popup
     results: { total: 0, onScreen: 20 }, // data to be dispalyed in footer
     isSidebarVisible: false, // controls sidebar on phones
   },
@@ -18,8 +18,8 @@ const uiSlice = createSlice({
       state.isEnglish = !state.isEnglish;
     },
     controlModal(state, action) {
-      if (action.payload === "show") state.isModalVisible = true;
-      if (action.payload === "hide") state.isModalVisible = false;
+      if (action.payload === "show") state.isPopupVisible = true;
+      if (action.payload === "hide") state.isPopupVisible = false;
     },
     controlResults(
       state,

@@ -1,7 +1,12 @@
 @import "../../styles/variables";
 
 .content {
-  padding: 2rem 5rem;
+  padding: 3rem 4rem;
+
+  @media (max-width: $break-phone) {
+    padding: 3rem 2.5rem;
+  }
+
   & h1 {
     margin-bottom: 2rem;
     font-size: $font-large;
