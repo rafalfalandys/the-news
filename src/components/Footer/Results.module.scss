@@ -7,30 +7,61 @@
   align-items: center;
   justify-content: center;
 
+  @media (max-width: $break-phone) {
+    flex-direction: row-reverse;
+  }
+
   & span {
     display: flex;
     align-items: center;
     padding: 0 1rem;
 
+    @media (max-width: $break-phone) {
+      padding: 0;
+    }
+
+    & :first-child {
+      @media (max-width: $break-phone) {
+        display: none; // hiding texts
+      }
+    }
+
     & span {
       font-size: $font-medium;
       padding: 0 0.5rem;
       font-weight: 700;
+
+      @media (max-width: $break-phone) {
+        font-size: $font-large;
+      }
+    }
+  }
+
+  & .phone-slash {
+    @media (min-width: $break-phone) {
+      display: none; // hiding texts
     }
   }
 }
 
 .total {
-  // color: $color-base;
-  background-color: $color-base;
-  min-width: 4rem;
-  height: 4rem;
-  border-radius: 10rem;
-  color: $color-white;
+  &__number {
+    // color: $color-base;
+    background-color: $color-base;
+    min-width: 4rem;
+    height: 4rem;
+    border-radius: 10rem;
+    color: $color-white;
 
-  display: flex;
-  justify-content: center;
-  margin: 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    margin: 0 0.5rem;
+
+    @media (max-width: $break-phone) {
+      background: none;
+      color: inherit;
+    }
+  }
 }
 
 .selector {

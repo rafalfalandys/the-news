@@ -10,12 +10,15 @@ const Results: React.FC = () => {
 
   return (
     <div className={classes.results}>
-      <span>
-        {text.footer.totalArticles}
-        <span className={classes.total}>{results.total}</span>
+      <span className={classes["total__wrapper"]}>
+        <span className={classes["total__text"]}>
+          {text.footer.totalArticles}
+        </span>
+        <span className={classes["total__number"]}>{results.total}</span>
       </span>
-      <span>
-        {text.footer.onScreen}
+      <span className={classes["phone-slash"]}>/</span>
+      <span className={classes["on-screen__wrapper"]}>
+        <span> {text.footer.onScreen}</span>
         <span className={classes["on-screen"]}>{results.onScreen}</span>
       </span>
     </div>
