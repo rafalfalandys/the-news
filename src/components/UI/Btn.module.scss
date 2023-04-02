@@ -17,6 +17,11 @@
   &:hover {
     transform: scale(1.04);
     box-shadow: 0 3px 3px $color-shadow;
+
+    @media (max-width: $break-tablet) {
+      transform: scale(1);
+      box-shadow: none;
+    }
   }
 }
 

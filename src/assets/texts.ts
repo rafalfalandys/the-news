@@ -16,6 +16,9 @@ export type TextObj = {
     page: string;
     error: string;
   };
+  bookmarks: {
+    error: string;
+  };
   searchView: {
     header: string;
     btnSearch: string;
@@ -61,7 +64,10 @@ export const textsEnglish: TextObj = {
     yesterday: "Yesterday",
     today: "Today",
     page: "page",
-    error: "No articles to display",
+    error: "No articles found",
+  },
+  bookmarks: {
+    error: "You have no bookmarks. Once you add some, they will display here",
   },
   searchView: {
     header: "Search articles",
@@ -79,7 +85,7 @@ export const textsEnglish: TextObj = {
       "Believe it or not, but what I have been struggling the most with, were icons...\n It's a tradition in my case. Some are too ugly, some clash with typescript and other ones breaks all the tests, etc.\n Of course there is a solution for everything, but really - couldn't they just work?",
     headerPros: "I had the most fun with",
     textPros:
-      "When I finally found the right ones!\n And seriously. With projects like this one, I like to get to widen my toolset. This time, among others, it's been react-transition-group. The modal window with article details is a separate route, and I was veeeery happy to trigger the animation after it was mounted.\n It's been also my first time with real URL navigation, and I am quite proud of the function which builds URLs for me.",
+      "When I finally found the right ones!\n And seriously. With projects like this one, I like to widen my toolset. This time, it's been for example react-transition-group. The modal window with article details is a separate route, and I was veeeery happy to trigger the animation after it was mounted.\n It's been also my first time with real URL navigation, and I am quite proud of the function which builds URLs for me.",
   },
   articleDetails: {
     link: "Go to page",
@@ -110,10 +116,14 @@ export const textsPolish: TextObj = {
     yesterday: "Wczoraj",
     today: "Dzisiaj",
     page: "stron",
-    error: "Nie ma tu nic do wyświetlenia",
+    error: "Nie znaleziono artykułów.",
+  },
+  bookmarks: {
+    error:
+      "Nie masz żadnych zakładek. Jak tylko jakieś dodasz - pojawią się tutaj.",
   },
   searchView: {
-    header: "Znajdź wiadomości o:",
+    header: "Znajdź wiadomości:",
     btnSearch: "Szukaj",
     btnAllArticles: "Zobacz losowe wiadomości",
   },

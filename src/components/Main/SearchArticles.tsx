@@ -33,6 +33,7 @@ const SearchArticles: React.FC = () => {
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
             autoComplete="off"
+            onFocus={() => setSearchQuery("")}
           />
           <Btn>
             <span aria-label="search button">
