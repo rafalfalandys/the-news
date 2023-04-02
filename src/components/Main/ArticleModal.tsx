@@ -1,15 +1,12 @@
 import classes from "./ArticleModal.module.scss";
-import {
-  useOutletContext,
-  useParams,
-  useRouteLoaderData,
-} from "react-router-dom";
+import { useParams, useRouteLoaderData } from "react-router-dom";
 import { buildArticleQuery, buildDate } from "../../helper";
 import { ArtcilesResObj } from "../../types";
 
 import { Fragment } from "react";
 import Modal from "../UI/Modal";
 import useText from "../../hooks/useText";
+import useImageError from "../../hooks/useImageError";
 
 const ArticleModal: React.FC = () => {
   const params = useParams();
@@ -18,7 +15,6 @@ const ArticleModal: React.FC = () => {
     `${params.countryCode ? "country" : "bookmarks"}`
   ) as ArtcilesResObj;
   const text = useText();
-  const { curScroll } = useOutletContext() as { curScroll: number };
 
   const { articles } = loaderData;
 
@@ -29,7 +25,14 @@ const ArticleModal: React.FC = () => {
       buildArticleQuery(params.articleDetails!)
   );
 
+  // handle img error
+  const { imgSrc, handleImageError } = useImageError(article);
+
   const time = buildDate(article!.publishedAt, text.main.locales, text);
+
+  // get current scroll to display modal in proper posiiton
+  const curScroll = document.documentElement.scrollTop;
+
   return (
     <Fragment>
       <Modal isVisible={true} curScroll={curScroll}>
@@ -46,7 +49,9 @@ const ArticleModal: React.FC = () => {
 
             {/* Image */}
             <figure>
-              {article?.urlToImage && <img src={article?.urlToImage} alt="" />}
+              {article?.urlToImage && (
+                <img src={imgSrc} alt="" onError={handleImageError} />
+              )}
             </figure>
           </section>
 

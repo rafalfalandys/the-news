@@ -5,7 +5,7 @@ import { RootState } from "../../store";
 import { ArtcilesResObj } from "../../types";
 
 import { Fragment } from "react";
-import ArticleCard from "./ArticleCard";
+import ArticleCard from "./ArticleThumbnail";
 import PaginationEl from "./PaginationEl";
 import useText from "../../hooks/useText";
 
@@ -21,9 +21,6 @@ const Main: React.FC = () => {
   const articlesList = articles.map((article, i) => (
     <ArticleCard key={i} article={article} />
   ));
-
-  // get current scroll to display modal in proper posiiton
-  const curScroll = document.documentElement.scrollTop;
 
   return (
     <Fragment>
@@ -51,7 +48,7 @@ const Main: React.FC = () => {
         )}
       </div>
       {/* outlet for article details modal window */}
-      <Outlet context={{ curScroll }} />
+      <Outlet />
     </Fragment>
   );
 };
