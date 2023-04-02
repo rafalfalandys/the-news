@@ -1,6 +1,6 @@
 # gnNews
 
-install: npm i
+install: npm i  
 run: npm start
 
 ## Prolog
