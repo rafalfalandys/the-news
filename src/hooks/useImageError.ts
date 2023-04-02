@@ -11,7 +11,6 @@ const useImageError = (article?: Article) => {
   const placeholders = [ph0, ph1, ph2, ph3];
   const randomInt = Math.floor(Math.random() * placeholders.length);
   const placeholder = placeholders[randomInt];
-  console.log(randomInt);
 
   const [imgSrc, setImgSrc] = useState(article?.urlToImage || placeholder);
 
