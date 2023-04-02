@@ -1,10 +1,12 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ArticleModal from "./components/Main/ArticleModal";
-import loadArticles from "./loadArticlesFunction";
+import loadApiArticles from "./loader functions/loadApiArticles";
 import Main from "./components/Main/Main";
 import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/HomePage";
 import RootLayout from "./pages/RootLayout";
+import SearchArticles from "./components/Main/SearchArticles";
+import loadLocalArticles from "./loader functions/loadLocalArticles";
 
 const router = createBrowserRouter([
   {
@@ -17,10 +19,21 @@ const router = createBrowserRouter([
         element: <HomePage />,
         children: [
           {
+            index: true,
+            element: <SearchArticles />,
+          },
+          {
             path: "country/:countryCode",
             element: <Main />,
-            loader: loadArticles,
+            loader: loadApiArticles,
             id: "country",
+            children: [{ path: ":articleDetails", element: <ArticleModal /> }],
+          },
+          {
+            path: "bookmarks",
+            element: <Main />,
+            loader: loadLocalArticles,
+            id: "bookmarks",
             children: [{ path: ":articleDetails", element: <ArticleModal /> }],
           },
         ],

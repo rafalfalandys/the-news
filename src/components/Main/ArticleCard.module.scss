@@ -133,4 +133,17 @@
       }
     }
   }
+
+  & .date {
+    margin-right: 4rem;
+  }
+}
+
+.bookmark {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  height: 2rem;
+  align-self: end;
+  justify-self: end;
 }

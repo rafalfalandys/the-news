@@ -1,9 +1,9 @@
 import { LoaderFunction } from "react-router-dom";
-import { API_KEY, NEWS_URL } from "./config";
-import { buildQueryParams } from "./helper";
-import { ArtcilesResObj, QueryObj } from "./types";
-import { uiActions } from "./store/ui-slice";
-import store from "./store";
+import { API_KEY, NEWS_URL } from "../config";
+import { buildQueryParams } from "../helper";
+import { ArtcilesResObj, QueryObj } from "../types";
+import { uiActions } from "../store/ui-slice";
+import store from "../store";
 
 //////////////////////////////////////////////////////////
 /////////////////////// THE ENGINE ///////////////////////
@@ -47,7 +47,7 @@ const loader: LoaderFunction = async ({ params, request }) => {
     return data;
   } catch (error) {
     console.log(error);
-    return error;
+    throw new Error(`${error}`);
   }
 };
 

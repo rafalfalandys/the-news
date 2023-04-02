@@ -24,6 +24,7 @@ export type Country = {
 
 export type QueryObj = {
   [key: string]: any;
+  to?: string;
   keyword?: string | null;
   articleTitle?: string;
   countryQuery?: string;

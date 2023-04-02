@@ -1,16 +1,19 @@
 import classes from "./Main.module.scss";
 import { useSelector } from "react-redux";
-import { Outlet, useLoaderData } from "react-router-dom";
+import { Outlet, useLoaderData, useParams } from "react-router-dom";
 import { RootState } from "../../store";
 import { ArtcilesResObj } from "../../types";
 
 import { Fragment } from "react";
 import ArticleCard from "./ArticleCard";
 import PaginationEl from "./PaginationEl";
+import useText from "../../hooks/useText";
 
 const Main: React.FC = () => {
   const loaderData = useLoaderData() as ArtcilesResObj;
   const isGridView = useSelector((state: RootState) => state.ui.isGridView);
+  const texts = useText();
+  const params = useParams();
 
   //////////// APP DATA MAIN ENTRY POINT ////////////////
   const { articles } = loaderData;
@@ -24,22 +27,31 @@ const Main: React.FC = () => {
 
   return (
     <Fragment>
-      <Outlet context={{ curScroll }} />
-      {/* outlet for article details modal window */}
       <div className={classes.wrapper}>
-        <main className={classes.main}>
-          <ul
-            className={
-              isGridView ? `${classes.list} ${classes.grid}` : classes.list
-            }
-          >
-            {articlesList}
-          </ul>
-          <div className={classes["pagination-wrapper"]}>
-            <PaginationEl />
-          </div>
-        </main>
+        {!articlesList.length && (
+          <h2 className={classes.error}>{texts.main.error}</h2>
+        )}
+        {!!articlesList.length && (
+          <main className={classes.main}>
+            <ul
+              className={
+                isGridView ? `${classes.list} ${classes.grid}` : classes.list
+              }
+            >
+              {articlesList}
+            </ul>
+
+            {/* hide pagination in bookmarks */}
+            {params.countryCode && (
+              <div className={classes["pagination-wrapper"]}>
+                <PaginationEl />
+              </div>
+            )}
+          </main>
+        )}
       </div>
+      {/* outlet for article details modal window */}
+      <Outlet context={{ curScroll }} />
     </Fragment>
   );
 };
