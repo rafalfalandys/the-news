@@ -8,6 +8,7 @@
   cursor: pointer;
   position: relative;
 
+  // border fading on hover
   & a {
     &::before {
       transition: all 0.3s;
@@ -18,6 +19,10 @@
       border-radius: $border-radius;
       border: 2px solid $color-grey-light;
       opacity: 0;
+
+      @media (max-width: $break-tablet) {
+        display: none;
+      }
     }
 
     &:hover {
@@ -92,6 +97,7 @@
     font-size: $font-small;
     font-weight: 700;
 
+    // limit number of lines to display
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 5; /* number of lines to show */
