@@ -3,6 +3,7 @@ export type TextObj = {
     logo: string;
     popupBtn: string;
     viewSwitch: { list: string; grid: string };
+    bookmarks: string;
   };
   sideBar: {
     header: string;
@@ -13,6 +14,7 @@ export type TextObj = {
     yesterday: string;
     today: string;
     page: string;
+    error: string;
   };
   searchView: {
     header: string;
@@ -48,6 +50,7 @@ export const textsEnglish: TextObj = {
     logo: "The News",
     popupBtn: "Popup",
     viewSwitch: { list: "List", grid: "Tiles" },
+    bookmarks: "Bookmarks",
   },
   sideBar: {
     header: "News From:",
@@ -58,6 +61,7 @@ export const textsEnglish: TextObj = {
     yesterday: "Yesterday",
     today: "Today",
     page: "page",
+    error: "No articles to display",
   },
   searchView: {
     header: "Search articles",
@@ -95,6 +99,7 @@ export const textsPolish: TextObj = {
     logo: "The News",
     popupBtn: "Popup",
     viewSwitch: { list: "Lista", grid: "Kafelki" },
+    bookmarks: "Zakładki",
   },
   sideBar: {
     header: "Wiadomości z:",
@@ -105,6 +110,7 @@ export const textsPolish: TextObj = {
     yesterday: "Wczoraj",
     today: "Dzisiaj",
     page: "stron",
+    error: "Nie ma tu nic do wyświetlenia",
   },
   searchView: {
     header: "Znajdź wiadomości o:",

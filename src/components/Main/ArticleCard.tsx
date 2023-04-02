@@ -7,12 +7,16 @@ import { buildDate } from "../../helper";
 
 import useQuery from "../../hooks/useQuery";
 import useText from "../../hooks/useText";
+import { BookmarkIcon } from "@heroicons/react/24/outline";
+import { BookmarkIcon as BookmarkIconSolid } from "@heroicons/react/24/solid";
+import useBookmarks from "../../hooks/useBookmarks";
 
 const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
   const isGridView = useSelector((state: RootState) => state.ui.isGridView);
   const params = useParams();
   const buildQuery = useQuery();
   const text = useText();
+  const { isBookmarked, toggleBookmarkHandler } = useBookmarks(article);
 
   // generate date or today / yesterday msg
   const time = buildDate(article.publishedAt, text.main.locales, text);
@@ -23,7 +27,8 @@ const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
       aria-label="article card"
     >
       <Link
-        to={buildQuery(params.countryCode!, {
+        to={buildQuery({
+          to: params.countryCode || "bookmarks",
           articleTitle: article.title,
         })}
       >
@@ -42,6 +47,18 @@ const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
           )}
         </div>
       </Link>
+      {!isBookmarked && (
+        <BookmarkIcon
+          className={classes.bookmark}
+          onClick={toggleBookmarkHandler}
+        />
+      )}
+      {isBookmarked && (
+        <BookmarkIconSolid
+          className={classes.bookmark}
+          onClick={toggleBookmarkHandler}
+        />
+      )}
     </li>
   );
 };

@@ -12,8 +12,11 @@ import Modal from "../UI/Modal";
 import useText from "../../hooks/useText";
 
 const ArticleModal: React.FC = () => {
-  const loaderData = useRouteLoaderData("country") as ArtcilesResObj;
   const params = useParams();
+  // use loader depending on if it is a bookmarks page
+  const loaderData = useRouteLoaderData(
+    `${params.countryCode ? "country" : "bookmarks"}`
+  ) as ArtcilesResObj;
   const text = useText();
   const { curScroll } = useOutletContext() as { curScroll: number };
 

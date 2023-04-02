@@ -1,11 +1,6 @@
 import "./PaginationEl.scss"; // css modules is unable to override antd styling so I use scss in this component
 import { Pagination } from "antd";
-import {
-  useLoaderData,
-  useLocation,
-  useNavigate,
-  useParams,
-} from "react-router-dom";
+import { useLoaderData, useLocation, useNavigate } from "react-router-dom";
 import { ArtcilesResObj } from "../../types";
 import { buildQueryParams } from "../../helper";
 import useQuery from "../../hooks/useQuery";
@@ -14,7 +9,6 @@ const PaginationEl: React.FC = () => {
   const navigate = useNavigate();
   const buildQuery = useQuery();
   const loaderData = useLoaderData() as ArtcilesResObj;
-  const params = useParams();
   const location = useLocation();
 
   const queries = buildQueryParams(location.search);
@@ -26,7 +20,7 @@ const PaginationEl: React.FC = () => {
     page,
     pageSize
   ) => {
-    navigate(buildQuery(params.countryCode!, { results: pageSize, page }), {
+    navigate(buildQuery({ results: pageSize, page }), {
       replace: true,
     });
   };

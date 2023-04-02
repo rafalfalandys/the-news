@@ -1,6 +1,6 @@
 import { TextObj } from "./assets/texts";
 import { AVAILABLE_COUNTRIES } from "./config";
-import { Country, QueryObj } from "./types";
+import { ArtcilesResObj, Country, QueryObj } from "./types";
 
 ////////////////////////////////////////////////////////
 ///////////////////// URL QUERIES //////////////////////
@@ -76,4 +76,17 @@ export const buildDate: (
   };
 
   return calcTime();
+};
+
+// get local articles object
+export const getLocalData = () => {
+  const localStorage = window.localStorage.getItem("bookmarks");
+  const localArticles = localStorage ? JSON.parse(localStorage) : [];
+  const localArticlesObj: ArtcilesResObj = {
+    articles: localArticles,
+    totalResults: localArticles.length,
+    status: "ok",
+  };
+
+  return localArticlesObj;
 };

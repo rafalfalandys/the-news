@@ -1,10 +1,11 @@
-import { useLocation } from "react-router-dom";
+import { useLocation, useParams } from "react-router-dom";
 import { buildArticleQuery, buildQueryParams } from "../helper";
 import { QueryObj } from "../types";
 
 const useQuery = () => {
   // read queries params. To be used when new ones are not passed:
   const location = useLocation();
+  const params = useParams();
   const queries = buildQueryParams(location.search);
 
   // check the search keyword in order to handle modal window correctly
@@ -13,10 +14,14 @@ const useQuery = () => {
     : "";
 
   // build query function. Country code is always required and other params comes as an optional object
-  const buildQuery: (countryCode: string, queryObj?: QueryObj) => string = (
-    countryCode,
-    queryObj
-  ) => {
+  const buildQuery: (queryObj?: QueryObj) => string = (queryObj) => {
+    // handling bookmark route
+    const countryCode = queryObj?.to || params.countryCode;
+    const path =
+      params.countryCode === "bookmarks" || queryObj?.to === "bookmarks"
+        ? "/bookmarks"
+        : "/country/" + countryCode;
+
     const article = queryObj?.articleTitle
       ? `/${buildArticleQuery(queryObj.articleTitle)}`
       : "";
@@ -34,8 +39,7 @@ const useQuery = () => {
     const page = `?page=${queryObj?.page || queries.page}`;
     const results = `?results=${queryObj?.results || queries.results || 20}`;
 
-    const query =
-      "/country/" + countryCode + article + keyword + page + results;
+    const query = path + article + keyword + page + results;
     // for example: /country/all?keyword=lala?page=1?results=10
     // or           /country/pl/-miertelny-po-ar-w-t?page=1?results=10
 

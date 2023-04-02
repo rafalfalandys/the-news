@@ -1,37 +1,6 @@
 @import "../../styles/variables";
 
-.switch {
-  &--wrapper {
-    display: flex;
-    gap: 2rem;
-  }
-
-  &--btn {
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    cursor: pointer;
-    color: $color-grey-light;
-
-    @media (max-width: $break-phone) {
-      flex-direction: column;
-      gap: 0;
-    }
-
-    & span {
-      font-size: $font-medium;
-    }
-
-    & svg {
-      height: 3rem;
-
-      @media (max-width: $break-phone) {
-        margin-top: 0.2rem;
-      }
-    }
-  }
-}
-
-.active {
-  color: $color-grey-dark;
+.wrapper {
+  display: flex;
+  gap: 2rem;
 }

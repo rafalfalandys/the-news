@@ -16,7 +16,7 @@ const CountryEl: React.FC<{ name: string; flag: string; code: string }> = (
   return (
     <li className={classes.wrapper} onClick={toggleSidebar}>
       <NavLink
-        to={buildQuery(props.code, { page: 1, keyword: "__skip__" })}
+        to={buildQuery({ to: props.code, page: 1, keyword: "__skip__" })}
         className={(navData) =>
           navData.isActive
             ? `${classes.country} ${classes.active}`

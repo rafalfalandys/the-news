@@ -17,8 +17,8 @@ const SearchArticles: React.FC = () => {
   const submitHandler: FormEventHandler = (e) => {
     e.preventDefault();
     if (searchQuery)
-      navigate(`${buildQuery("all", { keyword: searchQuery, page: 1 })}`);
-    else navigate(buildQuery("all", { page: 1, keyword: "__skip__" }));
+      navigate(`${buildQuery({ to: "all", keyword: searchQuery, page: 1 })}`);
+    else navigate(buildQuery({ to: "all", page: 1, keyword: "__skip__" }));
   };
 
   return (

@@ -37,8 +37,12 @@
   align-items: center;
   gap: 5rem;
 
-  @media (max-width: $break-phone) {
-    gap: 3rem;
+  @media (max-width: $break-tablet) {
+    gap: 2rem;
+  }
+
+  & svg {
+    height: 3rem;
   }
 }
 

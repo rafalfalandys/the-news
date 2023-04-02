@@ -1,0 +1,44 @@
+@import "../../styles/variables";
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-size: $font-medium;
+  gap: 1rem;
+
+  & span {
+    @media (max-width: $break-phone) {
+      display: none;
+    }
+  }
+
+  // get all children
+  & > * {
+    gap: 1rem;
+    display: flex;
+    align-items: center;
+
+    & span {
+      @media (max-width: $break-phone) {
+        display: none;
+      }
+    }
+  }
+
+  & span {
+    font-size: $font-medium;
+  }
+
+  & svg {
+    height: 3rem;
+
+    @media (max-width: $break-phone) {
+      margin-top: 0.2rem;
+    }
+  }
+}
+
+.faded {
+  color: $color-grey-light;
+}

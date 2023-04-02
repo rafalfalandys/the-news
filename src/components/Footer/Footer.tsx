@@ -1,17 +1,21 @@
 import classes from "./Footer.module.scss";
-import { useParams } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 import Results from "./Results";
 import Clock from "./Clock";
 
 const Footer: React.FC = () => {
-  const params = useParams();
+  const location = useLocation();
+
+  const isArticleView =
+    location.pathname.includes("/country") ||
+    location.pathname.includes("/bookmarks");
 
   return (
     <div className={classes.wrapper}>
       <footer className={classes.footer}>
         {/* only show number of results when articles are loaded */}
-        {params.countryCode && <Results />}
+        {isArticleView && <Results />}
         <Clock />
       </footer>
     </div>
