@@ -141,9 +141,12 @@
 
 .bookmark {
   position: absolute;
-  right: 1rem;
-  bottom: 1rem;
+  right: 0.5rem;
+  bottom: 0.5rem;
   height: 2rem;
   align-self: end;
   justify-self: end;
+
+  height: 3rem;
+  padding: 0.5rem;
 }

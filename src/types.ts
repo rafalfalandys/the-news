@@ -6,7 +6,7 @@ export type Article = {
   source: { id: any; name: string | null };
   title: string;
   url: string;
-  urlToImage: string | null;
+  urlToImage: string | undefined;
 };
 
 export type ArtcilesResObj = {

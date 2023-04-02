@@ -1,15 +1,17 @@
-import classes from "./ArticleCard.module.scss";
+import classes from "./ArticleThumbnail.module.scss";
 import { useSelector } from "react-redux";
 import { Link, useParams } from "react-router-dom";
 import { RootState } from "../../store";
 import { Article } from "../../types";
 import { buildDate } from "../../helper";
 
+import useBookmarks from "../../hooks/useBookmarks";
+import useImageError from "../../hooks/useImageError";
+
 import useQuery from "../../hooks/useQuery";
 import useText from "../../hooks/useText";
 import { BookmarkIcon } from "@heroicons/react/24/outline";
 import { BookmarkIcon as BookmarkIconSolid } from "@heroicons/react/24/solid";
-import useBookmarks from "../../hooks/useBookmarks";
 
 const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
   const isGridView = useSelector((state: RootState) => state.ui.isGridView);
@@ -17,6 +19,9 @@ const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
   const buildQuery = useQuery();
   const text = useText();
   const { isBookmarked, toggleBookmarkHandler } = useBookmarks(article);
+
+  // handle img error
+  const { imgSrc, handleImageError } = useImageError(article);
 
   // generate date or today / yesterday msg
   const time = buildDate(article.publishedAt, text.main.locales, text);
@@ -42,7 +47,7 @@ const ArticleCard: React.FC<{ article: Article }> = ({ article }) => {
           </div>
           {isGridView && (
             <figure>
-              {article.urlToImage && <img src={article.urlToImage} alt="" />}
+              {<img src={imgSrc} alt="" onError={handleImageError} />}
             </figure>
           )}
         </div>
