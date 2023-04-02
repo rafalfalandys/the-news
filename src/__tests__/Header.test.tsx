@@ -34,7 +34,7 @@ describe("Header", () => {
   test("renders logo", () => {
     renderHeader();
 
-    const logo = screen.getByRole("link");
+    const logo = screen.getByRole("link", { name: /link to home/i });
 
     expect(logo).toBeInTheDocument();
   });
@@ -42,7 +42,7 @@ describe("Header", () => {
   test("click on logo changes url to '/'", async () => {
     renderHeader();
 
-    const logo = screen.getByRole("link");
+    const logo = screen.getByRole("link", { name: /link to home/i });
     fireEvent.click(logo);
 
     expect(router.state.location.pathname).toEqual("/");
