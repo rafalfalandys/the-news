@@ -17,6 +17,8 @@ export const buildQueryParams = (str: string) => {
 
   query.forEach((str) => {
     const arr = str.split("=");
+    if (arr[0] === "page" || arr[0] === "results")
+      return (queryObj[arr[0]] = +arr[1]);
     return (queryObj[arr[0]] = arr[1]);
   });
 
