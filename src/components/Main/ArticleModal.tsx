@@ -49,9 +49,7 @@ const ArticleModal: React.FC = () => {
 
             {/* Image */}
             <figure>
-              {article?.urlToImage && (
-                <img src={imgSrc} alt="" onError={handleImageError} />
-              )}
+              <img src={imgSrc} alt="" onError={handleImageError} />
             </figure>
           </section>
 

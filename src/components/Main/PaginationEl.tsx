@@ -28,11 +28,11 @@ const PaginationEl: React.FC = () => {
   return (
     <Pagination
       defaultCurrent={1}
-      current={+queries.page!}
+      current={queries.page || 1}
       total={totalResults}
       onChange={changePagination}
       defaultPageSize={20}
-      pageSize={queries.results}
+      pageSize={queries.results || 20}
       pageSizeOptions={[10, 20, 50]}
       showSizeChanger={true}
       responsive={true}

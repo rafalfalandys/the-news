@@ -26,8 +26,6 @@
       }
     }
   }
-
-  // styling below looks like overkill but is needed for RWD - ios does not render radius on outlines
 }
 
 .card {
@@ -46,6 +44,7 @@
     border-radius: $border-radius-small;
     overflow: hidden;
 
+    // styling below looks like overkill but is needed for RWD - ios does not render radius on outlines
     &::before {
       content: "";
       position: absolute;
