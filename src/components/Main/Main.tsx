@@ -26,7 +26,9 @@ const Main: React.FC = () => {
     <Fragment>
       <div className={classes.wrapper}>
         {!articlesList.length && (
-          <h2 className={classes.error}>{texts.main.error}</h2>
+          <h2 className={classes.error}>
+            {params.countryCode ? texts.main.error : texts.bookmarks.error}
+          </h2>
         )}
         {!!articlesList.length && (
           <main className={classes.main}>

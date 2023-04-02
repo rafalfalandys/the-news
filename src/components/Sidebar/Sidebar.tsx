@@ -75,6 +75,7 @@ const Sidebar: React.FC = () => {
             onChange={(e) => setQuery(e.target.value)}
             className={classes.input}
             maxLength={20}
+            onFocus={() => setQuery("")}
           />
           <ul className={classes.list}>
             {/* extra element form showing all random articles */}
