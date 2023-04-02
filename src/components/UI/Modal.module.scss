@@ -1,5 +1,6 @@
 @import "../../styles/variables";
 @import "../../styles/animations";
+@import "../../styles/mixins";
 
 .wrapper {
   z-index: 3;
@@ -30,6 +31,8 @@
   & h1 {
     margin-bottom: 2rem;
     font-size: $font-large;
+
+    @include serif-font;
   }
 
   & h2 {
@@ -40,6 +43,7 @@
 
   & p {
     margin-bottom: 2rem;
+    @include serif-font;
   }
 
   & button {
