@@ -8,6 +8,7 @@ const uiSlice = createSlice({
     isPopupVisible: false, // controls header popup
     results: { total: 0, onScreen: 20 }, // data to be dispalyed in footer
     isSidebarVisible: false, // controls sidebar on phones
+    bump: false, // controls bookmarks link animation
   },
   reducers: {
     controlLayout(state, action) {
@@ -29,6 +30,10 @@ const uiSlice = createSlice({
     },
     toggleSidebar(state) {
       state.isSidebarVisible = !state.isSidebarVisible;
+    },
+    controlBump(state, action) {
+      if (action.payload === "true") state.bump = true;
+      if (action.payload === "false") state.bump = false;
     },
   },
 });
