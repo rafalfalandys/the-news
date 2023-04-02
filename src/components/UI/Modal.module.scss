@@ -53,7 +53,7 @@
     opacity: 0;
 
     &-active {
-      animation: show 300ms;
+      animation: slide-in 300ms;
 
       @media (max-width: $break-phone) {
         animation: none;
@@ -67,7 +67,7 @@
     opacity: 1;
 
     &-active {
-      animation: hide 300ms;
+      animation: slide-out 300ms;
 
       @media (max-width: $break-phone) {
         animation: none;

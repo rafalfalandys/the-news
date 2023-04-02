@@ -1,6 +1,6 @@
 import classes from "./Header.module.scss";
 
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { uiActions } from "../../store/ui-slice";
 import { Link, useLocation } from "react-router-dom";
 
@@ -12,12 +12,14 @@ import useText from "../../hooks/useText";
 import { BookmarkIcon } from "@heroicons/react/24/outline";
 import TextAndIcon from "../UI/TextAndIcon";
 import useQuery from "../../hooks/useQuery";
+import { RootState } from "../../store";
 
 const Header: React.FC = () => {
   const dispatch = useDispatch();
   const location = useLocation();
   const text = useText();
   const buildQuery = useQuery();
+  const bumpState = useSelector((state: RootState) => state.ui.bump);
 
   const showPopupHandler = () => dispatch(uiActions.controlModal("show"));
 
@@ -32,7 +34,7 @@ const Header: React.FC = () => {
         <div className={classes.buttons}>
           {/* only display view switch when articles are displayed */}
           {isArticleView && <ViewSwitch />}
-          <TextAndIcon>
+          <TextAndIcon bump={bumpState}>
             <Link
               to={buildQuery({ to: "bookmarks" })}
               className={classes.bookmarks}

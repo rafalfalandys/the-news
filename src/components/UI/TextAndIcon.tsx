@@ -5,10 +5,13 @@ const TextAndIcon: React.FC<{
   children: ReactNode | ReactNode[];
   onClick?: () => {};
   isActive?: boolean;
-}> = ({ children, onClick, isActive = true }) => {
+  bump?: boolean;
+}> = ({ children, onClick, isActive = true, bump = false }) => {
   return (
     <div
-      className={`${classes.wrapper} ${isActive ? "" : classes.faded}`}
+      className={`${classes.wrapper} ${isActive ? "" : classes.faded} ${
+        bump ? classes.bump : ""
+      }`}
       onClick={onClick}
     >
       {children}

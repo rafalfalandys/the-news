@@ -1,11 +1,16 @@
 import { useEffect, useState } from "react";
+import { useDispatch, useSelector } from "react-redux";
 import { useParams } from "react-router-dom";
 import { getLocalData } from "../helper";
+import { RootState } from "../store";
+import { uiActions } from "../store/ui-slice";
 import { Article } from "../types";
 
 const useBookmarks = (article: Article) => {
   const [isBookmarked, setIsBookmarked] = useState(false);
   const params = useParams();
+  const dispatch = useDispatch();
+  const bumpState = useSelector((state: RootState) => state.ui.bump);
 
   const localData = getLocalData();
 
@@ -36,7 +41,17 @@ const useBookmarks = (article: Article) => {
       window.localStorage.setItem("bookmarks", JSON.stringify(newLocalStorage));
       setIsBookmarked(false);
     }
+
+    // trigger bump effect on bookmarks link
+    dispatch(uiActions.controlBump("true"));
   };
+
+  // finish bump animation
+  useEffect(() => {
+    setTimeout(() => {
+      dispatch(uiActions.controlBump("false"));
+    }, 200);
+  }, [bumpState, dispatch]);
 
   return { isBookmarked, toggleBookmarkHandler, localData };
 };
