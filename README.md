@@ -1,48 +1,53 @@
-# gnNews
+# The News!
 
 install: npm i  
 run: npm start
+test: npm run test
 
-## Prolog
+## Prologue
 
-Agregator newsów. W skrócie - pobiera dane z API 'https://newsapi.org/s/poland-news-api' i podaje je w smaczniejszej wersji niz suchy json :)
+News aggregator. In short - it downloads data from 'https://newsapi.org/s/poland-news-api' and serves it in a tastier version than dry json :)
 
-React Router | Redux | API | paginacja | lista/kafleki | zakładki |
+Features and stack:
+React Router | Redux | API | pagination | list/tiles view | bookmarks |
 
-Klikając w link ze stroną przechodzisz do mockapu aplikacji. API jest zblokowane ‘cors’em, więc na stronie tylko symuluję, że wszystko działa wybierając losowo 1 z 10 wyników wyszukiwania zapisanych w folderze ‘assets’.
+By clicking on the link you navigate to the mockup of the application. The API is blocked with 'cors', so I only simulate that everything works by randomly picking 1 out of 10 search results saved from the 'assets' folder.
 
-## Szkielet
+## The core
 
-Silnikiem aplikacji jest funkcja ‘loader’ (react router 6.4+), zasilająca komponent z newsami. Z każdym kliknięciem linku, buduję URL składający się z: kraju / aktualnego artykułu / strony / liczby wyników i dodatkowo ze słowem kluczowym w przypadku wyszukiwania (np. ‘/country/pl/-miertelny-po-ar-w-t?page=1?results=10’). Loader czyta ten url, wyciąga intersujące go informacje, wysyła odpowiedni request i karmii główny komponent danymi.
+The engine of the app is a 'loader' function (react router 6.4+), providing data to the main component.
+Each time you click on the link, the URL is built. It consists of country / current article / page / number of results / keyword (optional for search method). For example - '/country/pl/-mortal-after-ar-w-t?page=1? results =10'.
+The loader reads the URL, extracts the information it needs, submits the request, and feeds the app with articles.
 
 ## Header:
 
-Nagłówek to logo z linkiem do głównej strony, przyciski zmiany layoutu, przycisk odpalający popup i switch do języków PL/EN. Wszystkie 3 zmieniają w reduxie stan UI. Rzutem na taśmę dodałem jeszcze zakładki i link do nich też znalazł się tutaj.
+The header consists of the logo with links to the main page, a list/tiles view switch button, a popup button, and PL/EN languages switch. All 3 change the Redux state. There is also a link to bookmarks here.
 
 ## Sidebar:
 
-Tu się trochę pobawiłem. Z jednego API z krajami ściągnąłem dane wszystkich krajów razem z flagami. Następnie zmapowałem je wszystkie do samych nazw. Taką tablicę wrzuciłem do google translate i dostałem polskie nazwy. ForEachem dodałem je wszystkie z powrotem do obiektów z krajami i w takiej formie zapisałem je wszystkie w pliku .json. Następnie z API z newsami ściągnąłem listę dostępnych krajów, wkleiłem taką listę w plik konfiguracyjny i przy pomocy tych danych wybieram kraje dla których dostępne są newsy.  
-W obiektach z krajami jest dostępny dwuliterowy kod każdego z nich, który można użyć 1:1 w requeście do pobrania odpowiednich danych.
+Sidebar contains a list of countries. Each country is a link to the articles from this country.
+The list is downloaded from one free API with countries. in order to handle 2 languages of interface I mapped it to country names only -> translated the names to PL -> added Polish names back to the original objects.
+In the config file there is a list of countries available in API which is used to filter the countries.
 
-## Główny content:
+## Main content:
 
-Na stronie głównej wyświetlam pasek wyszukiwania. Po wpisaniu słowa kluczowego, submit wrzuca go do url i stamtąd przejmuje go loader function i dba o załadowanie odpowiednich danych.  
-Poza tym bez niespodzianek - możemy kliknąć na wyszukiwanie wszystkich artykułów, lub wybrać jeden z krajów z sidebara.  
-Nie mogąc psychicznie wytrzymać tego że nie mogę zobaczyć wszystkich wyników, dodałem paginację ;) I znowu info o stronie i liczbie wyników ląduje w URL i stamtąd loader function dba, żeby wszystko było dobrze.  
-W przypadku zakładek, artykuły pobierane są z local storage.
+There is a search bar on the homepage. After entering the keyword and submitting brings it to the URL. The loader function takes it from there and takes care of loading the appropriate data.
+We can click on the search for all articles, or choose one of the countries from the sidebar.
+The articles are displayed as a list or tiles. There is also a pagination component (antd) - the info about the page and the number of results lands in the URL and then, the loader function makes sure that everything is fine.
+In the case of bookmarks, articles are downloaded from local storage.
 
 ## Footer.
 
-Zegarek chciałem wziąć z jakiejś biblioteki, ale jakoś żaden mi nie pasował, więc zbudowałem własny. Liczba artykułów aktualnie wyświetlonych i na stronie jest przerzucona do footera przez redux state.
+The footer contains a custom-built clock, and an articles counter displaying how many of them are currently displayed. That piece of state is handled via Redux.
 
-## 2 języki.
+## Internationalization.
 
-Dwujęzyczność obsługuję trzymając całą prozę interfejsu w dwóch obiektach - pl i en. Custom hook ‘useText’ zajmuje się wybraniem tego odpowiedniego i zasileniem interfejsu w teksty w dobrym języku.
+The internationalization is handled by keeping the entire prose of the interface in two objects - pl and en. The 'useText' custom hook takes care of selecting the proper one and supplying the interface with texts in a good language.
 
 ## RWD.
 
-Interfejs zachowuje się sensownie aż do tabletowych szerokości ekranu, więc wystarczyło dodać obsługę telefonu. Oprócz zmniejszenia czcionki, zmieniam kilka rzeczy w nagłówku, 3 kafelki w rzędzie na 2, i przede wszystkim buduję chowany sidebar, którego stan trzymam w reduxie.
+The interface behaves well up to tablet screen widths, so it was enough to add support for the phone. Besides making the font smaller, I'm changing a few things in the header, 3 tiles in a row to 2, and most of all I'm building a retractable sidebar whose state I keep in redux.
 
-## Posłowie
+## Afterword
 
-Starałem opisać swój tok myślenia w kodzie. Mam nadzieje, że wszystko będzie dla was czytelne.
+I tried to describe my thought process in code. I hope everything will be clear to you - watcher.
