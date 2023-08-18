@@ -5,7 +5,7 @@ const Logo: React.FC = () => {
   return (
     <Link to="/" className={classes.logo} aria-label="link to home">
       <h1>
-        gn<span>News</span>!
+        the<span>News</span>!
       </h1>
     </Link>
   );
