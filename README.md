@@ -6,7 +6,7 @@ test: npm run test
 
 ## Prologue
 
-News aggregator. In short - it downloads data from 'https://newsapi.org/s/poland-news-api' and serves it in a tastier version than dry json :)
+News aggregator. In short - it downloads data from 'https://newsapi.org/s/poland-news-api' and serves it in a tastier version than dry json.
 
 Features and stack:
 React Router | Redux | API | pagination | list/tiles view | bookmarks |
