@@ -11,7 +11,7 @@ News aggregator. In short - it downloads data from 'https://newsapi.org/s/poland
 Features and stack:
 React Router | Redux | API | pagination | list/tiles view | bookmarks |
 
-By clicking on the link you navigate to the mockup of the application. The API is blocked with 'cors', so I only simulate that everything works by randomly picking 1 out of 10 search results saved from the 'assets' folder.
+By clicking on the link you navigate to the mockup of the application. The API is blocked with 'cors', so I only simulate that everything works by randomly picking 1 out of 10 search results saved from the 'assets' folder. Getting mock articles insteap of using API is handled via .env variable.
 
 ## The core
 
