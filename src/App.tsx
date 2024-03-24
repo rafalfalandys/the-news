@@ -9,9 +9,19 @@ import RootLayout from "./pages/RootLayout";
 import SearchArticles from "./components/Main/SearchArticles";
 import loadLocalArticles from "./loader functions/loadLocalArticles";
 
-const isMock = process.env.REACT_APP_IS_MOCK
-  ? process.env.REACT_APP_IS_MOCK === "true"
-  : false;
+const checkIsMock = () => {
+  if (!process.env.REACT_APP_IS_MOCK) {
+    return false;
+  } else if (typeof process.env.REACT_APP_IS_MOCK === "string") {
+    return process.env.REACT_APP_IS_MOCK === "true";
+  } else {
+    return process.env.REACT_APP_IS_MOCK;
+  }
+};
+
+const isMock = checkIsMock();
+console.log("mock: ", isMock);
+console.log(process.env);
 
 const router = createBrowserRouter([
   {
