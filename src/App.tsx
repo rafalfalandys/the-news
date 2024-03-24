@@ -1,12 +1,17 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import ArticleModal from "./components/Main/ArticleModal";
 import loadApiArticles from "./loader functions/loadApiArticles";
+import loadMockArticles from "./loader functions/loadMockArticles";
 import Main from "./components/Main/Main";
 import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/HomePage";
 import RootLayout from "./pages/RootLayout";
 import SearchArticles from "./components/Main/SearchArticles";
 import loadLocalArticles from "./loader functions/loadLocalArticles";
+
+const isMock = process.env.REACT_APP_IS_MOCK
+  ? process.env.REACT_APP_IS_MOCK === "true"
+  : false;
 
 const router = createBrowserRouter([
   {
@@ -25,7 +30,7 @@ const router = createBrowserRouter([
           {
             path: "country/:countryCode",
             element: <Main />,
-            loader: loadApiArticles,
+            loader: isMock ? loadMockArticles : loadApiArticles,
             id: "country",
             children: [{ path: ":articleDetails", element: <ArticleModal /> }],
           },

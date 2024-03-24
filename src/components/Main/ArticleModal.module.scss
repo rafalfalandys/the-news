@@ -27,6 +27,7 @@
     & h2 {
       color: $color-base;
       font-size: $font-medium;
+      word-break: break-all;
     }
 
     & h3 {
