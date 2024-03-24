@@ -20,8 +20,6 @@ const checkIsMock = () => {
 };
 
 const isMock = checkIsMock();
-console.log("mock: ", isMock);
-console.log(process.env);
 
 const router = createBrowserRouter([
   {

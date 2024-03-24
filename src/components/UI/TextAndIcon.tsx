@@ -3,7 +3,7 @@ import classes from "./TextAndIcon.module.scss";
 
 const TextAndIcon: React.FC<{
   children: ReactNode | ReactNode[];
-  onClick?: () => {};
+  onClick?: () => void;
   isActive?: boolean;
   bump?: boolean;
 }> = ({ children, onClick, isActive = true, bump = false }) => {
